@@ -129,6 +129,11 @@
     var useMapbox = /^pk\./.test(token);
     var styleUrl = root.getAttribute("data-mapbox-style") || "mapbox://styles/mapbox/light-v11";
     var src = root.getAttribute("data-src");
+    try { // pin colours follow the page's theme tokens when the site sets them
+      var cs = getComputedStyle(root);
+      ["red", "ink"].forEach(function (k) { var v = cs.getPropertyValue("--sg-" + k).trim(); if (v) C[k] = v; });
+      var bg = cs.getPropertyValue("--sg-bg").trim(); if (bg) C.ground = bg;
+    } catch (e) { /* keep defaults */ }
 
     var state = { all: [], byId: {}, prod: "all", type: "all", origin: null, originLabel: "", selected: null, query: "", ready: false };
 
