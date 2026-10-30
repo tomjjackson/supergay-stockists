@@ -90,11 +90,16 @@ try:
     for w in json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'web_addresses.json')))['found']:
         WEB[norm(w['name']) + '|' + w['state']] = w; WEB.setdefault(norm(w['name']), w)
 except FileNotFoundError: pass
+# accounts removed as Closed on the dashboard's Reps → Accounts tab (D1 table removed_accounts), same rule as rep_acct_list
+nm2 = lambda x: re.sub(r'[^a-z0-9]+', '', str(x or '').lower().replace('&', 'and'))
+try: CLOSED = {nm2(r['account']) for r in json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'removed_accounts.json'))) if r.get('reason') == 'Closed'}
+except FileNotFoundError: CLOSED = set()
 dropped = collections.Counter()
 out = []
 for r in rows:
     a, ad, l = r['a'], r['ad'], r['l']
     if not r['g'] or l.get('closed'): continue
+    if nm2(a['customer']) in CLOSED: dropped['closed (Accounts tab)'] += 1; continue
     if any(p.search(a['customer']) for p in NP): dropped['rep/specialist/warehouse'] += 1; continue
     if is_person(a['customer'], r['pr']): dropped['person'] += 1; continue
     w = WEB.get(norm(a['customer']) + '|' + a['region']) or WEB.get(norm(a['customer']))
