@@ -44,6 +44,7 @@
     "#sg-locator .sg-btn.sg-ghost{background:transparent;color:var(--sg-ink)}",
     "#sg-locator .sg-btn.sg-ghost:hover{background:rgba(21,17,13,.06)}",
     "#sg-locator .sg-btn:focus-visible,#sg-locator .sg-chip:focus-visible,#sg-locator .sg-item:focus-visible,#sg-locator a:focus-visible{outline:2px solid var(--sg-red);outline-offset:2px}",
+    "#sg-locator .sg-status{margin:0;font:500 12px/1.45 var(--sg-mono);letter-spacing:.04em;color:var(--sg-red-ink)}",
     "#sg-locator .sg-row{display:flex;flex-wrap:wrap;gap:6px;align-items:center}",
     "#sg-locator .sg-label{font:500 10px/1 var(--sg-mono);letter-spacing:.16em;text-transform:uppercase;color:var(--sg-muted);margin-right:4px}",
     "#sg-locator .sg-chip{font:500 11px/1 var(--sg-mono);letter-spacing:.1em;text-transform:uppercase;background:transparent;color:var(--sg-ink);border:1px solid var(--sg-ink);border-radius:2px;padding:8px 10px}",
@@ -162,8 +163,10 @@
       });
       return row;
     }
+    var status = el("p", { class: "sg-status", role: "status", "aria-live": "polite", hidden: "" });
+    function say(msg) { status.textContent = msg || ""; status.hidden = !msg; }
     var tools = el("div", { class: "sg-tools" }, [
-      form,
+      form, status,
       chips("Pour", [["all", "All"], ["vodka", "Vodka"], ["gin", "Gin"], ["fruits", "Two Fruits cans"]], "prod"),
       chips("Where", [["all", "All"], ["on", "Bars"], ["off", "Shops"]], "type")
     ]);
@@ -300,7 +303,7 @@
     }
     form.addEventListener("submit", function (ev) {
       ev.preventDefault();
-      var q = input.value.trim(); if (!q) return fitAll();
+      var q = input.value.trim(); say(""); if (!q) return fitAll();
       var nq = norm(q);
       if (/^\d{5}$/.test(q)) { // ZIP we already know
         var z = state.all.filter(function (s) { return s.z === q; });
@@ -317,15 +320,25 @@
       geocode(q).then(function (r) {
         if (r) return goTo(r.lng, r.lat, r.label, 11.5);
         if (byName.length) { state.origin = null; map.fitBounds(byName.reduce(function (b, s) { return b.extend([s.lng, s.lat]); }, new lib.LngLatBounds()), { padding: 60, maxZoom: 13 }); return; }
-        countText.textContent = "No match for “" + q + "”. Try a city or ZIP code.";
-      }).catch(function () { countText.textContent = "Search is down right now. Drag the map instead."; });
+        say("No match for “" + q + "”. Try a city or ZIP code.");
+      }).catch(function () { say("Search is down right now. Drag the map instead."); });
     });
     nearBtn.addEventListener("click", function () {
-      if (!navigator.geolocation) { countText.textContent = "Your browser doesn’t share location. Search a city instead."; return; }
-      nearBtn.textContent = "Finding you…";
+      if (!navigator.geolocation || !window.isSecureContext) { say("Your browser isn’t sharing location. Search a city or ZIP instead."); return; }
+      nearBtn.textContent = "Finding you…"; nearBtn.disabled = true; say("");
+      var done = false;
+      var finish = function () { done = true; nearBtn.textContent = "Near me"; nearBtn.disabled = false; };
+      var watchdog = setTimeout(function () { if (!done) { finish(); say("Couldn’t get your location. Search a city or ZIP instead."); } }, 15000);
       navigator.geolocation.getCurrentPosition(function (p) {
-        nearBtn.textContent = "Near me"; goTo(p.coords.longitude, p.coords.latitude, "you", 12);
-      }, function () { nearBtn.textContent = "Near me"; countText.textContent = "Location is blocked. Search a city or ZIP instead."; }, { timeout: 10000, maximumAge: 600000 });
+        clearTimeout(watchdog); finish();
+        goTo(p.coords.longitude, p.coords.latitude, "you", 12);
+        if (window.matchMedia("(max-width:820px)").matches) mapBox.scrollIntoView({ behavior: "smooth", block: "start" });
+      }, function (err) {
+        clearTimeout(watchdog); finish();
+        say(err && err.code === 1
+          ? "Location is off for this site. On iPhone: Settings › Privacy & Security › Location Services › Safari Websites › While Using. Or search a city or ZIP."
+          : "Couldn’t get your location. Search a city or ZIP instead.");
+      }, { timeout: 12000, maximumAge: 600000 });
     });
 
     // ---------- map ----------
