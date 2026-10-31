@@ -386,7 +386,8 @@
       return loadJs(useMapbox ? MAPBOX_JS : LIBRE_JS).then(function () {
         lib = useMapbox ? window.mapboxgl : window.maplibregl;
         if (useMapbox) lib.accessToken = token;
-        map = new lib.Map({ container: canvas, style: useMapbox ? styleUrl : LIBRE_STYLE, center: [-96, 39], zoom: 3.3, attributionControl: { compact: true }, cooperativeGestures: window.matchMedia("(max-width:820px)").matches });
+        map = new lib.Map({ container: canvas, style: useMapbox ? styleUrl : LIBRE_STYLE, center: [-96, 39], zoom: 3.3, attributionControl: { compact: true }, cooperativeGestures: false, dragRotate: false, pitchWithRotate: false, touchPitch: false });
+        if (map.touchZoomRotate && map.touchZoomRotate.disableRotation) map.touchZoomRotate.disableRotation();
         map.addControl(new lib.NavigationControl({ showCompass: false }), "top-right");
         return new Promise(function (ok) { map.on("load", function () { if (!root.hasAttribute("data-keep-style")) brandStyle(); addLayers(); ok(); }); });
       });
