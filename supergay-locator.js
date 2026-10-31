@@ -84,7 +84,6 @@
     "#sg-locator .sg-search input{flex:1 1 100%}",
     "#sg-locator .sg-search .sg-btn{flex:1 1 0;min-width:0}",
     "#sg-locator .sg-row{gap:6px}",
-    "#sg-locator .sg-label{flex:0 0 100%;margin:2px 0 0}",
     "#sg-locator .sg-chip{padding:8px 9px;letter-spacing:.06em}",
     "#sg-locator .sg-actions .sg-btn{flex:1 1 auto;justify-content:center}",
     "#sg-locator .sg-map{order:2;height:56vh;min-height:340px;border-top:1px solid var(--sg-ink);border-bottom:1px solid var(--sg-ink)}",
