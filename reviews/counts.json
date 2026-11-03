@@ -1,0 +1,57 @@
+{
+ "updated": "2026-11-03T21:41Z",
+ "products": {
+  "/product-page-gin-375ml": {
+   "n": 1,
+   "avg": 5.0
+  },
+  "/product-page-supergay-fire-island-gin": {
+   "n": 17,
+   "avg": 4.9
+  },
+  "/product-page-supergay-gift-box": {
+   "n": 1,
+   "avg": 5.0
+  },
+  "/product-page-supergay-t-shirt": {
+   "n": 9,
+   "avg": 4.8
+  },
+  "/product-page-supergay-vodka-gift-wrapped": {
+   "n": 13,
+   "avg": 4.9
+  },
+  "/product-page-the-family-set": {
+   "n": 1,
+   "avg": 5.0
+  },
+  "/product-page-the-supergay-duo": {
+   "n": 15,
+   "avg": 4.8
+  },
+  "/product-page-two-fruits-black-sesame-espresso-martini": {
+   "n": 1,
+   "avg": 5.0
+  },
+  "/product-page-two-fruits-chili-mango-spritz": {
+   "n": 1,
+   "avg": 5.0
+  },
+  "/product-page-two-fruits-cosmo": {
+   "n": 19,
+   "avg": 4.8
+  },
+  "/product-page-two-fruits-ginger-mule": {
+   "n": 19,
+   "avg": 4.9
+  },
+  "/product-page-two-fruits-variety-pack": {
+   "n": 23,
+   "avg": 5.0
+  },
+  "/product-page-vodka": {
+   "n": 33,
+   "avg": 4.8
+  }
+ }
+}
