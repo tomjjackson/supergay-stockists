@@ -1,0 +1,97 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Lineup</title>
+<style>
+@font-face{font-family:GS;src:url(https://cdn.prod.website-files.com/673cc17624930ee75a6e01c1/673f8cb5e615e752d31ef8c3_GeneralSans-Medium.woff2) format("woff2");font-weight:500}
+@font-face{font-family:GS;src:url(https://cdn.prod.website-files.com/673cc17624930ee75a6e01c1/673f8cb4e6cafb2bf73f8625_GeneralSans-Semibold.woff2) format("woff2");font-weight:600}
+@font-face{font-family:GS;src:url(https://cdn.prod.website-files.com/673cc17624930ee75a6e01c1/673f8cb15d6ffe53a94b45dd_GeneralSans-Bold.woff2) format("woff2");font-weight:700}
+@font-face{font-family:TF;src:url(https://cdn.prod.website-files.com/673cc17624930ee75a6e01c1/673f8ecdf337f22772a59739_TestFeijoa-Medium.otf) format("opentype");font-weight:500}
+@font-face{font-family:TF;src:url(https://cdn.prod.website-files.com/673cc17624930ee75a6e01c1/673f8ecdfc828dabbab10f41_TestFeijoa-MediumItalic.otf) format("opentype");font-weight:500;font-style:italic}
+:root{--cream:#FCF9EF;--ink:#353330;--pink:#CB4A66;--line:1.5px dashed #353330}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:#ddd}
+.d{width:540px;height:675px;background:var(--cream);color:var(--ink);font-family:GS,Arial,sans-serif;position:relative;overflow:hidden;margin:0 0 40px}
+.pill{display:inline-block;background:var(--pink);color:var(--cream);font:700 9px/1 GS;letter-spacing:1.4px;text-transform:uppercase;padding:6px 11px;border-radius:999px}
+.opill{display:inline-block;border:1px solid var(--ink);border-radius:999px;font:500 8.5px/1 GS;letter-spacing:1px;text-transform:uppercase;padding:5px 9px;color:var(--pink);background:#fff}
+.fr{border:var(--line);border-radius:18px;padding:5px}
+.fr img{display:block;width:100%;aspect-ratio:1;object-fit:cover;border-radius:13px}
+.h{font:700 34px/1 GS;text-transform:uppercase;letter-spacing:-.3px}
+.tf{font-family:TF,Georgia,serif;font-weight:500}
+.ing{font:600 8px/1.5 GS;letter-spacing:1.1px;text-transform:uppercase;color:var(--ink);opacity:.75}
+.bar{position:absolute;left:0;right:0;bottom:0;background:var(--pink);color:var(--ink);font:700 9.5px/1 GS;letter-spacing:1.2px;text-transform:uppercase;text-align:center;padding:9px 0}
+
+/* A: grid */
+#a{padding:38px 36px 0}
+#a .top{text-align:center}
+#a .h{margin:14px 0 6px}
+#a .sub{font:500 italic 15px/1.3 TF;margin-bottom:22px}
+#a .g{display:grid;grid-template-columns:1fr 1fr;gap:18px 22px}
+#a .c{display:flex;gap:12px;align-items:center}
+#a .c .fr{width:104px;flex:none}
+#a .n{font:500 19px/1.08 TF;margin:0 0 5px}
+#a .c .opill{margin-bottom:6px}
+
+/* B: list */
+#b{padding:34px 34px 0}
+#b .hd{display:flex;justify-content:space-between;align-items:flex-end;padding-bottom:16px;border-bottom:var(--line)}
+#b .h{font-size:30px}
+#b .hd .r{text-align:right}
+#b .hd .r .tf{font-size:14px;font-style:italic;display:block;margin-top:7px}
+#b .row{display:flex;gap:16px;align-items:center;padding:11px 0;border-bottom:var(--line)}
+#b .row .fr{width:92px;flex:none;padding:4px;border-radius:15px}
+#b .row .fr img{border-radius:11px}
+#b .n{font:500 23px/1 TF;margin:5px 0 4px}
+#b .ds{font:500 12px/1.35 GS;margin-bottom:5px}
+#b .meta{display:flex;gap:6px;align-items:center}
+#b .foot{text-align:center;font:600 7.5px/1.7 GS;letter-spacing:1.2px;text-transform:uppercase;margin-top:10px;opacity:.7}
+
+/* C: poster */
+#c .top{background:var(--pink);color:var(--cream);padding:34px 30px 72px;text-align:center}
+#c .top .h{color:var(--cream);font-size:40px;margin:12px 0 8px}
+#c .top .tf{font-style:italic;font-size:16px}
+#c .top .pill{background:var(--cream);color:var(--pink)}
+#c .row{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;padding:0 22px;margin-top:-50px}
+#c .card{text-align:center}
+#c .card .fr{background:var(--cream);margin-bottom:10px}
+#c .n{font:500 16px/1.05 TF;min-height:34px;display:flex;align-items:center;justify-content:center}
+#c .card .opill{margin:6px 0 8px}
+#c .ing{font-size:7px;line-height:1.6}
+#c .foot{position:absolute;left:0;right:0;bottom:40px;text-align:center;font:600 7.5px/1.7 GS;letter-spacing:1.2px;text-transform:uppercase;opacity:.7}
+#c .bar{background:var(--ink);color:var(--cream)}
+</style></head><body>
+
+<!-- A -->
+<div class="d" id="a">
+ <div class="top"><span class="pill">Two Fruits · The Lineup</span>
+ <div class="h">Bar Caliber Cocktails</div>
+ <div class="sub">Four cans. Never too sweet.</div></div>
+ <div class="g">
+  <div class="c"><div class="fr"><img src="https://cdn.prod.website-files.com/673cc17624930ee75a6e01c1/6ac53eee971bf11ea428e02e_two_fruits_chili_mango_square.jpg"></div><div><div class="n">Chili Mango Spritz</div><span class="opill">250ml · 8%</span><div class="ing">Vodka · Mango · Chili · Lime · Soda</div></div></div>
+  <div class="c"><div class="fr"><img src="https://cdn.prod.website-files.com/673cc17624930ee75a6e01c1/6ac53eeeed50a17445886d48_two_fruits_ginger_mule_square.jpg"></div><div><div class="n">Ginger Mule</div><span class="opill">250ml · 10%</span><div class="ing">Vodka · Ginger Liqueur · Ginger Beer · Apple · Lime</div></div></div>
+  <div class="c"><div class="fr"><img src="https://cdn.prod.website-files.com/673cc17624930ee75a6e01c1/6ac53eee5e3d6e90fc4bf463_two_fruits_classic_cosmo_square.jpg"></div><div><div class="n">Cosmo</div><span class="opill">250ml · 12.5%</span><div class="ing">Vodka · Triple Sec · Nectarine · Cranberry · Lime</div></div></div>
+  <div class="c"><div class="fr"><img src="https://cdn.prod.website-files.com/673cc17624930ee75a6e01c1/6ac53eee18c7894d5ae5a191_two_fruits_espresso_martini_square.jpg"></div><div><div class="n">Espresso Martini</div><span class="opill">250ml · 14.9%</span><div class="ing">Vodka · Espresso · Black Sesame · Vanilla</div></div></div>
+ </div>
+ <div class="bar">Naturally GF / Vegan / Four 250ml cans</div>
+</div>
+
+<!-- B -->
+<div class="d" id="b">
+ <div class="hd"><div><span class="pill">The Lineup</span><div class="h" style="margin-top:10px">Two Fruits</div></div><div class="r"><span class="ing">Bar Caliber Cocktails</span><span class="tf">Never too sweet.</span></div></div>
+ <div class="row"><div class="fr"><img src="https://cdn.prod.website-files.com/673cc17624930ee75a6e01c1/6ac53eee971bf11ea428e02e_two_fruits_chili_mango_square.jpg"></div><div><div class="meta"><span class="opill">250ml · 8% ALC/VOL</span></div><div class="n">Chili Mango Spritz</div><div class="ds">Ripe mango, green-chili heat, lime and soda.</div><div class="ing">Vodka · Mango · Chili · Lime · Soda</div></div></div>
+ <div class="row"><div class="fr"><img src="https://cdn.prod.website-files.com/673cc17624930ee75a6e01c1/6ac53eeeed50a17445886d48_two_fruits_ginger_mule_square.jpg"></div><div><div class="meta"><span class="opill">250ml · 10% ALC/VOL</span></div><div class="n">Ginger Mule</div><div class="ds">Sharp ginger, orchard apple, a clean lime fizz.</div><div class="ing">Vodka · Ginger Liqueur · Ginger Beer · Apple · Lime</div></div></div>
+ <div class="row"><div class="fr"><img src="https://cdn.prod.website-files.com/673cc17624930ee75a6e01c1/6ac53eee5e3d6e90fc4bf463_two_fruits_classic_cosmo_square.jpg"></div><div><div class="meta"><span class="opill">250ml · 12.5% ALC/VOL</span></div><div class="n">Cosmo</div><div class="ds">Tart cranberry, soft nectarine, dry triple sec.</div><div class="ing">Vodka · Triple Sec · Nectarine · Cranberry · Lime</div></div></div>
+ <div class="row" style="border-bottom:0"><div class="fr"><img src="https://cdn.prod.website-files.com/673cc17624930ee75a6e01c1/6ac53eee18c7894d5ae5a191_two_fruits_espresso_martini_square.jpg"></div><div><div class="meta"><span class="opill">250ml · 14.9% ALC/VOL</span></div><div class="n">Espresso Martini</div><div class="ds">Bitter espresso, toasted sesame, a vanilla close.</div><div class="ing">Vodka · Espresso · Black Sesame · Vanilla</div></div></div>
+ <div class="bar">Naturally GF · Vegan · Produced &amp; canned by Supergay Spirits LLC · Lansdale, PA</div>
+</div>
+
+<!-- C -->
+<div class="d" id="c">
+ <div class="top"><span class="pill">Two Fruits</span><div class="h">Bar Caliber<br>Cocktails</div><div class="tf">The lineup. Never too sweet.</div></div>
+ <div class="row">
+  <div class="card"><div class="fr"><img src="https://cdn.prod.website-files.com/673cc17624930ee75a6e01c1/6ac53eee971bf11ea428e02e_two_fruits_chili_mango_square.jpg"></div><div class="n">Chili Mango Spritz</div><span class="opill">8% ALC/VOL</span><div class="ing">Vodka · Mango<br>Chili · Lime · Soda</div></div>
+  <div class="card"><div class="fr"><img src="https://cdn.prod.website-files.com/673cc17624930ee75a6e01c1/6ac53eeeed50a17445886d48_two_fruits_ginger_mule_square.jpg"></div><div class="n">Ginger Mule</div><span class="opill">10% ALC/VOL</span><div class="ing">Vodka · Ginger Liqueur<br>Ginger Beer · Apple · Lime</div></div>
+  <div class="card"><div class="fr"><img src="https://cdn.prod.website-files.com/673cc17624930ee75a6e01c1/6ac53eee5e3d6e90fc4bf463_two_fruits_classic_cosmo_square.jpg"></div><div class="n">Cosmo</div><span class="opill">12.5% ALC/VOL</span><div class="ing">Vodka · Triple Sec<br>Nectarine · Cranberry · Lime</div></div>
+  <div class="card"><div class="fr"><img src="https://cdn.prod.website-files.com/673cc17624930ee75a6e01c1/6ac53eee18c7894d5ae5a191_two_fruits_espresso_martini_square.jpg"></div><div class="n">Espresso Martini</div><span class="opill">14.9% ALC/VOL</span><div class="ing">Vodka · Espresso<br>Black Sesame · Vanilla</div></div>
+ </div>
+ <div class="foot">Naturally GF · Vegan · Four 250ml cans<br>Produced &amp; canned by Supergay Spirits LLC · Lansdale, PA</div>
+ <div class="bar">Farm to disco spirits / Handcrafted &amp; award-winning</div>
+</div>
+</body></html>
