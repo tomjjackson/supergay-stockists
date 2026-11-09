@@ -13,6 +13,11 @@
   "checked": "2026-11-09",
   "w": "https://barmaxhartford.com"
  },
+ "belden-house-operator-llc-litchfield-ct": {
+  "checked": "2026-11-09",
+  "ph": "(860) 337-2099",
+  "w": "https://beldenhouse.com/"
+ },
  "brookline-wine-spirits-brookline-ma": {
   "checked": "2026-11-09",
   "ph": "(617) 232-1330",
@@ -28,6 +33,23 @@
   "ph": "(617) 494-9000",
   "w": "https://cambridgespirits.com"
  },
+ "canterbury-liquors-canterbury-ct": {
+  "checked": "2026-11-09",
+  "ph": "(860) 546-9200"
+ },
+ "center-wine-spirits-glastonbury-ct": {
+  "checked": "2026-11-09",
+  "ph": "(860) 430-2887",
+  "w": "https://www.centerwineandspirits.com/"
+ },
+ "cheshire-wine-spirits-cheshire-ct": {
+  "checked": "2026-11-09",
+  "ph": "(203) 439-0868"
+ },
+ "cheshire-wine-spirits-south-cheshire-ct": {
+  "checked": "2026-11-09",
+  "ph": "(203) 250-0962"
+ },
  "coalhouse-pizzeria-stamford-ct": {
   "checked": "2026-11-09",
   "ph": "(203) 977-7700"
@@ -36,6 +58,11 @@
   "checked": "2026-11-09",
   "ph": "(860) 276-9889",
   "w": "https://contiswine.com"
+ },
+ "cork-barrel-hamden-hamden-ct": {
+  "checked": "2026-11-09",
+  "ph": "(203) 691-6949",
+  "w": "https://www.corkandbarrelhamden.com/"
  },
  "cove-ledge-package-store-stonington-ct": {
   "checked": "2026-11-09",
@@ -46,6 +73,11 @@
   "checked": "2026-11-09",
   "ph": "(617) 981-4577",
   "w": "https://woodshillpier4.com"
+ },
+ "delamar-west-hartford-hartford-ct": {
+  "checked": "2026-11-09",
+  "ph": "(860) 937-2500",
+  "w": "https://www.delamar.com/hotels/delamar-west-hartford"
  },
  "faccia-a-faccia-boston-ma": {
   "checked": "2026-11-09",
@@ -98,6 +130,11 @@
   "ph": "(860) 815-1805",
   "w": "https://misfitclub.com"
  },
+ "new-england-spirits-wine-purveyors-hamden-ct": {
+  "checked": "2026-11-09",
+  "ph": "(475) 331-8866",
+  "w": "https://neswp.com/"
+ },
  "owl-and-dove-pawcatuck-ct": {
   "checked": "2026-11-09",
   "ph": "(860) 495-2386",
@@ -121,6 +158,16 @@
   "checked": "2026-11-09",
   "ph": "(508) 222-9748"
  },
+ "shore-discount-liquors-deep-river-ct": {
+  "checked": "2026-11-09",
+  "ph": "(860) 526-5197",
+  "w": "https://www.shorediscountliquors.com/"
+ },
+ "spencer-lynn-mystic-ct": {
+  "checked": "2026-11-09",
+  "ph": "(860) 415-8626",
+  "w": "https://spencerandlynn.com/"
+ },
  "stann-s-package-store-old-saybrook-ct": {
   "checked": "2026-11-09",
   "ph": "(860) 399-6132"
@@ -129,6 +176,16 @@
   "checked": "2026-11-09",
   "ph": "(617) 848-4355",
   "w": "https://stateparkbar.com"
+ },
+ "study-fine-wines-the-greenwich-ct": {
+  "checked": "2026-11-09",
+  "ph": "(203) 340-9410",
+  "w": "https://www.thestudyfinewines.com/"
+ },
+ "sunberrys-caf-catering-hartford-ct": {
+  "checked": "2026-11-09",
+  "ph": "(860) 241-0811",
+  "w": "https://sunberrycafe.com/"
  },
  "tacos-203-norwalk-ct": {
   "checked": "2026-11-09",
@@ -158,10 +215,35 @@
   "ph": "(860) 980-3648",
   "w": "https://theportofcallct.com"
  },
+ "the-spigot-cafe-hartford-ct": {
+  "checked": "2026-11-09",
+  "ph": "(860) 231-8556",
+  "w": "https://www.spigotcafe.com/"
+ },
  "the-town-cellar-darien-ct": {
   "checked": "2026-11-09",
   "ph": "(203) 655-1031",
   "w": "https://thetowncellar.com"
+ },
+ "the-woodland-lakeville-ct": {
+  "checked": "2026-11-09",
+  "ph": "(860) 435-0578",
+  "w": "https://www.thewoodlandrestaurant.com/"
+ },
+ "three-fates-coffee-wine-cocktails-chester-ct": {
+  "checked": "2026-11-09",
+  "ph": "(860) 526-3283",
+  "w": "https://explorethreefates.com/"
+ },
+ "tony-s-package-store-haddam-ct": {
+  "checked": "2026-11-09",
+  "ph": "(860) 345-4307",
+  "w": "https://www.tonyspackagestore.com/"
+ },
+ "total-wine-more-manchester-1502-manchester-ct": {
+  "checked": "2026-11-09",
+  "ph": "(860) 644-0184",
+  "w": "https://www.totalwine.com/store-info/connecticut-manchester/1502"
  },
  "village-wines-and-spirits-niantic-ct": {
   "checked": "2026-11-09",
@@ -199,6 +281,11 @@
   "checked": "2026-11-09",
   "ph": "(203) 772-1944",
   "w": "https://thewinethief.com"
+ },
+ "wine-thief-of-madison-madison-ct": {
+  "checked": "2026-11-09",
+  "ph": "(203) 421-2727",
+  "w": "https://shop.thewinethief.com/"
  },
  "wine-thief-whitney-ave-new-haven-ct": {
   "checked": "2026-11-09",
