@@ -20,21 +20,28 @@ def phone(p):
     if len(d) == 11 and d[0] == '1': d = d[1:]
     return '(%s) %s-%s' % (d[:3], d[3:6], d[6:]) if len(d) == 10 else (p or '').split(';')[0].strip()
 todo = [s for s in S if s['id'] not in P][:limit]
-print('to look up:', len(todo))
-EP = ['https://overpass-api.de/api/interpreter', 'https://overpass.kumi.systems/api/interpreter']
-found = 0
-for i in range(0, len(todo), 20):
-    batch = todo[i:i + 20]
-    q = '[out:json][timeout:90];(' + ''.join('nwr(around:90,%s,%s)[name];' % (s['lat'], s['lng']) for s in batch) + ');out tags center;'
-    els = None
-    for attempt in range(4):
+print('to look up:', len(todo), flush=True)
+EP = ['https://overpass-api.de/api/interpreter', 'https://overpass.private.coffee/api/interpreter', 'https://maps.mail.ru/osm/tools/overpass/api/interpreter']
+# group places into ~0.25 degree cells; one bbox query per cell for named places that have a phone or website tag
+cells = {}
+for s in todo: cells.setdefault((round(s['lat'] * 4), round(s['lng'] * 4)), []).append(s)
+print('cells:', len(cells), flush=True)
+found = done = 0
+def query(q):
+    for attempt in range(6):
         try:
-            req = urllib.request.Request(EP[attempt % 2], data=urllib.parse.urlencode({'data': q}).encode(), headers={'User-Agent': 'supergay-stockists/1.0 (supergayspirits.com store locator)'})
-            els = json.load(urllib.request.urlopen(req, timeout=120))['elements']; break
+            req = urllib.request.Request(EP[attempt % len(EP)], data=urllib.parse.urlencode({'data': q}).encode(), headers={'User-Agent': 'supergay-stockists/1.0 (supergayspirits.com store locator)'})
+            return json.load(urllib.request.urlopen(req, timeout=100))['elements']
         except Exception as e:
-            print('retry', i, e); time.sleep(15)
+            print('  retry', attempt, str(e)[:80], flush=True); time.sleep(10)
+    return None
+for key, group in cells.items():
+    la = [s['lat'] for s in group]; lo = [s['lng'] for s in group]
+    bb = '%.5f,%.5f,%.5f,%.5f' % (min(la) - .002, min(lo) - .002, max(la) + .002, max(lo) + .002)
+    q = '[out:json][timeout:90];(nwr[name][~"^(phone|contact:phone|website|contact:website|url)$"~"."](%s););out tags center;' % bb
+    els = query(q)
     if els is None: continue
-    for s in batch:
+    for s in group:
         best, bs = None, 0
         for e in els:
             t = e.get('tags', {}); c = e.get('center') or e
@@ -50,7 +57,8 @@ for i in range(0, len(todo), 20):
             if w: rec['w'] = w if w.startswith('http') else 'https://' + w
             if ph or w: rec['src'] = 'osm'; found += 1
         P[s['id']] = rec
-    print(i + len(batch), 'done, found', found)
+    done += len(group)
+    print(done, 'places done, found', found, flush=True)
     json.dump(C, open(CP, 'w'), indent=1, ensure_ascii=False)
-    time.sleep(3)
-print('found', found, 'of', len(todo))
+    time.sleep(1)
+print('found', found, 'of', len(todo), flush=True)
