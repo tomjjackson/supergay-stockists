@@ -32,10 +32,10 @@ def bing(q):
 def words(s): return [w for w in re.findall(r'[a-z0-9]+', s.lower()) if len(w) > 2 and w not in ('the', 'and', 'inc', 'llc', 'bar', 'wine', 'wines', 'spirits', 'liquor', 'liquors', 'store', 'restaurant', 'package')]
 todo = [s for s in S if not s.get('ph') and not (C.get(s['id']) or {}).get('ph') and s['id'] not in W and (not state or s['s'] == state)][:limit]
 print('to search:', len(todo), flush=True)
-eng = [ddg, bing]; fails = collections.Counter(); got = 0
+eng = [bing]; fails = collections.Counter(); got = 0
 for i, s in enumerate(todo):
     num = (re.match(r'\s*(\d+)', s['a'] or '') or [None, None])[1]
-    q = '%s %s %s %s phone' % (s['n'], s['a'] or '', s['c'], s['s'][:2])
+    q = '%s %s %s' % (s['n'], s['c'], s['s'][:2])
     res = None
     for e in list(eng):
         try:
@@ -60,6 +60,18 @@ for i, s in enumerate(todo):
             dom = urllib.parse.urlparse(u).netloc.lower()
             if dom and not any(k in dom for k in SKIP) and any(w in (dom + ' ' + ti.lower()) for w in nw[:3]):
                 rec['w'] = 'https://' + dom.removeprefix('www.') + '/' if False else 'https://' + dom + '/'; break
+    if rec.get('w') and not rec.get('ph'):
+        for path in ('', 'contact', 'contact-us'):
+            try: page = get(rec['w'] + path)
+            except Exception: continue
+            tel = [re.sub(r'\D', '', x)[-10:] for x in re.findall(r'href="tel:([^"]+)"', page)]
+            tel = [x for x in tel if len(x) == 10]
+            if not tel:
+                txt = re.sub(r'<script.*?</script>|<style.*?</style>|<[^>]+>', ' ', page, flags=re.S)
+                tel = [''.join(m.groups()) for m in PH.finditer(txt)]
+            if tel:
+                x = collections.Counter(tel).most_common(1)[0][0]
+                rec['ph'] = '(%s) %s-%s' % (x[:3], x[3:6], x[6:]); rec['ph_src'] = 'site'; break
     if rec.get('ph'): got += 1
     if res is not None or True: W[s['id']] = rec if res else W.get(s['id'], {})
     if not res: W.pop(s['id'], None)
