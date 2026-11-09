@@ -19,7 +19,7 @@ def phone(p):
     d = re.sub(r'\D', '', p or '')
     if len(d) == 11 and d[0] == '1': d = d[1:]
     return '(%s) %s-%s' % (d[:3], d[3:6], d[6:]) if len(d) == 10 else (p or '').split(';')[0].strip()
-todo = [s for s in S if s['id'] not in P][:limit]
+todo = [s for s in S if not P.get(s['id'], {}).get('checked')][:limit]
 print('to look up:', len(todo), flush=True)
 EP = ['https://overpass-api.de/api/interpreter', 'https://overpass.private.coffee/api/interpreter', 'https://maps.mail.ru/osm/tools/overpass/api/interpreter']
 # group places into ~0.25 degree cells; one bbox query per cell for named places that have a phone or website tag
@@ -49,13 +49,13 @@ for key, group in cells.items():
             if abs(c['lat'] - s['lat']) > 0.0015 or abs(c['lon'] - s['lng']) > 0.002: continue
             sc = sim(s['n'], t.get('name'))
             if sc > bs: best, bs = t, sc
-        rec = {'checked': today}
+        rec = P.get(s['id']) or {}; rec['checked'] = today
         if best and bs >= 0.8:
             ph = best.get('phone') or best.get('contact:phone')
             w = best.get('website') or best.get('contact:website') or best.get('url')
-            if ph: rec['ph'] = phone(ph)
-            if w: rec['w'] = w if w.startswith('http') else 'https://' + w
-            if ph or w: rec['src'] = 'osm'; found += 1
+            if ph and not rec.get('ph'): rec['ph'] = phone(ph)
+            if w and not rec.get('w'): rec['w'] = w if w.startswith('http') else 'https://' + w
+            if ph or w: rec.setdefault('src', 'osm'); found += 1
         P[s['id']] = rec
     done += len(group)
     print(done, 'places done, found', found, flush=True)

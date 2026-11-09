@@ -8,13 +8,13 @@ permissions:
 jobs:
   lookup:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 350
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: '3.12' }
       - run: python -u tools/osm_contacts.py
-        timeout-minutes: 60
+        timeout-minutes: 320
         continue-on-error: true
       - run: python -u tools/site_phones.py
         if: always()
