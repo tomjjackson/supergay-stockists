@@ -45,6 +45,7 @@ for i, s in enumerate(todo):
         except Exception as x:
             fails[e.__name__] += 1; print('  ', e.__name__, x, flush=True)
         if fails[e.__name__] >= 8 and len(eng) > 1: eng.remove(e); print('  dropping', e.__name__, flush=True)
+    if i < 3: print('  Q', q, [(u[:60], ti[:40]) for u, ti, sn in (res or [])[:4]], flush=True)
     rec = {'checked': today, 'src': 'search'}
     if res:
         nw = words(s['n']); city = s['c'].lower()
@@ -74,7 +75,7 @@ for i, s in enumerate(todo):
                 rec['ph'] = '(%s) %s-%s' % (x[:3], x[3:6], x[6:]); rec['ph_src'] = 'site'; break
     if rec.get('ph'): got += 1
     if res is not None or True: W[s['id']] = rec if res else W.get(s['id'], {})
-    if not res: W.pop(s['id'], None)
+    if not res or not (rec.get('ph') or rec.get('w')): W.pop(s['id'], None)
     if i % 10 == 9:
         print(i + 1, 'searched, phones', got, flush=True); json.dump(W, open(WP, 'w'), indent=1, sort_keys=True)
     time.sleep(2.5)
