@@ -1,0 +1,1720 @@
+{
+ "_note": "Phone (ph) and website (w) per stockist id. src: osm = OpenStreetMap, web = web search, manual = set by hand. checked = date looked up, kept so a place is not looked up again every week.",
+ "places": {
+  "the-fireside-lounge-alameda-ca": {
+   "checked": "2026-11-09"
+  },
+  "tupper-reed-berkeley-ca": {
+   "checked": "2026-11-09",
+   "w": "https://readtheplaque.com/plaque/tupper-reed-building",
+   "src": "osm",
+   "phone_checked": "2026-11-09",
+   "ph": "(510) 859-4472",
+   "ph_src": "site"
+  },
+  "alkali-rye-oakland-ca": {
+   "checked": "2026-11-09"
+  },
+  "howden-market-oakland-ca": {
+   "checked": "2026-11-09"
+  },
+  "lucuma-kitchen-oakland-ca": {
+   "checked": "2026-11-09",
+   "w": "https://www.lucumakitchen.com/",
+   "src": "osm",
+   "phone_checked": "2026-11-09",
+   "ph": "(510) 607-8110",
+   "ph_src": "site"
+  },
+  "sobre-mesa-oakland-ca": {
+   "checked": "2026-11-09"
+  },
+  "wine-on-piedmont-oakland-ca": {
+   "checked": "2026-11-09",
+   "ph": "(510) 547-2252",
+   "w": "https://bajaonpiedmont.com/",
+   "src": "osm"
+  },
+  "hotsy-totsy-club-albany-ca": {
+   "checked": "2026-11-09",
+   "ph": "(510) 526-5986",
+   "w": "https://www.hotsytotsyclub.com/",
+   "src": "osm"
+  },
+  "altadena-wine-altadena-ca": {
+   "checked": "2026-11-09"
+  },
+  "broken-compass-tiki-burbank-ca": {
+   "checked": "2026-11-09"
+  },
+  "fancy-free-liquor-burbank-ca": {
+   "checked": "2026-11-09"
+  },
+  "olive-wine-liquor-burbank-ca": {
+   "checked": "2026-11-09"
+  },
+  "topline-wine-and-spirits-glendale-ca": {
+   "checked": "2026-11-09"
+  },
+  "altadena-beverage-and-market-pasadena-ca": {
+   "checked": "2026-11-09"
+  },
+  "erewhon-pasadena-pasadena-ca": {
+   "checked": "2026-11-09",
+   "ph": "(626) 600-5665",
+   "w": "https://erewhon.com/",
+   "src": "osm"
+  },
+  "after-hours-aptos-ca": {
+   "checked": "2026-11-09"
+  },
+  "deer-park-wine-spirits-aptos-ca": {
+   "checked": "2026-11-09"
+  },
+  "front-cooper-santa-cruz-ca": {
+   "checked": "2026-11-09"
+  },
+  "hook-and-line-santa-cruz-ca": {
+   "checked": "2026-11-09"
+  },
+  "pleasure-point-wine-and-spirits-santa-cruz-ca": {
+   "checked": "2026-11-09",
+   "w": "https://pleasurepointyoga.com/dance/",
+   "src": "osm",
+   "phone_checked": "2026-11-09"
+  },
+  "erewhon-beverly-hills-beverly-hills-ca": {
+   "checked": "2026-11-09",
+   "ph": "(424) 313-1962",
+   "w": "https://erewhonmarket.com/",
+   "src": "osm"
+  },
+  "k-l-wine-merchants-culver-city-culver-city-ca": {
+   "checked": "2026-11-09"
+  },
+  "lincoln-fine-wines-culver-city-ca": {
+   "checked": "2026-11-09"
+  },
+  "stanley-s-wet-goods-culver-city-ca": {
+   "checked": "2026-11-09"
+  },
+  "eataly-la-los-angeles-ca": {
+   "checked": "2026-11-09",
+   "w": "https://www.eataly.com/us_en/stores/los-angeles",
+   "src": "osm",
+   "phone_checked": "2026-11-09"
+  },
+  "no-smoking-los-angeles-ca": {
+   "checked": "2026-11-09",
+   "w": "https://nosmokingbar.com",
+   "src": "osm",
+   "phone_checked": "2026-11-09"
+  },
+  "erewhon-palisades-pacific-palisades-ca": {
+   "checked": "2026-11-09"
+  },
+  "dog-ppl-santa-monica-ca": {
+   "checked": "2026-11-09",
+   "w": "https://www.dogppl.co/",
+   "src": "osm",
+   "phone_checked": "2026-11-09"
+  },
+  "esters-wine-shop-bar-santa-monica-ca": {
+   "checked": "2026-11-09"
+  },
+  "muse-santa-monica-ca": {
+   "checked": "2026-11-09"
+  },
+  "the-crow-santa-monica-ca": {
+   "checked": "2026-11-09"
+  },
+  "felix-trattoria-venice-ca": {
+   "checked": "2026-11-09"
+  },
+  "the-canal-market-venice-ca": {
+   "checked": "2026-11-09"
+  },
+  "the-lincoln-venice-ca": {
+   "checked": "2026-11-09"
+  },
+  "chez-mia-west-hollywood-ca": {
+   "checked": "2026-11-09"
+  },
+  "erewhon-market-west-hollywood-west-hollywood-ca": {
+   "checked": "2026-11-09"
+  },
+  "la-peer-hotel-west-hollywood-ca": {
+   "checked": "2026-11-09"
+  },
+  "london-west-hollywood-west-hollywood-ca": {
+   "checked": "2026-11-09",
+   "ph": "(866) 282-4560",
+   "w": "https://www.thelondonwesthollywood.com/",
+   "src": "osm"
+  },
+  "stella-west-hollywood-west-hollywood-ca": {
+   "checked": "2026-11-09"
+  },
+  "the-west-hollywood-edition-west-hollywood-ca": {
+   "checked": "2026-11-09"
+  },
+  "the-village-big-sur-big-sur-ca": {
+   "checked": "2026-11-09",
+   "w": "https://www.thevillagebigsur.com/",
+   "src": "osm",
+   "phone_checked": "2026-11-09",
+   "ph": "(831) 667-1700",
+   "ph_src": "site"
+  },
+  "cultura-carmel-ca": {
+   "checked": "2026-11-09"
+  },
+  "hi-time-wines-costa-mesa-ca": {
+   "checked": "2026-11-09"
+  },
+  "prima-vini-danville-ca": {
+   "checked": "2026-11-09"
+  },
+  "prima-vini-wine-merchants-dublin-ca": {
+   "checked": "2026-11-09"
+  },
+  "pig-latin-elk-grove-ca": {
+   "checked": "2026-11-09"
+  },
+  "day-tripper-sacramento-ca": {
+   "checked": "2026-11-09"
+  },
+  "magpie-sacramento-ca": {
+   "checked": "2026-11-09",
+   "w": "https://www.magpiecafe.com/",
+   "src": "osm",
+   "phone_checked": "2026-11-09",
+   "ph": "(916) 452-7594",
+   "ph_src": "site"
+  },
+  "ro-sham-beaux-sacramento-ca": {
+   "checked": "2026-11-09",
+   "w": "https://www.roshambeauxbar.com/",
+   "src": "osm",
+   "phone_checked": "2026-11-09",
+   "ph": "(902) 985-3071",
+   "ph_src": "site"
+  },
+  "sacramento-natural-foods-coop-sacramento-ca": {
+   "checked": "2026-11-09",
+   "w": "https://www.sac.coop/",
+   "src": "osm",
+   "phone_checked": "2026-11-09",
+   "ph": "(916) 455-2667",
+   "ph_src": "site"
+  },
+  "the-butterscotch-den-sacramento-ca": {
+   "checked": "2026-11-09"
+  },
+  "the-green-room-sacramento-ca": {
+   "checked": "2026-11-09"
+  },
+  "the-snug-sacramento-ca": {
+   "checked": "2026-11-09"
+  },
+  "the-green-room-brooklyn-ny": {
+   "checked": "2026-11-09"
+  },
+  "golden-west-saloon-fort-bragg-ca": {
+   "checked": "2026-11-09"
+  },
+  "harvest-market-fort-bragg-ca": {
+   "checked": "2026-11-09",
+   "ph": "(707) 964-7000",
+   "src": "osm"
+  },
+  "modernist-fresno-ca": {
+   "checked": "2026-11-09",
+   "ph": "(559) 492-3585",
+   "w": "https://modernistfresno.com/",
+   "src": "osm"
+  },
+  "the-river-electric-guerneville-ca": {
+   "checked": "2026-11-09",
+   "w": "https://theriverelectric.com/",
+   "src": "osm",
+   "phone_checked": "2026-11-09",
+   "ph": "(707) 937-8915",
+   "ph_src": "site"
+  },
+  "the-joshua-tree-bottle-shop-joshua-tree-ca": {
+   "checked": "2026-11-09",
+   "ph": "(760) 366-1848",
+   "w": "https://joshuatreeoutfitters.com/",
+   "src": "osm"
+  },
+  "the-1920s-bookstore-lincoln-ca": {
+   "checked": "2026-11-09"
+  },
+  "hi-lo-liquor-long-beach-ca": {
+   "checked": "2026-11-09"
+  },
+  "rbar-lbc-long-beach-ca": {
+   "checked": "2026-11-09",
+   "ph": "(562) 432-0411",
+   "w": "https://rbarlbc.com",
+   "src": "osm"
+  },
+  "pico-at-los-alamos-general-store-los-alamos-ca": {
+   "checked": "2026-11-09"
+  },
+  "cafe-birdie-los-angeles-ca": {
+   "checked": "2026-11-09"
+  },
+  "chifa-los-angeles-ca": {
+   "checked": "2026-11-09",
+   "w": "https://www.chifa-la.com/",
+   "src": "osm",
+   "phone_checked": "2026-11-09",
+   "ph": "(323) 561-3084",
+   "ph_src": "site"
+  },
+  "damn-i-miss-paris-los-angeles-ca": {
+   "checked": "2026-11-09"
+  },
+  "e-r-b-los-angeles-ca": {
+   "checked": "2026-11-09"
+  },
+  "erewhon-market-silver-lake-los-angeles-ca": {
+   "checked": "2026-11-09",
+   "ph": "(213) 758-7854",
+   "w": "https://erewhon.com/",
+   "src": "osm"
+  },
+  "everly-hotel-kimpton-los-angeles-ca": {
+   "checked": "2026-11-09"
+  },
+  "firstborn-los-angeles-ca": {
+   "checked": "2026-11-09",
+   "w": "https://firstborn.la/",
+   "src": "osm",
+   "phone_checked": "2026-11-09",
+   "ph": "(213) 537-0142",
+   "ph_src": "site"
+  },
+  "flask-field-los-angeles-ca": {
+   "checked": "2026-11-09"
+  },
+  "highland-park-wine-los-angeles-ca": {
+   "checked": "2026-11-09",
+   "ph": "(323) 256-2233",
+   "w": "https://tools.usps.com/locations/details/1366944",
+   "src": "osm"
+  },
+  "k-l-wine-merchants-la-los-angeles-ca": {
+   "checked": "2026-11-09"
+  },
+  "leopardo-los-angeles-ca": {
+   "checked": "2026-11-09"
+  },
+  "monsieur-marcel-farmers-market-los-angeles-ca": {
+   "checked": "2026-11-09",
+   "w": "https://www.farmersmarketla.com/",
+   "src": "osm",
+   "phone_checked": "2026-11-09"
+  },
+  "pacific-electric-los-angeles-ca": {
+   "checked": "2026-11-09"
+  },
+  "palihouse-west-hollywood-los-angeles-ca": {
+   "checked": "2026-11-09",
+   "ph": "(323) 327-9702",
+   "w": "http://www.palihousewesthollywood.com/",
+   "src": "osm"
+  },
+  "ramirez-beverage-center-los-angeles-ca": {
+   "checked": "2026-11-09",
+   "ph": "(323) 266-2337",
+   "w": "https://ramirezliquor.com/",
+   "src": "osm"
+  },
+  "silverlake-lounge-los-angeles-ca": {
+   "checked": "2026-11-09"
+  },
+  "silverlake-wine-los-angeles-ca": {
+   "checked": "2026-11-09",
+   "ph": "(323) 644-1600",
+   "w": "https://www.gingergrass.com/",
+   "src": "osm"
+  },
+  "tacolina-los-angeles-ca": {
+   "checked": "2026-11-09"
+  },
+  "the-benjamin-los-angeles-ca": {
+   "checked": "2026-11-09"
+  },
+  "the-hollywood-roosevelt-hotel-los-angeles-ca": {
+   "checked": "2026-11-09",
+   "ph": "(323) 785-7000",
+   "w": "https://www.thehollywoodroosevelt.com/",
+   "src": "osm"
+  },
+  "thompson-f-b-los-angeles-ca": {
+   "checked": "2026-11-09",
+   "ph": "(323) 465-1234",
+   "w": "https://www.hyatt.com/thompson-hotels/laxth-thompson-hollywood",
+   "src": "osm"
+  },
+  "whole-foods-10804-fxr-los-angeles-ca": {
+   "checked": "2026-11-09"
+  },
+  "wine-and-eggs-los-angeles-ca": {
+   "checked": "2026-11-09",
+   "phone_checked": "2026-11-09"
+  },
+  "everson-royce-pasadena-ca": {
+   "checked": "2026-11-09",
+   "ph": "(213) 335-6166",
+   "w": "https://rbla.com/",
+   "src": "osm"
+  },
+  "folklore-napa-ca": {
+   "checked": "2026-11-09"
+  },
+  "lawler-s-liquors-napa-ca": {
+   "checked": "2026-11-09"
+  },
+  "zuzu-napa-ca": {
+   "checked": "2026-11-09"
+  },
+  "frankie-s-oceanside-ca": {
+   "checked": "2026-11-09"
+  },
+  "psbs-palm-canyon-palm-springs-ca": {
+   "checked": "2026-11-09"
+  },
+  "palm-springs-bottle-shop-palm-canyon-palm-springs-ca": {
+   "checked": "2026-11-09"
+  },
+  "perry-s-fine-wines-liquors-palm-springs-ca": {
+   "checked": "2026-11-09"
+  },
+  "wabi-sabi-japan-living-palm-springs-ca": {
+   "checked": "2026-11-09"
+  },
+  "workshop-kitchen-bar-palm-springs-ca": {
+   "checked": "2026-11-09",
+   "phone_checked": "2026-11-09"
+  },
+  "palace-market-point-reyes-station-ca": {
+   "checked": "2026-11-09",
+   "ph": "(415) 663-1016",
+   "w": "https://palacemarket.com/",
+   "src": "osm"
+  },
+  "hudson-house-redondo-beach-ca": {
+   "checked": "2026-11-09"
+  },
+  "insalata-s-san-anselmo-ca": {
+   "checked": "2026-11-09",
+   "w": "https://insalatas.com/",
+   "src": "osm",
+   "phone_checked": "2026-11-09",
+   "ph": "(415) 457-7700",
+   "ph_src": "site"
+  },
+  "tu-tap-san-anselmo-ca": {
+   "checked": "2026-11-09",
+   "phone_checked": "2026-11-09",
+   "ph": "(628) 253-5420",
+   "src": "site",
+   "ph_src": "site"
+  },
+  "bodega-rosette-san-diego-ca": {
+   "checked": "2026-11-09"
+  },
+  "chips-liquor-san-diego-ca": {
+   "checked": "2026-11-09"
+  },
+  "mabel-s-gone-fishing-san-diego-ca": {
+   "checked": "2026-11-09",
+   "ph": "(619) 228-9851",
+   "w": "https://www.mabelsgonefishing.com",
+   "src": "osm"
+  },
+  "servall-liquor-san-diego-ca": {
+   "checked": "2026-11-09"
+  },
+  "fernside-san-diego-ca": {
+   "checked": "2026-11-09"
+  },
+  "k-b-wine-cellars-san-diego-ca": {
+   "checked": "2026-11-09"
+  },
+  "vista-wine-and-spirits-santee-ca": {
+   "checked": "2026-11-09"
+  },
+  "miramar-wine-and-liquor-san-diego-ca": {
+   "checked": "2026-11-09"
+  },
+  "1-hotel-sf-san-francisco-ca": {
+   "checked": "2026-11-09",
+   "phone_checked": "2026-11-09",
+   "ph": "(415) 278-3700",
+   "src": "site",
+   "ph_src": "site"
+  },
+  "540-rogues-san-francisco-ca": {
+   "checked": "2026-11-09"
+  },
+  "alembic-san-francisco-ca": {
+   "checked": "2026-11-09",
+   "ph": "(415) 666-0822",
+   "src": "osm"
+  },
+  "baron-s-quality-meats-san-francisco-ca": {
+   "checked": "2026-11-09"
+  },
+  "beacon-grand-san-francisco-ca": {
+   "checked": "2026-11-09",
+   "phone_checked": "2026-11-09",
+   "ph": "(415) 392-7755",
+   "src": "site",
+   "ph_src": "site"
+  },
+  "bi-rite-market-18th-st-san-francisco-ca": {
+   "checked": "2026-11-09",
+   "ph": "(415) 241-9760",
+   "w": "https://biritemarket.com/",
+   "src": "osm"
+  },
+  "bi-rite-market-divisadero-san-francisco-ca": {
+   "checked": "2026-11-09",
+   "ph": "(415) 551-7900",
+   "w": "https://biritemarket.com/",
+   "src": "osm"
+  },
+  "bi-rite-market-polk-san-francisco-ca": {
+   "checked": "2026-11-09",
+   "ph": "(415) 278-7800",
+   "w": "https://biritemarket.com/",
+   "src": "osm"
+  },
+  "bitters-bottles-fell-st-san-francisco-ca": {
+   "checked": "2026-11-09",
+   "phone_checked": "2026-11-09",
+   "ph": "(415) 234-5031",
+   "src": "site",
+   "ph_src": "site"
+  },
+  "bottle-bacchanal-san-francisco-ca": {
+   "checked": "2026-11-09"
+  },
+  "boulevard-restaurant-san-francisco-ca": {
+   "checked": "2026-11-09",
+   "ph": "(415) 543-6084",
+   "w": "https://www.boulevardrestaurant.com/",
+   "src": "osm"
+  },
+  "burma-love-san-francisco-ca": {
+   "checked": "2026-11-09",
+   "ph": "(415) 861-2100",
+   "w": "https://www.burmalove.co/",
+   "src": "osm"
+  },
+  "burma-love-2-san-francisco-ca": {
+   "checked": "2026-11-09",
+   "ph": "(415) 764-4965",
+   "w": "https://www.burmalove.co/",
+   "src": "osm"
+  },
+  "castro-village-wine-co-san-francisco-ca": {
+   "checked": "2026-11-09"
+  },
+  "che-fico-pizzeria-san-francisco-ca": {
+   "checked": "2026-11-09",
+   "w": "https://www.cheficopizzeria.com/",
+   "src": "osm",
+   "phone_checked": "2026-11-09"
+  },
+  "chief-sf-san-francisco-ca": {
+   "checked": "2026-11-09"
+  },
+  "copas-san-francisco-ca": {
+   "checked": "2026-11-09"
+  },
+  "copra-san-francisco-ca": {
+   "checked": "2026-11-09",
+   "ph": "(415) 873-0795",
+   "w": "https://coprarestaurant.com",
+   "src": "osm"
+  },
+  "cultivar-sf-san-francisco-ca": {
+   "checked": "2026-11-09"
+  },
+  "d-m-wine-and-liquor-san-francisco-ca": {
+   "checked": "2026-11-09",
+   "w": "https://dandm.com",
+   "src": "osm",
+   "phone_checked": "2026-11-09",
+   "ph": "(415) 346-1325",
+   "ph_src": "site"
+  },
+  "dapper-san-francisco-ca": {
+   "checked": "2026-11-09"
+  },
+  "dolores-out-post-san-francisco-ca": {
+   "checked": "2026-11-09"
+  },
+  "epicurean-trader-the-san-francisco-ca": {
+   "checked": "2026-11-09"
+  },
+  "eureka-market-san-francisco-ca": {
+   "checked": "2026-11-09"
+  },
+  "fireside-san-francisco-ca": {
+   "checked": "2026-11-09"
+  },
+  "fisch-and-flore-san-francisco-ca": {
+   "checked": "2026-11-09"
+  },
+  "flour-water-pizzeria-san-francisco-ca": {
+   "checked": "2026-11-09",
+   "ph": "(415) 826-7000",
+   "w": "https://flourandwater.com",
+   "src": "osm"
+  },
+  "full-proof-san-francisco-ca": {
+   "checked": "2026-11-09"
+  },
+  "gemini-bottle-co-san-francisco-ca": {
+   "checked": "2026-11-09",
+   "w": "https://www.geminibottlesf.com/",
+   "src": "osm",
+   "phone_checked": "2026-11-09",
+   "ph": "(415) 795-4022",
+   "ph_src": "site"
+  },
+  "gus-s-community-market-san-francisco-ca": {
+   "checked": "2026-11-09",
+   "ph": "(415) 564-0370",
+   "w": "https://gussmarket.com/market-locations/noriega-market-san-francisco/",
+   "src": "osm"
+  },
+  "haight-street-market-san-francisco-ca": {
+   "checked": "2026-11-09",
+   "w": "http://www.haightstreetmarket.com",
+   "src": "osm",
+   "phone_checked": "2026-11-09"
+  },
+  "healthy-spirits-castro-san-francisco-ca": {
+   "checked": "2026-11-09",
+   "w": "https://healthyspiritssf.com",
+   "src": "osm",
+   "phone_checked": "2026-11-09",
+   "ph": "(222) 333-4444",
+   "ph_src": "site"
+  },
+  "healthy-spirits-cortland-san-francisco-ca": {
+   "checked": "2026-11-09"
+  },
+  "healthy-spirits-valencia-san-francisco-ca": {
+   "checked": "2026-11-09",
+   "ph": "(415) 341-0051",
+   "w": "https://healthyspiritssf.com/",
+   "src": "osm"
+  },
+  "k-l-wine-merchants-sf-san-francisco-ca": {
+   "checked": "2026-11-09",
+   "ph": "(415) 896-1734",
+   "w": "https://www.klwines.com/",
+   "src": "osm"
+  },
+  "last-rites-san-francisco-ca": {
+   "checked": "2026-11-09",
+   "w": "https://www.lastritesbar.com/",
+   "src": "osm",
+   "phone_checked": "2026-11-09"
+  },
+  "lobby-bar-san-francisco-ca": {
+   "checked": "2026-11-09"
+  },
+  "lobby-bar-sf-san-francisco-ca": {
+   "checked": "2026-11-09"
+  },
+  "lolo-restaurant-san-francisco-ca": {
+   "checked": "2026-11-09",
+   "ph": "(415) 643-5656",
+   "w": "https://www.lolosf.com/",
+   "src": "osm"
+  },
+  "london-market-san-francisco-ca": {
+   "checked": "2026-11-09"
+  },
+  "luke-s-local-green-san-francisco-ca": {
+   "checked": "2026-11-09"
+  },
+  "luke-s-local-cole-st-san-francisco-ca": {
+   "checked": "2026-11-09"
+  },
+  "mother-san-francisco-ca": {
+   "checked": "2026-11-09",
+   "w": "https://www.mothersf.com/",
+   "src": "osm",
+   "phone_checked": "2026-11-09"
+  },
+  "nightbird-san-francisco-ca": {
+   "checked": "2026-11-09",
+   "w": "https://www.thebirdsf.com/",
+   "src": "osm",
+   "phone_checked": "2026-11-09",
+   "ph": "(415) 872-9825",
+   "ph_src": "site"
+  },
+  "nopa-san-francisco-ca": {
+   "checked": "2026-11-09",
+   "ph": "(415) 535-3969",
+   "w": "https://www.nopalitosf.com/",
+   "src": "osm"
+  },
+  "parasol-at-cafe-flore-san-francisco-ca": {
+   "checked": "2026-11-09"
+  },
+  "rikki-s-san-francisco-ca": {
+   "checked": "2026-11-09",
+   "w": "https://www.rikkisbarsf.com/",
+   "src": "osm",
+   "phone_checked": "2026-11-09"
+  },
+  "sool-san-francisco-ca": {
+   "checked": "2026-11-09",
+   "ph": "(415) 351-4149",
+   "w": "https://www.soolsf.com/",
+   "src": "osm"
+  },
+  "the-harlequin-san-francisco-ca": {
+   "checked": "2026-11-09",
+   "w": "https://www.harlequinsf.com/",
+   "src": "osm",
+   "phone_checked": "2026-11-09"
+  },
+  "the-rabbit-hole-san-francisco-ca": {
+   "checked": "2026-11-09",
+   "w": "https://therabbithole-sf.com/",
+   "src": "osm",
+   "phone_checked": "2026-11-09"
+  },
+  "trick-dog-san-francisco-ca": {
+   "checked": "2026-11-09"
+  },
+  "verve-wine-san-francisco-ca": {
+   "checked": "2026-11-09",
+   "w": "https://vervewine.com",
+   "src": "osm",
+   "phone_checked": "2026-11-09"
+  },
+  "via-aurelia-san-francisco-ca": {
+   "checked": "2026-11-09",
+   "phone_checked": "2026-11-09",
+   "ph": "(415) 875-9781",
+   "src": "site",
+   "ph_src": "site"
+  },
+  "white-cap-san-francisco-ca": {
+   "checked": "2026-11-09",
+   "w": "https://whitecapsf.com/",
+   "src": "osm",
+   "phone_checked": "2026-11-09"
+  },
+  "wolfgang-puck-catering-san-francisco-ca": {
+   "checked": "2026-11-09"
+  },
+  "xebec-sf-san-francisco-ca": {
+   "checked": "2026-11-09",
+   "ph": "(415) 266-7798",
+   "w": "https://xebec-sf.com/",
+   "src": "osm"
+  },
+  "bitters-and-bottles-south-san-francisco-ca": {
+   "checked": "2026-11-09",
+   "w": "https://www.bittersandbottles.com/",
+   "src": "osm",
+   "phone_checked": "2026-11-09",
+   "ph": "(415) 234-5031",
+   "ph_src": "site"
+  },
+  "davenport-roadhouse-davenport-ca": {},
+  "dukes-healdsburg-healdsburg-ca": {},
+  "lo-behold-healdsburg-ca": {},
+  "la-bodeguita-del-medio-palo-alto-ca": {},
+  "k-l-wine-merchants-redwood-city-redwood-city-ca": {},
+  "nate-s-on-marsh-san-luis-obispo-ca": {},
+  "bottle-barn-ca-santa-rosa-ca": {},
+  "little-bear-bottle-shop-skyforest-ca": {},
+  "copper-lane-cafe-provisions-truckee-ca": {},
+  "martis-camp-club-truckee-ca": {},
+  "moody-s-bistro-truckee-ca": {},
+  "sundowner-tasting-room-westlake-village-ca": {},
+  "desierto-alto-yucca-valley-ca": {},
+  "the-tiny-pony-yucca-valley-ca": {},
+  "canterbury-liquors-canterbury-ct": {},
+  "cheshire-wine-spirits-cheshire-ct": {},
+  "cheshire-wine-spirits-south-cheshire-ct": {},
+  "three-fates-coffee-wine-cocktails-chester-ct": {},
+  "the-town-cellar-darien-ct": {},
+  "shore-discount-liquors-deep-river-ct": {},
+  "center-wine-spirits-glastonbury-ct": {},
+  "study-fine-wines-the-greenwich-ct": {},
+  "tony-s-package-store-haddam-ct": {},
+  "cork-barrel-hamden-hamden-ct": {},
+  "new-england-spirits-wine-purveyors-hamden-ct": {},
+  "delamar-west-hartford-hartford-ct": {},
+  "sunberrys-caf-catering-hartford-ct": {},
+  "the-spigot-cafe-hartford-ct": {},
+  "the-woodland-lakeville-ct": {},
+  "belden-house-operator-llc-litchfield-ct": {},
+  "total-wine-more-manchester-1502-manchester-ct": {},
+  "wine-thief-of-madison-madison-ct": {},
+  "misfit-club-mystic-ct": {},
+  "spencer-lynn-mystic-ct": {},
+  "spencer-lynne-wine-and-spirits-mystic-mystic-ct": {},
+  "the-port-of-call-mystic-ct": {},
+  "pequot-inn-new-london-ct": {},
+  "total-wine-more-norwalk-1501-norwalk-ct": {},
+  "the-bar-at-firehouse-12-new-haven-ct": {},
+  "wine-thief-crown-st-new-haven-ct": {},
+  "wine-thief-whitney-ave-new-haven-ct": {},
+  "the-diamond-new-london-ct": {},
+  "perfusion-bar-newtown-ct": {},
+  "gg-at-home-niantic-niantic-ct": {},
+  "village-wines-and-spirits-niantic-ct": {},
+  "gourmet-galley-catering-north-stonington-north-stonington-ct": {},
+  "bar-bushido-norwalk-ct": {},
+  "tacos-203-norwalk-ct": {},
+  "paradise-wines-spirits-old-saybrook-ct": {},
+  "stann-s-package-store-old-saybrook-ct": {},
+  "owl-and-dove-pawcatuck-ct": {},
+  "the-georgetown-owl-redding-ct": {},
+  "wheeler-wine-merchants-sharon-ct": {},
+  "liquor-depot-simsbury-simsbury-ct": {},
+  "conti-s-wines-and-spirits-fka-southington-wine-southington-ct": {},
+  "worldwide-wine-spirits-southington-ct": {},
+  "coalhouse-pizzeria-stamford-ct": {},
+  "cove-ledge-package-store-stonington-ct": {},
+  "bar-max-at-the-goodwin-w-hartford-ct": {},
+  "parkview-wine-spirits-w-hartford-ct": {},
+  "the-laurel-w-hartford-ct": {},
+  "wise-old-dog-the-w-hartford-ct": {},
+  "cafe-routier-westbrook-ct": {},
+  "kindred-spirits-wine-westport-westport-ct": {},
+  "ninety-9-bottles-westport-westport-ct": {},
+  "whelk-the-westport-ct": {},
+  "real-deal-wine-company-jacksonville-fl": {},
+  "total-wine-more-alpharetta-alpharetta-ga": {},
+  "five-points-bottle-shop-athens-ga": {},
+  "hi-lo-lounge-athens-ga": {},
+  "j-s-bottle-shop-athens-ga": {},
+  "seabear-oyster-bar-athens-ga": {},
+  "tonique-bottle-co-athens-ga": {},
+  "ansley-wine-merchants-atlanta-ga": {},
+  "barrel-proof-atlanta-ga": {},
+  "beetlecat-atlanta-ga": {},
+  "elemental-spirits-co-atlanta-ga": {},
+  "elise-atlanta-ga": {},
+  "h-f-bottle-shop-atlanta-ga": {},
+  "world-of-quercus-gay-ga": {},
+  "total-wine-kennesaw-kennesaw-ga": {},
+  "the-third-door-marietta-ga": {},
+  "total-wine-2703-cool-creek-carmel-in": {},
+  "high-spirits-evansville-evansville-in": {},
+  "mo-s-house-evansville-in": {},
+  "patsy-hartigan-s-irish-pub-evansville-in": {},
+  "dana-s-fort-wayne-in": {},
+  "penny-drip-fort-wayne-in": {},
+  "rune-fort-wayne-in": {},
+  "common-spirits-goshen-in": {},
+  "bodhi-craft-bar-thai-bistro-indianapolis-in": {},
+  "bluebeard-indianapolis-in": {},
+  "geraldine-s-supper-club-lounge-indianapolis-in": {},
+  "kan-kan-cinema-brasserie-indianapolis-in": {},
+  "louvino-mass-ave-indianapolis-in": {},
+  "mass-ave-wine-shoppe-indianapolis-in": {},
+  "the-bemberg-indianapolis-in": {},
+  "world-famous-hot-boys-fountain-square-indianapolis-in": {},
+  "the-red-door-lounge-la-porte-in": {},
+  "leeds-public-house-michigan-city-in": {},
+  "city-wide-liquors-grape-mishawaka-in": {},
+  "board-and-you-bistro-new-albany-in": {},
+  "wine-shop-new-albany-in": {},
+  "city-wide-liquor-smoke-3-lasalle-south-bend-in": {},
+  "city-wide-liquors-lasalle-south-bend-in": {},
+  "eat-no-6-south-bend-in": {},
+  "party-source-bellevue-ky": {},
+  "crafts-and-vines-covington-ky": {},
+  "juniper-s-covington-ky": {},
+  "old-kentucky-bourbon-bar-covington-ky": {},
+  "party-town-florence-ky": {},
+  "the-delegate-hotel-and-cypress-oak-frankfort-ky": {},
+  "bar-ona-lexington-ky": {},
+  "beau-s-cafe-lexington-ky": {},
+  "chevy-chase-inn-lexington-ky": {},
+  "cibon-lexington-ky": {},
+  "constitution-lexington-ky": {},
+  "dark-arts-whiskey-house-lexington-ky": {},
+  "darling-wine-bar-lexington-ky": {},
+  "honeywood-restaurant-lexington-ky": {},
+  "leestown-road-liquors-lexington-ky": {},
+  "pearl-s-lexington-ky": {},
+  "pomegranate-lexington-ky": {},
+  "vine-and-branch-lexington-ky": {},
+  "900-baxter-hotel-and-paseo-louisville-ky": {},
+  "chik-n-mi-louisville-ky": {},
+  "cultured-cheese-and-charcuterie-bar-louisville-ky": {},
+  "darling-s-louisville-ky": {},
+  "galaxie-louisville-ky": {},
+  "goldie-s-louisville-ky": {},
+  "high-horse-bar-louisville-ky": {},
+  "holy-grale-louisville-ky": {},
+  "old-town-liquors-louisville-ky": {},
+  "proof-on-main-21c-hotel-louisville-ky": {},
+  "pursuit-spirits-louisville-ky": {},
+  "seven-louisville-ky": {},
+  "the-breeze-wine-bar-spirits-llc-louisville-ky": {},
+  "the-pearl-louisville-ky": {},
+  "trellis-brewing-company-louisville-ky": {},
+  "serendipity-midway-ky": {},
+  "the-baker-s-table-newport-ky": {},
+  "beehive-liquors-paducah-ky": {},
+  "foxbriar-bar-paducah-ky": {},
+  "bin-q-baton-rouge-la": {},
+  "mid-city-beer-garden-baton-rouge-la": {},
+  "mother-s-lounge-baton-rouge-la": {},
+  "river-room-baton-rouge-la": {},
+  "southdowns-grille-baton-rouge-la": {},
+  "total-wine-more-baton-rouge-baton-rouge-la": {
+   "phone_checked": "2026-11-09",
+   "ph": "(855) 328-9463",
+   "src": "site",
+   "ph_src": "site"
+  },
+  "sterling-spirits-ll-llc-bossier-city-la": {
+   "phone_checked": "2026-11-09"
+  },
+  "artmosphere-lafayette-la": {},
+  "champagnes-lafayette-la": {},
+  "palmyre-lafayette-la": {},
+  "philippes-wine-cellars-lafayette-la": {
+   "phone_checked": "2026-11-09",
+   "ph": "(337) 991-9794",
+   "src": "site",
+   "ph_src": "site"
+  },
+  "total-wine-more-metairie-metairie-la": {
+   "phone_checked": "2026-11-09",
+   "ph": "(855) 328-9463",
+   "src": "site",
+   "ph_src": "site"
+  },
+  "twist-of-lime-metairie-la": {},
+  "anna-s-new-orleans-la": {},
+  "bar-peychaud-new-orleans-la": {},
+  "bar-tonique-new-orleans-la": {},
+  "buffa-s-bar-restaurant-new-orleans-la": {},
+  "cane-table-new-orleans-la": {},
+  "contemporary-arts-center-new-orleans-la": {},
+  "dovetail-bar-new-orleans-la": {},
+  "fives-new-orleans-la": {},
+  "gasa-gasa-new-orleans-la": {},
+  "italian-barrel-new-orleans-la": {},
+  "jolie-new-orleans-new-orleans-la": {},
+  "keife-co-new-orleans-la": {},
+  "mister-mao-new-orleans-la": {},
+  "nightbloom-bar-new-orleans-la": {},
+  "old-absinthe-house-new-orleans-la": {
+   "phone_checked": "2026-11-09"
+  },
+  "pal-s-lounge-new-orleans-la": {},
+  "pepp-s-pub-new-orleans-la": {
+   "phone_checked": "2026-11-09"
+  },
+  "pigeon-whale-new-orleans-la": {
+   "phone_checked": "2026-11-09",
+   "ph": "(504) 354-9745",
+   "src": "site",
+   "ph_src": "site"
+  },
+  "saint-john-restaurant-new-orleans-la": {},
+  "sidney-s-wine-cellar-new-orleans-la": {},
+  "st-germain-new-orleans-la": {
+   "phone_checked": "2026-11-09",
+   "ph": "(504) 218-8729",
+   "src": "site",
+   "ph_src": "site"
+  },
+  "sunnies-new-orleans-la": {},
+  "tell-me-bar-new-orleans-la": {},
+  "the-dog-house-new-orleans-la": {},
+  "the-domino-new-orleans-la": {},
+  "the-marsh-hotel-new-orleans-la": {},
+  "the-will-and-the-way-new-orleans-la": {},
+  "toulouse-theatre-new-orleans-la": {},
+  "twelve-mile-limit-new-orleans-la": {},
+  "total-wine-more-shreveport-shreveport-la": {
+   "phone_checked": "2026-11-09",
+   "ph": "(855) 328-9463",
+   "src": "site",
+   "ph_src": "site"
+  },
+  "portuguese-american-club-inc-attleboro-ma": {},
+  "1928-beacon-hill-boston-ma": {},
+  "crg-water-woods-hill-pier-4-boston-ma": {},
+  "faccia-a-faccia-boston-ma": {},
+  "high-street-place-boston-ma": {},
+  "wine-emporium-i-boston-ma": {},
+  "wine-emporium-ii-boston-ma": {},
+  "whiskey-wine-brighton-brighton-ma": {},
+  "brookline-wine-spirits-brookline-ma": {},
+  "wine-press-brookline-ma": {},
+  "cambridge-spirits-cambridge-ma": {},
+  "gracie-s-ice-cream-cambridge-ma": {},
+  "liquor-world-inc-cambridge-ma": {},
+  "little-donkey-cambridge-ma": {},
+  "lou-s-cambridge-ma": {},
+  "state-park-cambridge-ma": {},
+  "woods-hill-table-concord-ma": {},
+  "total-wine-spirits-beer-more-dedham-ma": {
+   "phone_checked": "2026-11-09",
+   "ph": "(855) 328-9463",
+   "src": "site",
+   "ph_src": "site"
+  },
+  "american-provisions-dorchester-cntr-ma": {},
+  "vine-barley-e-boston-ma": {},
+  "stevie-s-a-package-store-fairhaven-ma": {},
+  "the-vin-bin-hopkinton-ma": {},
+  "new-city-microcreamery-hudson-ma": {},
+  "lank-s-wine-liquor-inc-hyde-park-ma": {},
+  "blanchard-s-inc-jp-jamaica-plain-ma": {},
+  "shube-s-liquor-store-marblehead-ma": {},
+  "buckalew-s-general-store-melrose-ma": {},
+  "murrays-bev-store-nantucket-ma": {},
+  "farmstead-table-restaurant-newton-centre-ma": {},
+  "casita-north-adams-ma": {},
+  "provisions-northampton-ma": {},
+  "the-dirty-truth-northampton-ma": {},
+  "big-vin-s-liquor-inc-provincetown-ma": {},
+  "perry-s-wine-liquors-provincetown-ma": {},
+  "shipwreck-lounge-provincetown-ma": {},
+  "the-substation-roslindale-ma": {},
+  "pamplemousse-inc-salem-ma": {},
+  "ball-square-liquors-somerville-ma": {},
+  "field-vine-somerville-ma": {},
+  "foundry-on-elm-somerville-ma": {},
+  "liars-somerville-ma": {},
+  "liquor-junction-somerville-ma": {},
+  "spoke-wine-bar-somerville-ma": {},
+  "wine-cask-inc-somerville-ma": {},
+  "adelita-w-concord-ma": {},
+  "acqua-al-2-w-stockbridge-ma": {},
+  "ritcey-east-watertown-ma": {},
+  "the-copper-swan-wellfleet-ma": {},
+  "julio-s-liquors-inc-westboro-ma": {},
+  "dead-horse-hill-worcester-ma": {},
+  "the-pint-worcester-ma": {},
+  "porzana-flora-room-mn": {},
+  "home-town-liquor-braham-mn": {},
+  "wine-thief-ale-jail-crystal-crystal-mn": {},
+  "chester-creek-cafe-duluth-mn": {},
+  "keyport-liquor-mn-duluth-mn": {},
+  "total-eagan-eagan-mn": {
+   "phone_checked": "2026-11-09",
+   "ph": "(855) 328-9463",
+   "src": "site",
+   "ph_src": "site"
+  },
+  "byerlys-golden-valley-golden-valley-mn": {
+   "phone_checked": "2026-11-09"
+  },
+  "grand-marais-municipal-liquor-store-grand-marais-mn": {},
+  "vine-shop-hopkins-mn": {},
+  "princeton-liquors-maple-grove-mn": {},
+  "a-bar-of-their-own-minneapolis-mn": {},
+  "all-saints-minneapolis-mn": {},
+  "alma-minneapolis-mn": {},
+  "black-duck-spirits-and-hearth-minneapolis-mn": {},
+  "bucheron-minneapolis-mn": {},
+  "bungalow-club-minneapolis-mn": {},
+  "byerlys-dt-minneapolis-mn": {
+   "phone_checked": "2026-11-09"
+  },
+  "cabana-club-minneapolis-mn": {},
+  "dario-minneapolis-mn": {},
+  "dreamstate-cafe-minneapolis-mn": {},
+  "eat-street-crossing-minneapolis-mn": {},
+  "france-44-minneapolis-mn": {},
+  "hai-hai-minneapolis-mn": {},
+  "lowry-hill-liquors-minneapolis-mn": {},
+  "northeast-social-minneapolis-mn": {},
+  "ombibulous-minneapolis-mn": {},
+  "red-wagon-minneapolis-mn": {},
+  "sentyrz-market-minneapolis-mn": {},
+  "south-lyndale-minneapolis-mn": {},
+  "spoon-and-stable-minneapolis-mn": {},
+  "stinson-wine-beer-spirits-minneapolis-mn": {},
+  "surdyks-minneapolis-mn": {},
+  "violet-wine-llc-minneapolis-mn": {},
+  "wrecktangle-pizza-uptown-minneapolis-mn": {},
+  "kyatchi-mpls-mn": {},
+  "total-wine-roseville-roseville-mn": {
+   "phone_checked": "2026-11-09"
+  },
+  "wine-thief-saint-paul-mn": {},
+  "joan-s-in-the-park-st-paul-mn": {},
+  "restaurant-aubergine-st-paul-mn": {},
+  "thomas-st-paul-mn": {},
+  "coborns-st-cloud-st-cloud-mn": {},
+  "estelle-st-paul-mn": {},
+  "byerlys-wbl-white-bear-lake-mn": {
+   "phone_checked": "2026-11-09"
+  },
+  "white-bear-liquor-wbl-white-bear-lake-mn": {},
+  "cashwisewilmar-wilmar-mn": {},
+  "westside-wilmar-wilmar-mn": {},
+  "total-wine-woodbury-woodbury-mn": {
+   "phone_checked": "2026-11-09"
+  },
+  "brookside-wine-spirits-mo-ks": {},
+  "cellar-rat-wine-merchants-mo-ks": {},
+  "chartreuse-saloon-kansas-city-mo-ks": {},
+  "pierpont-s-at-union-station-kansas-city-mo-ks": {},
+  "swordfish-toms-kansas-city-mo-ks": {},
+  "world-of-spirits-mo-ks": {},
+  "bubbles-parkville-mo-ks": {},
+  "cherry-picker-springfield-mo-ks": {},
+  "cafe-natasha-st-louis-mo-ks": {},
+  "friar-tuck-crestwood-mo-ks": {},
+  "rock-star-tacos-mo-ks": {},
+  "shameless-grounds-st-louis-mo-ks": {},
+  "small-change-mo-ks": {},
+  "the-crack-fox-st-louis-mo-ks": {},
+  "the-kitchen-bar-mo-ks": {},
+  "brown-derby-12-mo-ks": {},
+  "friar-tuck-s-fenton-mo-ks": {},
+  "ubernachten-mo-ks": {},
+  "alamo-drafthouse-st-louis-st-louis-mo-ks": {},
+  "bootleggin-bob-s-st-louis-mo-ks": {},
+  "the-royale-food-and-spirits-stl-st-louis-mo-ks": {},
+  "wild-olive-provisions-st-louis-mo-ks": {},
+  "bernie-s-wines-liquors-fargo-nd": {},
+  "nova-eatery-fargo-nd": {},
+  "saint-laurent-asbury-park-nj": {},
+  "total-wine-eatontown-store-305-eatontown-nj": {
+   "phone_checked": "2026-11-09"
+  },
+  "finnbar-frenchtown-nj": {},
+  "anthony-david-s-gourmet-specialties-hoboken-nj": {},
+  "buy-savings-ii-inc-jersey-city-nj": {},
+  "jersey-wine-spirits-jersey-city-nj": {},
+  "court-liquors-long-branch-nj": {},
+  "wine-chateau-metuchen-metuchen-nj": {},
+  "grape-collective-montclair-montclair-nj": {},
+  "grape-collective-nj-montclair-nj": {},
+  "oso-felipe-mexican-kitchen-montclair-nj": {},
+  "pineapple-express-barbeque-montclair-nj": {},
+  "total-wine-more-north-brunswick-north-brunswick-nj": {
+   "phone_checked": "2026-11-09"
+  },
+  "rumson-wine-spirit-shop-rumson-nj": {},
+  "neighbors-wine-llc-south-orange-nj": {},
+  "stockton-fine-wines-stockton-nj": {},
+  "total-wine-union-nj-304-union-nj": {
+   "phone_checked": "2026-11-09"
+  },
+  "empire-wine-and-liquor-albany-ny": {},
+  "bluebird-wine-accord-ny": {},
+  "love-bird-accord-ny": {},
+  "isabela-amenia-ny": {},
+  "isabella-amenia-ny": {},
+  "prime-wines-sp-aka-premier-buffalo-ny": {},
+  "taconic-wine-and-liquor-ancram-ny": {},
+  "astoria-wine-astoria-ny": {},
+  "grand-wine-and-liquor-astoria-ny": {},
+  "happy-liquor-store-astoria-ny": {},
+  "willoughby-astoria-ny": {},
+  "lighthouse-liquors-athens-ny": {},
+  "night-school-athens-ny": {},
+  "fresh-direct-wines-spirits-whse-bronx-ny": {
+   "phone_checked": "2026-11-09"
+  },
+  "99-scott-studio-brooklyn-ny": {},
+  "aita-restaurant-brooklyn-ny": {},
+  "camillo-brooklyn-ny": {},
+  "dandy-wine-spirits-brooklyn-ny": {},
+  "de-wine-spot-brooklyn-ny": {},
+  "irving-bottle-brooklyn-ny": {},
+  "river-cafe-restaurant-brooklyn-ny": {},
+  "simple-syrup-brooklyn-ny": {},
+  "saratoga-wine-exchange-ballston-lake-ny": {},
+  "sage-wine-spirits-ballston-spa-ny": {},
+  "cottage-wine-aka-wild-natural-wine-barryville-ny": {},
+  "paul-brady-wine-beacon-ny": {},
+  "la-plage-bistro-bellport-ny": {},
+  "leroy-package-store-binghamton-ny": {},
+  "southbridge-wines-spirits-binghamton-ny": {},
+  "the-huddle-kitchen-and-bar-bolton-landing-ny": {},
+  "arthur-cantina-bronx-ny": {},
+  "great-performances-bronx-ny": {
+   "phone_checked": "2026-11-09"
+  },
+  "3-corks-a-screw-brooklyn-ny": {},
+  "7th-ave-wine-liquor-co-brooklyn-ny": {},
+  "akc-wine-liquor-brooklyn-ny": {},
+  "achilles-heel-brooklyn-ny": {},
+  "amaro-spirits-wine-brooklyn-ny": {},
+  "ammazzacaffe-brooklyn-ny": {},
+  "arden-brooklyn-ny": {},
+  "athena-keke-s-brooklyn-ny": {},
+  "bar-camillo-brooklyn-ny": {},
+  "bar-francis-aka-hungry-ghost-coffee-francis-brooklyn-ny": {},
+  "bar-lunatico-brooklyn-ny": {},
+  "bar-mario-brooklyn-ny": {},
+  "bed-vynes-wine-and-spirit-brooklyn-ny": {},
+  "bedford-bottle-shoppe-brooklyn-ny": {},
+  "bibber-bell-wine-spirits-brooklyn-ny": {},
+  "birds-of-a-feather-brooklyn-ny": {},
+  "black-cat-wines-brooklyn-ny": {},
+  "blanc-et-rouge-wine-and-spirits-brooklyn-ny": {},
+  "bottle-shoppe-graham-bklyn-brooklyn-ny": {},
+  "boyfriend-bar-brooklyn-ny": {},
+  "branded-saloon-brooklyn-ny": {},
+  "brooklyn-botanic-garden-brooklyn-ny": {
+   "phone_checked": "2026-11-09"
+  },
+  "brooklyn-grange-brooklyn-ny": {},
+  "brooklyn-kura-brooklyn-ny": {},
+  "cafe-camellia-brooklyn-ny": {},
+  "captain-dans-good-time-tavern-brooklyn-ny": {},
+  "cellary-brooklyn-ny": {},
+  "che-brooklyn-ny": {},
+  "chino-grande-brooklyn-ny": {},
+  "claro-brooklyn-ny": {},
+  "colors-brooklyn-ny": {},
+  "corkscrew-wines-brooklyn-brooklyn-ny": {},
+  "cozy-royale-brooklyn-ny": {},
+  "doc-wine-shop-brooklyn-ny": {},
+  "danger-danger-brooklyn-ny": {},
+  "dayglow-brooklyn-ny": {},
+  "di-an-di-brooklyn-ny": {},
+  "diamond-lil-brooklyn-ny": {},
+  "dilly-dally-brooklyn-ny": {},
+  "dinner-party-restaurant-brooklyn-ny": {},
+  "disco-bottles-brooklyn-ny": {},
+  "dock-72-food-brooklyn-ny": {},
+  "drink-flatbush-ave-brooklyn-ny": {},
+  "easy-lover-brooklyn-ny": {},
+  "eavesdrop-brooklyn-ny": {},
+  "elsa-brooklyn-ny": {},
+  "emily-brooklyn-ny": {
+   "phone_checked": "2026-11-09"
+  },
+  "empirical-brooklyn-ny": {},
+  "entre-nous-brooklyn-ny": {},
+  "evelina-brooklyn-ny": {},
+  "eyval-brooklyn-ny": {},
+  "famous-last-words-aka-hanson-dry-brooklyn-ny": {},
+  "farm-to-people-brooklyn-ny": {
+   "phone_checked": "2026-11-09"
+  },
+  "femme-fontaine-brooklyn-ny": {},
+  "fiasco-wine-spirits-brooklyn-ny": {},
+  "franklin-ave-wine-and-spirits-brooklyn-ny": {},
+  "franklin-cellars-126-putnam-brooklyn-ny": {},
+  "fresh-direct-wines-spirits-store-brooklyn-ny": {
+   "phone_checked": "2026-11-09"
+  },
+  "frog-wine-shop-brooklyn-ny": {},
+  "fultongrand-bar-brooklyn-ny": {},
+  "gair-brooklyn-ny": {},
+  "gingers-bar-brooklyn-ny": {},
+  "gnarly-vines-brooklyn-brooklyn-ny": {},
+  "good-days-brooklyn-ny": {},
+  "gowanus-wine-merchants-brooklyn-ny": {},
+  "gowanus-wine-studio-tasting-table-brooklyn-ny": {},
+  "graham-fine-wines-spirits-brooklyn-ny": {},
+  "grain-the-vine-brooklyn-ny": {},
+  "grain-and-vine-wine-and-spirits-brooklyn-ny": {},
+  "grand-wine-spirits-brooklyn-brooklyn-ny": {},
+  "grapepoint-wines-brooklyn-ny": {},
+  "greenpoint-comedy-club-brooklyn-ny": {},
+  "greenpoint-wine-liquor-brooklyn-ny": {},
+  "grimm-tavern-brooklyn-ny": {},
+  "have-meyer-brooklyn-ny": {},
+  "heart-s-wine-liquor-brooklyn-ny": {},
+  "heaven-earth-brooklyn-ny": {},
+  "henrys-brooklyn-brooklyn-ny": {},
+  "hidden-rivers-bk-brooklyn-ny": {},
+  "il-vino-torchio-brooklyn-ny": {
+   "phone_checked": "2026-11-09",
+   "ph": "(347) 889-5501",
+   "src": "site",
+   "ph_src": "site"
+  },
+  "izzy-rose-brooklyn-ny": {},
+  "june-restaurant-brooklyn-ny": {},
+  "kings-county-wines-brooklyn-ny": {},
+  "kissa-kissa-brooklyn-ny": {},
+  "kissa-kissa-aka-st-ends-brooklyn-ny": {},
+  "loafers-cocktail-bar-brooklyn-ny": {},
+  "la-meme-chose-brooklyn-ny": {},
+  "larina-brooklyn-ny": {},
+  "laziza-brooklyn-ny": {},
+  "le-crocodile-aka-wythe-hotel-and-reynard-brooklyn-ny": {},
+  "leon-son-wine-brooklyn-ny": {
+   "phone_checked": "2026-11-09"
+  },
+  "leslies-classic-wine-brooklyn-ny": {},
+  "lilac-wine-brooklyn-ny": {},
+  "llama-inn-brooklyn-ny": {},
+  "locanda-vini-olii-brooklyn-ny": {},
+  "lore-brooklyn-ny": {},
+  "lucky-parlor-brooklyn-ny": {},
+  "madeline-s-brooklyn-ny": {},
+  "marlow-events-brooklyn-ny": {},
+  "masquerade-brooklyn-ny": {},
+  "may-brooklyn-ny": {},
+  "midwood-flats-brooklyn-ny": {},
+  "milly-s-brooklyn-ny": {},
+  "mommy-s-bar-brooklyn-ny": {},
+  "moondog-hifi-brooklyn-ny": {},
+  "mr-melo-brooklyn-ny": {},
+  "myrtle-wines-and-spirits-brooklyn-ny": {},
+  "nin-hao-brooklyn-ny": {},
+  "nicky-s-unisex-brooklyn-ny": {},
+  "nobody-told-me-dumbo-brooklyn-ny": {},
+  "nourish-thai-brooklyn-ny": {},
+  "nowon-bushwick-brooklyn-ny": {},
+  "ops-brooklyn-ny": {},
+  "ops-bushwick-brooklyn-ny": {},
+  "only-child-brooklyn-ny": {},
+  "osteria-radisa-brooklyn-ny": {},
+  "oxalis-food-brooklyn-ny": {},
+  "oxomoco-brooklyn-ny": {},
+  "peek-inn-brooklyn-ny": {},
+  "pizza-4p-s-brooklyn-ny": {},
+  "place-des-fetes-brooklyn-ny": {},
+  "playground-coffee-shop-inc-brooklyn-ny": {},
+  "plus-de-vin-brooklyn-ny": {},
+  "prospect-wine-shop-brooklyn-ny": {},
+  "roots29-brooklyn-ny": {},
+  "ray-s-hometown-bar-brooklyn-ny": {},
+  "rosticceria-evelina-brooklyn-ny": {},
+  "runner-up-fka-winner-brooklyn-ny": {
+   "phone_checked": "2026-11-09"
+  },
+  "sahadi-spirits-brooklyn-ny": {},
+  "sang-s-brooklyn-ny": {},
+  "saraghina-halsey-st-brooklyn-ny": {},
+  "saraghina-caffe-dekalb-ave-brooklyn-ny": {},
+  "scott-avenue-associates-brooklyn-ny": {},
+  "shawn-liquors-brooklyn-ny": {},
+  "simple-syrup-wine-spirits-brooklyn-ny": {},
+  "slope-cellars-brooklyn-ny": {},
+  "smith-vine-brooklyn-ny": {},
+  "sounds-and-fury-brewing-fka-circa-brewing-brooklyn-ny": {},
+  "spirit-animal-brooklyn-ny": {
+   "phone_checked": "2026-11-09"
+  },
+  "starr-wine-brooklyn-ny": {},
+  "strange-delight-brooklyn-ny": {},
+  "sukh-brooklyn-ny": {},
+  "superfine-brooklyn-ny": {},
+  "turks-inn-brooklyn-ny": {},
+  "tej-wine-liquor-brooklyn-ny": {},
+  "the-adirondack-brooklyn-ny": {},
+  "the-exley-brooklyn-ny": {},
+  "the-holler-brooklyn-ny": {},
+  "the-house-brooklyn-ny": {},
+  "the-rum-bar-bk-brooklyn-ny": {},
+  "the-sparrow-brooklyn-ny": {},
+  "thirst-merchants-brooklyn-ny": {},
+  "tipsy-brooklyn-ny": {},
+  "torst-brooklyn-ny": {},
+  "trudie-s-tavern-brooklyn-ny": {},
+  "tuffet-brooklyn-ny": {},
+  "umbra-brooklyn-ny": {},
+  "venus-wines-spirits-brooklyn-ny": {},
+  "wallace-brooklyn-ny": {},
+  "walters-brooklyn-ny": {},
+  "waterbury-wine-spirits-brooklyn-ny": {},
+  "whoopsie-daisy-brooklyn-ny": {},
+  "wilkie-brooklyn-ny": {},
+  "wine-legend-retail-brooklyn-aka-myrtle-wines-brooklyn-ny": {},
+  "wine-o-brooklyn-ny": {},
+  "winona-s-brooklyn-ny": {},
+  "wright-goebel-wine-spirits-brooklyn-ny": {},
+  "yardsale-wines-brooklyn-ny": {},
+  "extra-extra-buffalo-ny": {},
+  "jack-rabbit-buffalo-ny": {},
+  "noble-root-wine-and-spirits-buffalo-ny": {},
+  "paradise-wine-buffalo-buffalo-ny": {},
+  "atwater-vineyards-burdett-ny": {},
+  "spirits-of-cairo-cairo-ny": {},
+  "black-walnut-by-the-farmhouse-project-callicoon-ny": {},
+  "ny-wine-culinary-center-canandaigua-ny": {},
+  "stable-gate-winery-castleton-on-hudson-ny": {},
+  "book-house-catering-catskill-ny": {},
+  "cherry-grove-commmunity-assoc-cherry-grove-ny": {},
+  "cherry-grove-commmunity-assoc-cgcai-cherry-grove-ny": {},
+  "the-ice-palace-cherry-grove-ny": {},
+  "top-of-the-bay-cherry-grove-ny": {},
+  "harker-house-wine-spirits-clinton-corners-ny": {},
+  "cochecton-spirits-inc-cochecton-ny": {},
+  "barber-and-brew-cold-spring-ny": {},
+  "flowercup-wine-cold-spring-ny": {},
+  "cold-spring-harbor-wine-shoppe-cold-spring-harbor-ny": {},
+  "rudy-s-wine-and-liquor-cooperstown-ny": {},
+  "hand-foot-corning-ny": {},
+  "table-9-cortlandt-manor-ny": {},
+  "ravish-liquors-coxsackie-ny": {},
+  "field-supply-wine-craryville-ny": {},
+  "eighty-main-delhi-ny": {},
+  "strickland-hollow-distillery-delhi-ny": {},
+  "barrel-72-dobbs-ferry-ny": {},
+  "rochambeau-wine-liquors-dobbs-ferry-ny": {},
+  "ethyl-wine-shop-east-aurora-ny": {},
+  "boutique-wines-spirits-cider-fishkill-ny": {},
+  "small-batch-garden-city-ny": {},
+  "linden-the-geneva-ny": {},
+  "pedulla-s-liquor-store-geneva-ny": {},
+  "on-the-island-wine-liquor-green-island-ny": {},
+  "cellar-door-wines-spirits-hobart-ny": {},
+  "okay-beer-co-west-main-lines-honeoye-falls-ny": {},
+  "fishkill-farms-hopewell-junction-ny": {
+   "phone_checked": "2026-11-09"
+  },
+  "back-bar-hudson-ny": {},
+  "buttercup-treats-hudson-ny": {},
+  "fairview-wines-spirits-hudson-ny": {},
+  "grapefruit-wines-hudson-ny": {},
+  "hudson-wine-merchants-hudson-ny": {
+   "phone_checked": "2026-11-09"
+  },
+  "kittys-restaurant-hudson-ny": {},
+  "lil-deb-s-oasis-hudson-ny": {},
+  "mr-cat-brasserie-hudson-ny": {},
+  "pocketbook-hudson-hudson-ny": {},
+  "rivertown-lodge-hudson-ny": {},
+  "the-hereafter-hudson-ny": {},
+  "bar-argos-ithaca-ny": {},
+  "cellar-d-or-wine-boutique-ithaca-ny": {},
+  "rook-the-ithaca-ny": {},
+  "otg-jfk-t8-o-neals-restaurant-jamaica-ny": {},
+  "cask-fine-wines-katonah-ny": {},
+  "noble-variety-kenoza-lake-ny": {},
+  "kinderhook-bottle-shop-kinderhook-ny": {},
+  "aurora-brewing-co-king-ferry-ny": {},
+  "aurora-brewing-co-king-ferry-king-ferry-ny": {},
+  "ester-wine-spirits-kingston-ny": {},
+  "miron-liquor-wine-kingston-ny": {},
+  "quinnie-s-kingston-ny": {},
+  "sorry-charlie-kingston-ny": {},
+  "gateway-wine-liquor-lake-george-ny": {},
+  "sentinel-and-station-lake-placid-ny": {},
+  "terry-robards-wines-spirits-lake-placid-ny": {},
+  "casa-susanna-camptown-leeds-ny": {},
+  "sunshine-colony-llc-livingston-manor-ny": {},
+  "threshold-restaurant-livingston-manor-ny": {},
+  "upstream-wine-and-spirits-livingston-manor-ny": {},
+  "beach-wine-more-long-beach-ny": {},
+  "grotta-di-fuoco-long-beach-ny": {},
+  "blue-streak-wines-spirits-long-island-city-ny": {},
+  "hotel-saranac-malone-ny": {
+   "phone_checked": "2026-11-09",
+   "ph": "(518) 891-6900",
+   "src": "site",
+   "ph_src": "site"
+  },
+  "rae-s-margaretville-ny": {},
+  "d-a-wines-llc-merrick-ny": {},
+  "willa-millerton-ny": {},
+  "mohonk-wine-liquor-modena-ny": {},
+  "craft-nyc-new-york-ny": {},
+  "cull-pistol-new-york-ny": {},
+  "dear-irving-new-york-ny": {},
+  "market-table-new-york-ny": {},
+  "pinch-chinese-new-york-ny": {},
+  "bremer-s-wine-liquor-world-new-hartford-ny": {},
+  "in-good-taste-new-paltz-ny": {
+   "phone_checked": "2026-11-09"
+  },
+  "15th-floor-test-kitchen-new-york-ny": {},
+  "24-hubert-wines-aka-verve-wine-new-york-ny": {},
+  "au-zaatar-1st-ave-new-york-ny": {},
+  "albert-s-bar-new-york-ny": {},
+  "alphabet-city-wine-co-new-york-ny": {},
+  "amsterdam-wine-co-new-york-ny": {},
+  "ana-wine-and-liquors-new-york-ny": {},
+  "apres-avant-new-york-ny": {},
+  "aquihito-new-york-ny": {},
+  "archive-wine-spirits-new-york-ny": {},
+  "ardesia-new-york-ny": {},
+  "associates-services-new-york-ny": {},
+  "bar-lola-new-york-ny": {},
+  "bar-sprezzatura-new-york-ny": {},
+  "beaupierre-wine-spirits-new-york-ny": {},
+  "bottlenose-wine-co-new-york-ny": {},
+  "bottlerocket-wine-spirits-new-york-ny": {},
+  "cabrini-wines-new-york-ny": {},
+  "cafe-21-aka-resident-new-york-ny": {},
+  "cahoots-nyc-new-york-ny": {},
+  "chief-new-york-ny": {},
+  "clay-restaurant-new-york-ny": {},
+  "close-up-new-york-ny": {},
+  "community-wine-and-spirits-new-york-ny": {},
+  "convene-new-york-ny": {
+   "phone_checked": "2026-11-09"
+  },
+  "convive-wine-spirits-new-york-ny": {},
+  "cool-wine-spirits-new-york-ny": {},
+  "dandelion-new-york-ny": {},
+  "danji-new-york-ny": {},
+  "donna-new-york-ny": {},
+  "dr-wine-new-york-ny": {},
+  "dutch-the-new-york-ny": {},
+  "east-village-wine-liquors-new-york-ny": {},
+  "eleven-madison-park-aka-emp-new-york-ny": {
+   "phone_checked": "2026-11-09"
+  },
+  "empire-rooftop-new-york-ny": {},
+  "emporio-new-york-ny": {},
+  "enoteca-harlem-new-york-ny": {},
+  "enoteca-hell-s-kitchen-new-york-ny": {},
+  "fish-cheeks-new-york-ny": {},
+  "five-acres-new-york-ny": {},
+  "flatiron-wines-nyc-new-york-ny": {},
+  "foul-witch-new-york-ny": {},
+  "gjelina-new-york-ny": {},
+  "gotham-wine-liquor-new-york-ny": {},
+  "grace-wine-spirits-new-york-ny": {},
+  "gramercy-tavern-gt-new-york-ny": {
+   "phone_checked": "2026-11-09"
+  },
+  "grand-brasserie-new-york-ny": {},
+  "grand-cru-wines-spirits-new-york-ny": {},
+  "greywind-new-york-ny": {},
+  "hamilton-wine-house-new-york-ny": {},
+  "heno-heno-new-york-ny": {},
+  "hoexters-new-york-ny": {
+   "phone_checked": "2026-11-09"
+  },
+  "hommali-new-york-ny": {
+   "phone_checked": "2026-11-09",
+   "ph": "(646) 478-7151",
+   "src": "site",
+   "ph_src": "site"
+  },
+  "huso-tribeca-new-york-ny": {
+   "phone_checked": "2026-11-09",
+   "ph": "(917) 891-1837",
+   "src": "site",
+   "ph_src": "site"
+  },
+  "il-totano-fka-flex-mussels-new-york-ny": {
+   "phone_checked": "2026-11-09"
+  },
+  "j-braun-wines-liquors-new-york-ny": {},
+  "jb-s-wine-therapy-new-york-ny": {},
+  "joe-s-wine-shop-new-york-ny": {},
+  "joyface-new-york-ny": {},
+  "jungle-bird-new-york-ny": {},
+  "k-l-wine-merchants-new-york-ny": {
+   "phone_checked": "2026-11-09"
+  },
+  "k-l-wine-merchants-fka-park-ave-liquor-store-new-york-ny": {
+   "phone_checked": "2026-11-09"
+  },
+  "koloman-restaurant-new-york-ny": {
+   "phone_checked": "2026-11-09"
+  },
+  "lucille-lortel-theatre-new-york-ny": {},
+  "madison-vine-new-york-ny": {},
+  "manhattan-valley-wine-spirits-new-york-ny": {},
+  "manley-s-wine-spirits-new-york-ny": {},
+  "manor-house-cellar-new-york-ny": {},
+  "manuela-new-york-new-york-ny": {},
+  "marshal-the-new-york-ny": {},
+  "moma-aka-the-modern-new-york-ny": {},
+  "motel-morris-new-york-ny": {},
+  "nat-s-on-bank-fka-the-fat-radish-new-york-ny": {},
+  "new-york-edition-madison-ave-new-york-ny": {},
+  "nowon-new-york-ny": {},
+  "obvio-new-york-ny": {},
+  "ops-2nd-ave-new-york-ny": {},
+  "oddball-new-york-ny": {},
+  "olly-olly-market-aka-apres-avant-new-york-ny": {},
+  "otheroom-perry-new-york-ny": {},
+  "park-terrace-hotel-new-york-ny": {},
+  "parkside-lounge-new-york-ny": {},
+  "penn-cellars-new-york-ny": {},
+  "pompette-wine-shop-new-york-ny": {},
+  "primo-s-frederick-hotel-new-york-ny": {},
+  "resident-new-york-ny": {},
+  "ritz-carlton-nomad-new-york-ny": {},
+  "riverpark-new-york-ny": {},
+  "roman-and-williams-la-mercerie-cafe-new-york-ny": {},
+  "rosetta-wines-new-york-ny": {},
+  "royal-wines-liquors-new-york-ny": {},
+  "russian-tea-room-new-york-ny": {
+   "phone_checked": "2026-11-09"
+  },
+  "saverne-new-york-ny": {},
+  "sixty-three-clinton-aka-63-clinton-new-york-ny": {},
+  "so-so-new-york-ny": {},
+  "so-so-romer-hell-s-kitchen-new-york-ny": {},
+  "standard-high-line-shl-new-york-ny": {},
+  "swift-hibernian-lounge-new-york-ny": {},
+  "taste-new-york-aka-slate-point-meadery-new-york-ny": {},
+  "teakwood-thai-chophouse-new-york-ny": {},
+  "terroir-tribeca-new-york-ny": {},
+  "thai-pavilion-new-york-ny": {},
+  "the-carnegie-club-new-york-ny": {},
+  "the-dl-dinner-on-ludlow-new-york-ny": {},
+  "the-ivory-peacock-new-york-ny": {},
+  "the-mary-lane-new-york-ny": {},
+  "the-weather-room-new-york-ny": {},
+  "thyme-bar-new-york-ny": {},
+  "union-square-wine-spirits-new-york-ny": {},
+  "urban-wines-and-spirits-new-york-ny": {},
+  "viv-thai-restaurant-new-york-ny": {},
+  "valerie-new-york-ny": {},
+  "vinateria-new-york-ny": {},
+  "vino-fine-wine-spirits-new-york-ny": {},
+  "vinyl-wine-new-york-ny": {},
+  "virgo-new-york-ny": {},
+  "wall-street-wine-trader-fka-67-wines-new-york-ny": {},
+  "water-street-exhibitions-new-york-ny": {},
+  "waverly-inn-new-york-ny": {},
+  "wine-story-new-york-ny": {},
+  "winsome-wines-new-york-ny": {},
+  "liberty-street-liquors-newburgh-ny": {},
+  "sing-sing-kill-brewery-ossining-ny": {},
+  "six-eighty-cellars-and-buttonwood-grove-winery-ovid-ny": {
+   "phone_checked": "2026-11-09"
+  },
+  "rip-wolf-wine-spirits-palenville-ny": {},
+  "outlet-111-penn-yan-ny": {},
+  "water-street-wines-spirits-penn-yan-ny": {},
+  "goodnight-kenny-poughkeepsie-ny": {},
+  "sipperley-s-grog-shoppe-red-hook-ny": {},
+  "current-cassis-rhinebeck-ny": {},
+  "dada-ridgewood-ny": {},
+  "decades-pizza-ridgewood-ny": {},
+  "ellen-s-wines-spirits-ridgewood-ny": {},
+  "mr-nancy-s-ridgewood-ny": {},
+  "angelina-s-rochester-ny": {},
+  "crisp-rochester-ny": {},
+  "euphoria-liquor-store-rochester-ny": {},
+  "fort-hill-liquor-rochester-ny": {},
+  "marges-lakeside-inn-rochester-ny": {},
+  "pinnacle-liquor-rochester-ny": {},
+  "radio-social-rochester-ny": {},
+  "strangebird-rochester-ny": {},
+  "whitehouse-liquor-wine-rochester-ny": {},
+  "the-six-bells-inn-rosendale-ny": {},
+  "roxbury-bottle-shop-roxbury-ny": {},
+  "roxbury-wine-and-spirits-roxbury-ny": {},
+  "bocage-champagne-bar-saratoga-springs-ny": {},
+  "familiar-creatures-saratoga-springs-ny": {},
+  "hamlet-ghost-saratoga-springs-ny": {},
+  "purdy-s-all-seasons-w-l-saratoga-springs-ny": {},
+  "standard-fare-saratoga-springs-ny": {},
+  "margaux-bar-saugerties-ny": {},
+  "windmill-wine-spirits-saugerties-ny": {},
+  "pines-liquor-shop-fire-island-sayville-ny": {},
+  "south-cairo-liquor-store-south-cairo-ny": {},
+  "the-liquor-mall-south-richmond-hill-ny": {},
+  "salem-liquors-south-salem-ny": {},
+  "violettes-cellar-staten-island-ny": {},
+  "alewife-brewing-sunnyside-ny": {},
+  "aurora-brewing-co-syracuse-syracuse-ny": {},
+  "the-communion-wine-spirits-syracuse-ny": {},
+  "the-wedge-syracuse-ny": {},
+  "hotel-tivoli-tivoli-ny": {
+   "phone_checked": "2026-11-09"
+  },
+  "lucas-confectionery-troy-ny": {},
+  "nighthawks-troy-ny": {},
+  "troy-wine-company-troy-ny": {},
+  "tuckahoe-wine-spirits-tuckahoe-ny": {},
+  "ray-s-discount-liquors-tupper-lake-ny": {},
+  "the-woodshed-on-park-tupper-lake-ny": {},
+  "silk-utica-utica-ny": {},
+  "bonesteel-wines-victor-ny": {},
+  "la-plage-wading-river-ny": {},
+  "viscount-liquors-wappingers-falls-ny": {},
+  "ten-mile-table-wassaic-ny": {},
+  "spruceton-inn-west-kill-ny": {},
+  "total-wine-spirits-more-westbury-westbury-ny": {},
+  "margarita-grille-westhampton-beach-ny": {},
+  "patio-the-westhampton-beach-ny": {},
+  "goodnight-woodstock-ny": {},
+  "station-bar-curio-woodstock-ny": {},
+  "unfiltered-wine-spirits-woodstock-ny": {},
+  "woodstock-wine-liquors-woodstock-ny": {},
+  "binski-s-bar-cincinnati-oh": {},
+  "hotel-rambler-sidecar-bar-cincinnati-oh": {},
+  "rhined-cincinnati-oh": {},
+  "weiland-s-market-columbus-oh": {},
+  "barrel-house-dayton-oh": {},
+  "gingham-market-lakewood-oh": {},
+  "harvest-market-milford-milford-oh": {},
+  "meza-westerville-oh": {},
+  "emporium-yellow-springs-oh": {},
+  "winds-wine-cellar-yellow-springs-oh": {},
+  "the-knickerbocker-tavern-47035-altoona-pa": {},
+  "kabinett-113083-easton-pa": {},
+  "caf-passerine-114526-lancaster-pa": {},
+  "proof-106270-lancaster-pa": {},
+  "jillian-s-115987-new-kensington-pa": {},
+  "middle-child-clubhouse-104509-philadelphia-pa": {},
+  "oyster-house-pa-60799-philadelphia-pa": {},
+  "post-haste-109551-philadelphia-pa": {},
+  "river-twice-101150-philadelphia-pa": {},
+  "vetri-restaurant-42792-philadelphia-pa": {},
+  "wilder-95957-philadelphia-pa": {},
+  "bae-bae-s-kitchen-110800-pittsburgh-pa": {},
+  "butterjoint-119027-pittsburgh-pa": {},
+  "cobra-92742-pittsburgh-pa": {},
+  "commoner-at-hotel-monaco-109387-pittsburgh-pa": {},
+  "coop-deville-89855-pittsburgh-pa": {},
+  "dish-osteria-and-bar-45426-pittsburgh-pa": {},
+  "fet-fisk-117755-pittsburgh-pa": {},
+  "fujiya-92066-pittsburgh-pa": {},
+  "local-provisions-112717-pittsburgh-pa": {},
+  "the-cafe-at-field-day-118729-pittsburgh-pa": {},
+  "rosemary-110744-ridley-park-pa": {},
+  "main-street-wine-spirits-coventry-ri": {},
+  "newport-wine-cellar-newport-ri": {},
+  "machines-with-magnets-pawtucket-ri": {},
+  "bottles-fine-wine-providence-ri": {},
+  "campus-fine-wines-providence-ri": {},
+  "hope-vine-providence-ri": {},
+  "people-s-liquor-warehouse-warwick-ri": {},
+  "old-man-joe-s-westerly-ri": {},
+  "foster-cocktail-company-commodore-cafe-appleton-wi": {},
+  "il-bar-coffeehouse-bistro-green-bay-green-bay-wi": {},
+  "plume-wine-bar-green-bay-wi": {},
+  "holey-mackerel-greenfield-wi": {},
+  "cork-n-bottle-madison-wi": {},
+  "jade-monkey-madison-wi": {},
+  "meat-people-butcher-madison-wi": {},
+  "metcalfe-s-sentry-west-towne-madison-wi": {},
+  "mint-mark-madison-wi": {},
+  "ohio-tavern-madison-wi": {},
+  "public-parking-bar-madison-wi": {},
+  "riley-s-wine-of-the-world-madison-wi": {},
+  "robin-room-madison-wi": {},
+  "sardine-madison-wi": {},
+  "steve-s-junction-rd-madison-wi": {},
+  "table-wine-madison-wi": {},
+  "hill-valley-dairy-cheese-bar-milwaukee-wi": {},
+  "lost-whale-milwaukee-wi": {},
+  "whole-earth-co-op-river-falls-wi": {},
+  "green-grocer-williams-bay-wi": {}
+ }
+}
