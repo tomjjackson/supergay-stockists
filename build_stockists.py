@@ -131,6 +131,14 @@ if os.path.exists(cp):
         k = con.get(o['id']) or {}
         if k.get('ph'): o['ph'] = k['ph']
         if k.get('w') and not o.get('w'): o['w'] = k['w']
+# Web-search finds (tools/web_contacts.json) fill what OpenStreetMap missed
+wp = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'tools', 'web_contacts.json')
+if os.path.exists(wp):
+    web = json.load(open(wp))
+    for o in out:
+        k = web.get(o['id']) or {}
+        if k.get('ph') and not o.get('ph'): o['ph'] = k['ph']
+        if k.get('w') and not o.get('w'): o['w'] = k['w']
 json.dump({'updated': today, 'count': len(out), 'stockists': out}, open(OUT, 'w'), separators=(',', ':'), ensure_ascii=False)
 print('dropped', dict(dropped)); print('public', len(out), 'bytes', os.path.getsize(OUT))
 print(collections.Counter(o['s'] for o in out).most_common())
