@@ -246,6 +246,7 @@
       var actions = el("div", { class: "sg-actions" }, [
         el("a", { class: "sg-btn", href: "https://www.google.com/maps/dir/?api=1&destination=" + q, target: "_blank", rel: "noopener", text: "Directions" }),
         el("a", { class: "sg-btn sg-ghost", href: "https://maps.apple.com/?daddr=" + q, target: "_blank", rel: "noopener", text: "Apple Maps" }),
+        s.ph ? el("a", { class: "sg-btn sg-ghost", href: "tel:+1" + s.ph.replace(/\D/g, "").slice(-10), text: s.ph }) : null,
         s.w ? el("a", { class: "sg-btn sg-ghost", href: s.w, target: "_blank", rel: "noopener", text: "Website" }) : null,
         s.ig ? el("a", { class: "sg-btn sg-ghost", href: "https://www.instagram.com/" + encodeURIComponent(s.ig) + "/", target: "_blank", rel: "noopener", text: "@" + s.ig }) : null,
         el("button", { class: "sg-btn sg-ghost", type: "button", text: "Copy link", onclick: function (ev) {

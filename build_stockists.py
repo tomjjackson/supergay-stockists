@@ -123,6 +123,14 @@ seen = collections.Counter(); cnt = collections.Counter(o['id'] for o in out)
 for o in out:
     if cnt[o['id']] > 1: seen[o['id']] += 1; o['id'] += '-' + str(seen[o['id']])
 out.sort(key=lambda o: (o['s'], o['c'], o['n']))
+# Phone numbers and websites looked up separately (tools/osm_contacts.py, web search); the dashboard link wins for websites
+cp = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'contacts.json')
+if os.path.exists(cp):
+    con = json.load(open(cp)).get('places', {})
+    for o in out:
+        k = con.get(o['id']) or {}
+        if k.get('ph'): o['ph'] = k['ph']
+        if k.get('w') and not o.get('w'): o['w'] = k['w']
 json.dump({'updated': today, 'count': len(out), 'stockists': out}, open(OUT, 'w'), separators=(',', ':'), ensure_ascii=False)
 print('dropped', dict(dropped)); print('public', len(out), 'bytes', os.path.getsize(OUT))
 print(collections.Counter(o['s'] for o in out).most_common())
