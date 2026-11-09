@@ -1,21 +1,18 @@
-name: Stockist contacts (web search)
+name: Stockist phones from store websites
 on:
   workflow_dispatch:
-    inputs:
-      limit: { default: '2000' }
-      state: { default: '' }
 permissions:
   contents: write
 jobs:
   search:
     runs-on: ubuntu-latest
-    timeout-minutes: 300
+    timeout-minutes: 80
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: '3.12' }
-      - run: python -u tools/web_search.py "${{ inputs.limit }}" "${{ inputs.state }}"
-        timeout-minutes: 280
+      - run: python -u tools/web_sitephones.py
+        timeout-minutes: 60
         continue-on-error: true
       - if: always()
         run: |
