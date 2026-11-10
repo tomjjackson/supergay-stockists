@@ -4,6 +4,21 @@
   "ph": "(617) 356-0900",
   "w": "https://1928-restaurants.com"
  },
+ "acqua-al-2-w-stockbridge-ma": {
+  "checked": "2026-11-09",
+  "ph": "(413) 232-5025",
+  "w": "https://acquaal2berkshires.com"
+ },
+ "adelita-w-concord-ma": {
+  "checked": "2026-11-09",
+  "ph": "(978) 254-0710",
+  "w": "https://adelitaconcord.com"
+ },
+ "american-provisions-dorchester-cntr-ma": {
+  "checked": "2026-11-09",
+  "ph": "(617) 514-4599",
+  "w": "https://americanprovisions.com"
+ },
  "bar-bushido-norwalk-ct": {
   "checked": "2026-11-09",
   "ph": "(203) 354-0023",
@@ -18,10 +33,29 @@
   "ph": "(860) 337-2099",
   "w": "https://beldenhouse.com/"
  },
+ "big-vin-s-liquor-inc-provincetown-ma": {
+  "checked": "2026-11-09",
+  "ph": "(508) 487-0635"
+ },
+ "blanchard-s-inc-jp-jamaica-plain-ma": {
+  "checked": "2026-11-09",
+  "ph": "(617) 522-9300",
+  "w": "https://blanchardsliquor.com"
+ },
+ "bottles-fine-wine-providence-ri": {
+  "checked": "2026-11-09",
+  "ph": "(401) 372-2030",
+  "w": "https://bottlesfinewine.com"
+ },
  "brookline-wine-spirits-brookline-ma": {
   "checked": "2026-11-09",
   "ph": "(617) 232-1330",
   "w": "https://brooklinewineandspirits.com"
+ },
+ "buckalew-s-general-store-melrose-ma": {
+  "checked": "2026-11-09",
+  "ph": "(781) 665-9622",
+  "w": "https://buckalewsgeneralstore.com"
  },
  "cafe-routier-westbrook-ct": {
   "checked": "2026-11-09",
@@ -33,9 +67,19 @@
   "ph": "(617) 494-9000",
   "w": "https://cambridgespirits.com"
  },
+ "campus-fine-wines-providence-ri": {
+  "checked": "2026-11-09",
+  "ph": "(401) 621-9650",
+  "w": "https://campusfinewines.com"
+ },
  "canterbury-liquors-canterbury-ct": {
   "checked": "2026-11-09",
   "ph": "(860) 546-9200"
+ },
+ "casita-north-adams-ma": {
+  "checked": "2026-11-09",
+  "ph": "(413) 346-4467",
+  "w": "https://casitaberkshires.com"
  },
  "center-wine-spirits-glastonbury-ct": {
   "checked": "2026-11-09",
@@ -74,6 +118,11 @@
   "ph": "(617) 981-4577",
   "w": "https://woodshillpier4.com"
  },
+ "dead-horse-hill-worcester-ma": {
+  "checked": "2026-11-09",
+  "ph": "(774) 420-7107",
+  "w": "https://deadhorsehill.com"
+ },
  "delamar-west-hartford-hartford-ct": {
   "checked": "2026-11-09",
   "ph": "(860) 937-2500",
@@ -83,6 +132,16 @@
   "checked": "2026-11-09",
   "ph": "(857) 991-1080",
   "w": "https://facciaafacciaboston.com"
+ },
+ "farmstead-table-restaurant-newton-centre-ma": {
+  "checked": "2026-11-09",
+  "ph": "(617) 928-6000",
+  "w": "https://farmsteadtable.com"
+ },
+ "field-vine-somerville-ma": {
+  "checked": "2026-11-09",
+  "ph": "(617) 718-2333",
+  "w": "https://fieldandvinesomerville.com"
  },
  "gg-at-home-niantic-niantic-ct": {
   "checked": "2026-11-09",
@@ -102,6 +161,11 @@
   "checked": "2026-11-09",
   "w": "https://highstreetplace.com"
  },
+ "julio-s-liquors-inc-westboro-ma": {
+  "checked": "2026-11-09",
+  "ph": "(508) 366-1942",
+  "w": "https://juliosliquors.com"
+ },
  "kindred-spirits-wine-westport-westport-ct": {
   "checked": "2026-11-09",
   "ph": "(203) 259-3939",
@@ -111,9 +175,18 @@
   "checked": "2026-11-09",
   "ph": "(617) 364-1100"
  },
+ "liars-somerville-ma": {
+  "checked": "2026-11-09",
+  "ph": "(617) 718-0231",
+  "w": "https://restaurantliars.com"
+ },
  "liquor-depot-simsbury-simsbury-ct": {
   "checked": "2026-11-09",
   "ph": "(860) 651-1710"
+ },
+ "liquor-junction-somerville-ma": {
+  "checked": "2026-11-09",
+  "w": "https://liquorjunction.com"
  },
  "liquor-world-inc-cambridge-ma": {
   "checked": "2026-11-09",
@@ -129,15 +202,38 @@
   "ph": "(857) 706-1100",
   "w": "https://wearelous.com"
  },
+ "machines-with-magnets-pawtucket-ri": {
+  "checked": "2026-11-09",
+  "ph": "(401) 753-4049",
+  "w": "https://machineswithmagnets.com"
+ },
+ "main-street-wine-spirits-coventry-ri": {
+  "checked": "2026-11-09",
+  "ph": "(401) 821-3020"
+ },
  "misfit-club-mystic-ct": {
   "checked": "2026-11-09",
   "ph": "(860) 815-1805",
   "w": "https://misfitclub.com"
  },
+ "murrays-bev-store-nantucket-ma": {
+  "checked": "2026-11-09",
+  "ph": "(508) 228-0071"
+ },
  "new-england-spirits-wine-purveyors-hamden-ct": {
   "checked": "2026-11-09",
   "ph": "(475) 331-8866",
   "w": "https://neswp.com/"
+ },
+ "newport-wine-cellar-newport-ri": {
+  "checked": "2026-11-09",
+  "ph": "(401) 619-3966",
+  "w": "https://newportwinecellar.com"
+ },
+ "old-man-joe-s-westerly-ri": {
+  "checked": "2026-11-09",
+  "ph": "(401) 424-9862",
+  "w": "https://oldmanjoes.us"
  },
  "owl-and-dove-pawcatuck-ct": {
   "checked": "2026-11-09",
@@ -153,19 +249,39 @@
   "checked": "2026-11-09",
   "ph": "(860) 904-7755"
  },
+ "people-s-liquor-warehouse-warwick-ri": {
+  "checked": "2026-11-09",
+  "ph": "(401) 737-0900",
+  "w": "https://peoplesliquor.com"
+ },
  "perfusion-bar-newtown-ct": {
   "checked": "2026-11-09",
   "ph": "(203) 491-2040",
   "w": "https://perfusionbar.com"
  },
+ "perry-s-wine-liquors-provincetown-ma": {
+  "checked": "2026-11-09",
+  "ph": "(508) 487-0140",
+  "w": "https://ptownperrys.com"
+ },
  "portuguese-american-club-inc-attleboro-ma": {
   "checked": "2026-11-09",
   "ph": "(508) 222-9748"
+ },
+ "shipwreck-lounge-provincetown-ma": {
+  "checked": "2026-11-09",
+  "ph": "(508) 487-9005",
+  "w": "https://brasskey.com/dining/shipwreck-lounge"
  },
  "shore-discount-liquors-deep-river-ct": {
   "checked": "2026-11-09",
   "ph": "(860) 526-5197",
   "w": "https://www.shorediscountliquors.com/"
+ },
+ "shube-s-liquor-store-marblehead-ma": {
+  "checked": "2026-11-09",
+  "ph": "(781) 631-0149",
+  "w": "https://shubies.com"
  },
  "spencer-lynn-mystic-ct": {
   "checked": "2026-11-09",
@@ -180,6 +296,11 @@
   "checked": "2026-11-09",
   "ph": "(617) 848-4355",
   "w": "https://stateparkbar.com"
+ },
+ "stevie-s-a-package-store-fairhaven-ma": {
+  "checked": "2026-11-09",
+  "ph": "(774) 510-7881",
+  "w": "https://stevieswineandspirit.com"
  },
  "study-fine-wines-the-greenwich-ct": {
   "checked": "2026-11-09",
@@ -200,6 +321,11 @@
   "ph": "(203) 785-0468",
   "w": "https://firehouse12.com/bar"
  },
+ "the-copper-swan-wellfleet-ma": {
+  "checked": "2026-11-09",
+  "ph": "(508) 349-9333",
+  "w": "https://copperswan.com"
+ },
  "the-diamond-new-london-ct": {
   "checked": "2026-11-09",
   "ph": "(959) 716-4009"
@@ -213,6 +339,10 @@
   "checked": "2026-11-09",
   "ph": "(959) 333-4968",
   "w": "https://thelaurelrestaurantandbar.com"
+ },
+ "the-pint-worcester-ma": {
+  "checked": "2026-11-09",
+  "ph": "(508) 414-1314"
  },
  "the-port-of-call-mystic-ct": {
   "checked": "2026-11-09",
@@ -228,6 +358,11 @@
   "checked": "2026-11-09",
   "ph": "(203) 655-1031",
   "w": "https://thetowncellar.com"
+ },
+ "the-vin-bin-hopkinton-ma": {
+  "checked": "2026-11-09",
+  "ph": "(508) 435-9463",
+  "w": "https://thevinbin.com"
  },
  "the-woodland-lakeville-ct": {
   "checked": "2026-11-09",
@@ -253,6 +388,10 @@
   "checked": "2026-11-09",
   "ph": "(860) 739-8870"
  },
+ "vine-barley-e-boston-ma": {
+  "checked": "2026-11-09",
+  "ph": "(617) 569-1695"
+ },
  "wheeler-wine-merchants-sharon-ct": {
   "checked": "2026-11-09",
   "ph": "(860) 364-5768"
@@ -266,6 +405,11 @@
   "checked": "2026-11-09",
   "ph": "(617) 360-7777",
   "w": "https://whiskeyandwinebrighton.com"
+ },
+ "wine-cask-inc-somerville-ma": {
+  "checked": "2026-11-09",
+  "ph": "(617) 623-8656",
+  "w": "https://thewineandcheesecask.com"
  },
  "wine-emporium-i-boston-ma": {
   "checked": "2026-11-09",
@@ -300,6 +444,11 @@
   "checked": "2026-11-09",
   "ph": "(860) 523-5779",
   "w": "https://thewiseolddog.com"
+ },
+ "woods-hill-table-concord-ma": {
+  "checked": "2026-11-09",
+  "ph": "(978) 254-1435",
+  "w": "https://woodshilltable.com"
  },
  "worldwide-wine-spirits-southington-ct": {
   "checked": "2026-11-09",
