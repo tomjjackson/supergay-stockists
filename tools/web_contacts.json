@@ -19,6 +19,10 @@
   "ph": "(617) 514-4599",
   "w": "https://americanprovisions.com"
  },
+ "ansley-wine-merchants-atlanta-ga": {
+  "checked": "2026-11-09",
+  "ph": "(404) 876-6790"
+ },
  "bar-bushido-norwalk-ct": {
   "checked": "2026-11-09",
   "ph": "(203) 354-0023",
@@ -27,6 +31,21 @@
  "bar-max-at-the-goodwin-w-hartford-ct": {
   "checked": "2026-11-09",
   "w": "https://barmaxhartford.com"
+ },
+ "barrel-house-dayton-oh": {
+  "checked": "2026-11-09",
+  "ph": "(937) 222-4795",
+  "w": "https://barrelhousetap.com"
+ },
+ "barrel-proof-atlanta-ga": {
+  "checked": "2026-11-09",
+  "ph": "(404) 490-1737",
+  "w": "https://barrelproofatl.com"
+ },
+ "beetlecat-atlanta-ga": {
+  "checked": "2026-11-09",
+  "ph": "(678) 732-0360",
+  "w": "https://beetlecatatl.com"
  },
  "belden-house-operator-llc-litchfield-ct": {
   "checked": "2026-11-09",
@@ -56,6 +75,11 @@
   "checked": "2026-11-09",
   "ph": "(781) 665-9622",
   "w": "https://buckalewsgeneralstore.com"
+ },
+ "butterjoint-119027-pittsburgh-pa": {
+  "checked": "2026-11-09",
+  "ph": "(412) 621-2700",
+  "w": "https://butterjoint.com"
  },
  "caf-passerine-114526-lancaster-pa": {
   "checked": "2026-11-09",
@@ -103,10 +127,20 @@
   "checked": "2026-11-09",
   "ph": "(203) 977-7700"
  },
+ "commoner-at-hotel-monaco-109387-pittsburgh-pa": {
+  "checked": "2026-11-09",
+  "ph": "(412) 230-4800",
+  "w": "https://monaco-pittsburgh.com/restaurants/commoner/"
+ },
  "conti-s-wines-and-spirits-fka-southington-wine-southington-ct": {
   "checked": "2026-11-09",
   "ph": "(860) 276-9889",
   "w": "https://contiswine.com"
+ },
+ "coop-deville-89855-pittsburgh-pa": {
+  "checked": "2026-11-09",
+  "ph": "(412) 991-2667",
+  "w": "https://coopdevillepgh.com"
  },
  "cork-barrel-hamden-hamden-ct": {
   "checked": "2026-11-09",
@@ -138,6 +172,21 @@
   "ph": "(860) 937-2500",
   "w": "https://www.delamar.com/hotels/delamar-west-hartford"
  },
+ "dish-osteria-and-bar-45426-pittsburgh-pa": {
+  "checked": "2026-11-09",
+  "ph": "(412) 390-2012",
+  "w": "https://dishosteria.com"
+ },
+ "elemental-spirits-co-atlanta-ga": {
+  "checked": "2026-11-09",
+  "ph": "(404) 990-4310",
+  "w": "https://elementalspirits.co"
+ },
+ "emporium-yellow-springs-oh": {
+  "checked": "2026-11-09",
+  "ph": "(937) 767-7077",
+  "w": "https://emporiumwines.com"
+ },
  "faccia-a-faccia-boston-ma": {
   "checked": "2026-11-09",
   "ph": "(857) 991-1080",
@@ -147,6 +196,10 @@
   "checked": "2026-11-09",
   "ph": "(617) 928-6000",
   "w": "https://farmsteadtable.com"
+ },
+ "fet-fisk-117755-pittsburgh-pa": {
+  "checked": "2026-11-09",
+  "w": "https://fetfisk.net"
  },
  "field-vine-somerville-ma": {
   "checked": "2026-11-09",
@@ -158,9 +211,23 @@
   "ph": "(908) 465-0021",
   "w": "https://finnbarjersey.com"
  },
+ "five-points-bottle-shop-athens-ga": {
+  "checked": "2026-11-09",
+  "ph": "(706) 543-6989",
+  "w": "https://fivepointsbottleshop.com"
+ },
+ "fujiya-92066-pittsburgh-pa": {
+  "checked": "2026-11-09",
+  "w": "https://fujiyaramenpgh.com"
+ },
  "gg-at-home-niantic-niantic-ct": {
   "checked": "2026-11-09",
   "w": "https://ggathome.com/niantic/"
+ },
+ "gingham-market-lakewood-oh": {
+  "checked": "2026-11-09",
+  "ph": "(216) 228-2285",
+  "w": "https://ginghammarket.com"
  },
  "gourmet-galley-catering-north-stonington-north-stonington-ct": {
   "checked": "2026-11-09",
@@ -172,9 +239,27 @@
   "ph": "(617) 764-5026",
   "w": "https://icecreamgracies.com"
  },
+ "h-f-bottle-shop-atlanta-ga": {
+  "checked": "2026-11-09",
+  "ph": "(404) 841-4070",
+  "w": "https://hfbottleshop.com"
+ },
+ "harvest-market-milford-milford-oh": {
+  "checked": "2026-11-09",
+  "ph": "(513) 239-5400"
+ },
  "high-street-place-boston-ma": {
   "checked": "2026-11-09",
   "w": "https://highstreetplace.com"
+ },
+ "hotel-rambler-sidecar-bar-cincinnati-oh": {
+  "checked": "2026-11-09",
+  "ph": "(513) 954-4100",
+  "w": "https://thehotelrambler.com"
+ },
+ "j-s-bottle-shop-athens-ga": {
+  "checked": "2026-11-09",
+  "ph": "(706) 353-8881"
  },
  "jillian-s-115987-new-kensington-pa": {
   "checked": "2026-11-09",
@@ -217,6 +302,11 @@
   "ph": "(617) 945-1008",
   "w": "https://littledonkeycambridge.com"
  },
+ "local-provisions-112717-pittsburgh-pa": {
+  "checked": "2026-11-09",
+  "ph": "(412) 924-9050",
+  "w": "https://localprovisionspgh.com"
+ },
  "lou-s-cambridge-ma": {
   "checked": "2026-11-09",
   "ph": "(857) 706-1100",
@@ -231,6 +321,11 @@
   "checked": "2026-11-09",
   "ph": "(401) 821-3020"
  },
+ "meza-westerville-oh": {
+  "checked": "2026-11-09",
+  "ph": "(614) 259-3101",
+  "w": "https://mezawineshop.com"
+ },
  "middle-child-clubhouse-104509-philadelphia-pa": {
   "checked": "2026-11-09",
   "ph": "(267) 858-4325",
@@ -240,6 +335,11 @@
   "checked": "2026-11-09",
   "ph": "(860) 815-1805",
   "w": "https://misfitclub.com"
+ },
+ "mo-s-house-evansville-in": {
+  "checked": "2026-11-09",
+  "ph": "(812) 401-3800",
+  "w": "https://mos-house.com"
  },
  "murrays-bev-store-nantucket-ma": {
   "checked": "2026-11-09",
@@ -312,10 +412,20 @@
   "ph": "(717) 925-7770",
   "w": "https://prooflancaster.com"
  },
+ "rhined-cincinnati-oh": {
+  "checked": "2026-11-09",
+  "ph": "(513) 655-5938",
+  "w": "https://therhined.com"
+ },
  "river-twice-101150-philadelphia-pa": {
   "checked": "2026-11-09",
   "ph": "(267) 457-3698",
   "w": "https://rivertwicerestaurant.com"
+ },
+ "rosemary-110744-ridley-park-pa": {
+  "checked": "2026-11-09",
+  "ph": "(610) 671-3770",
+  "w": "https://rosemaryrp.com"
  },
  "rumson-wine-spirit-shop-rumson-nj": {
   "checked": "2026-11-09",
@@ -385,6 +495,11 @@
   "ph": "(203) 785-0468",
   "w": "https://firehouse12.com/bar"
  },
+ "the-cafe-at-field-day-118729-pittsburgh-pa": {
+  "checked": "2026-11-09",
+  "ph": "(412) 564-0130",
+  "w": "https://fieldday.life"
+ },
  "the-copper-swan-wellfleet-ma": {
   "checked": "2026-11-09",
   "ph": "(508) 349-9333",
@@ -443,6 +558,10 @@
   "ph": "(860) 526-3283",
   "w": "https://explorethreefates.com/"
  },
+ "tonique-bottle-co-athens-ga": {
+  "checked": "2026-11-09",
+  "w": "https://shoptonique.com"
+ },
  "tony-s-package-store-haddam-ct": {
   "checked": "2026-11-09",
   "ph": "(860) 345-4307",
@@ -466,6 +585,11 @@
   "checked": "2026-11-09",
   "ph": "(617) 569-1695"
  },
+ "weiland-s-market-columbus-oh": {
+  "checked": "2026-11-09",
+  "ph": "(614) 267-9878",
+  "w": "https://weilandsmarket.com"
+ },
  "wheeler-wine-merchants-sharon-ct": {
   "checked": "2026-11-09",
   "ph": "(860) 364-5768"
@@ -484,6 +608,11 @@
   "checked": "2026-11-09",
   "ph": "(215) 309-2149",
   "w": "https://wilderphilly.com"
+ },
+ "winds-wine-cellar-yellow-springs-oh": {
+  "checked": "2026-11-09",
+  "ph": "(937) 767-1144",
+  "w": "https://windscafe.com"
  },
  "wine-cask-inc-somerville-ma": {
   "checked": "2026-11-09",
@@ -533,6 +662,11 @@
   "checked": "2026-11-09",
   "ph": "(978) 254-1435",
   "w": "https://woodshilltable.com"
+ },
+ "world-of-quercus-gay-ga": {
+  "checked": "2026-11-09",
+  "ph": "(770) 884-4434",
+  "w": "https://worldofquercus.com"
  },
  "worldwide-wine-spirits-southington-ct": {
   "checked": "2026-11-09",
