@@ -4,6 +4,11 @@
   "ph": "(617) 356-0900",
   "w": "https://1928-restaurants.com"
  },
+ "900-baxter-hotel-and-paseo-louisville-ky": {
+  "checked": "2026-11-09",
+  "ph": "(502) 632-7935",
+  "w": "https://paseolouisville.com"
+ },
  "acqua-al-2-w-stockbridge-ma": {
   "checked": "2026-11-09",
   "ph": "(413) 232-5025",
@@ -29,9 +34,19 @@
   "ph": "(617) 514-4599",
   "w": "https://americanprovisions.com"
  },
+ "anna-s-new-orleans-la": {
+  "checked": "2026-11-09",
+  "ph": "(504) 872-9868",
+  "w": "https://annasnola.com"
+ },
  "ansley-wine-merchants-atlanta-ga": {
   "checked": "2026-11-09",
   "ph": "(404) 876-6790"
+ },
+ "artmosphere-lafayette-la": {
+  "checked": "2026-11-09",
+  "ph": "(337) 233-3331",
+  "w": "https://artmospherelafayette.com"
  },
  "bar-bushido-norwalk-ct": {
   "checked": "2026-11-09",
@@ -41,6 +56,15 @@
  "bar-max-at-the-goodwin-w-hartford-ct": {
   "checked": "2026-11-09",
   "w": "https://barmaxhartford.com"
+ },
+ "bar-peychaud-new-orleans-la": {
+  "checked": "2026-11-09",
+  "ph": "(504) 332-2200",
+  "w": "https://thecelestinenola.com/peychaudscocktailbarneworleans"
+ },
+ "bar-tonique-new-orleans-la": {
+  "checked": "2026-11-09",
+  "ph": "(504) 324-6045"
  },
  "barrel-house-dayton-oh": {
   "checked": "2026-11-09",
@@ -151,6 +175,11 @@
   "ph": "(401) 621-9650",
   "w": "https://campusfinewines.com"
  },
+ "cane-table-new-orleans-la": {
+  "checked": "2026-11-09",
+  "ph": "(504) 581-1112",
+  "w": "https://caneandtablenola.com"
+ },
  "canterbury-liquors-canterbury-ct": {
   "checked": "2026-11-09",
   "ph": "(860) 546-9200"
@@ -228,6 +257,11 @@
   "checked": "2026-11-09",
   "w": "https://constitutionbookstore.com"
  },
+ "contemporary-arts-center-new-orleans-la": {
+  "checked": "2026-11-09",
+  "ph": "(504) 528-3805",
+  "w": "https://cacno.org"
+ },
  "conti-s-wines-and-spirits-fka-southington-wine-southington-ct": {
   "checked": "2026-11-09",
   "ph": "(860) 276-9889",
@@ -277,6 +311,15 @@
   "ph": "(859) 222-7790",
   "w": "https://darkartswhiskey.com"
  },
+ "darling-s-louisville-ky": {
+  "checked": "2026-11-09",
+  "w": "https://darlingsbar.com"
+ },
+ "darling-wine-bar-lexington-ky": {
+  "checked": "2026-11-09",
+  "ph": "(859) 608-2107",
+  "w": "https://darlingwinebar.com"
+ },
  "dead-horse-hill-worcester-ma": {
   "checked": "2026-11-09",
   "ph": "(774) 420-7107",
@@ -291,6 +334,11 @@
   "checked": "2026-11-09",
   "ph": "(412) 390-2012",
   "w": "https://dishosteria.com"
+ },
+ "dovetail-bar-new-orleans-la": {
+  "checked": "2026-11-09",
+  "ph": "(504) 345-2949",
+  "w": "https://dovetail-bar.com"
  },
  "eat-no-6-south-bend-in": {
   "checked": "2026-11-09",
@@ -336,9 +384,19 @@
   "ph": "(706) 543-6989",
   "w": "https://fivepointsbottleshop.com"
  },
+ "fives-new-orleans-la": {
+  "checked": "2026-11-09",
+  "ph": "(504) 399-6954",
+  "w": "https://fives.bar"
+ },
  "foster-cocktail-company-commodore-cafe-appleton-wi": {
   "checked": "2026-11-09",
   "w": "https://commodoreclubandcafe.com"
+ },
+ "foxbriar-bar-paducah-ky": {
+  "checked": "2026-11-09",
+  "ph": "(270) 933-1414",
+  "w": "https://thefoxbriarbar.square.site"
  },
  "friar-tuck-crestwood-mo-ks": {
   "checked": "2026-11-09",
@@ -348,6 +406,11 @@
  "fujiya-92066-pittsburgh-pa": {
   "checked": "2026-11-09",
   "w": "https://fujiyaramenpgh.com"
+ },
+ "galaxie-louisville-ky": {
+  "checked": "2026-11-09",
+  "ph": "(502) 690-6595",
+  "w": "https://galaxiebar.com"
  },
  "geraldine-s-supper-club-lounge-indianapolis-in": {
   "checked": "2026-11-09",
@@ -362,6 +425,10 @@
   "checked": "2026-11-09",
   "ph": "(216) 228-2285",
   "w": "https://ginghammarket.com"
+ },
+ "goldie-s-louisville-ky": {
+  "checked": "2026-11-09",
+  "ph": "(502) 333-0832"
  },
  "gourmet-galley-catering-north-stonington-north-stonington-ct": {
   "checked": "2026-11-09",
@@ -392,6 +459,11 @@
   "checked": "2026-11-09",
   "ph": "(513) 239-5400"
  },
+ "high-horse-bar-louisville-ky": {
+  "checked": "2026-11-09",
+  "ph": "(502) 690-5020",
+  "w": "https://highhorsebar.com"
+ },
  "high-spirits-evansville-evansville-in": {
   "checked": "2026-11-09",
   "ph": "(812) 893-7999"
@@ -409,6 +481,11 @@
   "checked": "2026-11-09",
   "ph": "(414) 497-0222",
   "w": "https://holeymackerelmke.com"
+ },
+ "holy-grale-louisville-ky": {
+  "checked": "2026-11-09",
+  "ph": "(502) 857-7457",
+  "w": "https://thegrales.com"
  },
  "home-town-liquor-braham-mn": {
   "checked": "2026-11-09",
@@ -430,6 +507,10 @@
   "ph": "(920) 489-3211",
   "w": "https://bayhouselanding.com"
  },
+ "italian-barrel-new-orleans-la": {
+  "checked": "2026-11-09",
+  "ph": "(504) 569-0198"
+ },
  "j-s-bottle-shop-athens-ga": {
   "checked": "2026-11-09",
   "ph": "(706) 353-8881"
@@ -444,6 +525,11 @@
   "ph": "(412) 480-1170",
   "w": "https://jillians-restaurant.com"
  },
+ "jolie-new-orleans-new-orleans-la": {
+  "checked": "2026-11-09",
+  "ph": "(504) 766-7233",
+  "w": "https://jolie-nola.com"
+ },
  "julio-s-liquors-inc-westboro-ma": {
   "checked": "2026-11-09",
   "ph": "(508) 366-1942",
@@ -453,6 +539,11 @@
   "checked": "2026-11-09",
   "ph": "(859) 291-4466",
   "w": "https://junipersginbar.net"
+ },
+ "keife-co-new-orleans-la": {
+  "checked": "2026-11-09",
+  "ph": "(504) 523-7272",
+  "w": "https://keifeandco.com"
  },
  "keyport-liquor-mn-duluth-mn": {
   "checked": "2026-11-09",
@@ -532,6 +623,11 @@
   "ph": "(614) 259-3101",
   "w": "https://mezawineshop.com"
  },
+ "mid-city-beer-garden-baton-rouge-la": {
+  "checked": "2026-11-09",
+  "ph": "(225) 910-8169",
+  "w": "https://midcitybeergarden.com"
+ },
  "middle-child-clubhouse-104509-philadelphia-pa": {
   "checked": "2026-11-09",
   "ph": "(267) 858-4325",
@@ -552,6 +648,11 @@
   "ph": "(812) 401-3800",
   "w": "https://mos-house.com"
  },
+ "mother-s-lounge-baton-rouge-la": {
+  "checked": "2026-11-09",
+  "ph": "(225) 256-4438",
+  "w": "https://mothersloungebr.com"
+ },
  "murrays-bev-store-nantucket-ma": {
   "checked": "2026-11-09",
   "ph": "(508) 228-0071"
@@ -571,6 +672,11 @@
   "ph": "(401) 619-3966",
   "w": "https://newportwinecellar.com"
  },
+ "nightbloom-bar-new-orleans-la": {
+  "checked": "2026-11-09",
+  "ph": "(504) 459-2169",
+  "w": "https://nightbloombar.com"
+ },
  "northeast-social-minneapolis-mn": {
   "checked": "2026-11-09",
   "ph": "(612) 877-8111",
@@ -580,10 +686,19 @@
   "checked": "2026-11-09",
   "w": "https://theohiotavern.com"
  },
+ "old-absinthe-house-new-orleans-la": {
+  "checked": "2026-11-09",
+  "ph": "(504) 524-0113",
+  "w": "https://ruebourbon.com/old-absinthe-house"
+ },
  "old-man-joe-s-westerly-ri": {
   "checked": "2026-11-09",
   "ph": "(401) 424-9862",
   "w": "https://oldmanjoes.us"
+ },
+ "old-town-liquors-louisville-ky": {
+  "checked": "2026-11-09",
+  "ph": "(502) 451-8591"
  },
  "ombibulous-minneapolis-mn": {
   "checked": "2026-11-09",
@@ -598,6 +713,11 @@
   "checked": "2026-11-09",
   "ph": "(215) 567-7683",
   "w": "https://oysterhousephilly.com"
+ },
+ "palmyre-lafayette-la": {
+  "checked": "2026-11-09",
+  "ph": "(337) 345-1466",
+  "w": "https://thepalmyre.com"
  },
  "paradise-wines-spirits-old-saybrook-ct": {
   "checked": "2026-11-09",
@@ -627,6 +747,11 @@
   "checked": "2026-11-09",
   "ph": "(401) 737-0900",
   "w": "https://peoplesliquor.com"
+ },
+ "pepp-s-pub-new-orleans-la": {
+  "checked": "2026-11-09",
+  "ph": "(985) 326-1975",
+  "w": "https://peppspub.com"
  },
  "perfusion-bar-newtown-ct": {
   "checked": "2026-11-09",
@@ -670,6 +795,11 @@
   "ph": "(608) 283-9017",
   "w": "https://publicparkingbar.com"
  },
+ "pursuit-spirits-louisville-ky": {
+  "checked": "2026-11-09",
+  "ph": "(502) 365-3374",
+  "w": "https://pursuitspirits.com"
+ },
  "red-wagon-minneapolis-mn": {
   "checked": "2026-11-09",
   "ph": "(612) 259-7147",
@@ -684,6 +814,11 @@
   "checked": "2026-11-09",
   "ph": "(608) 257-0400",
   "w": "https://rileyswines.com"
+ },
+ "river-room-baton-rouge-la": {
+  "checked": "2026-11-09",
+  "ph": "(225) 400-9627",
+  "w": "https://riverroombatonrouge.com"
  },
  "river-twice-101150-philadelphia-pa": {
   "checked": "2026-11-09",
@@ -710,6 +845,11 @@
   "ph": "(260) 278-0674",
   "w": "https://runerestaurant.com"
  },
+ "saint-john-restaurant-new-orleans-la": {
+  "checked": "2026-11-09",
+  "ph": "(504) 381-0385",
+  "w": "https://saintjohnneworleans.com"
+ },
  "saint-laurent-asbury-park-nj": {
   "checked": "2026-11-09",
   "ph": "(732) 795-2582",
@@ -719,6 +859,15 @@
   "checked": "2026-11-09",
   "ph": "(608) 441-1600",
   "w": "https://sardinemadison.com"
+ },
+ "serendipity-midway-ky": {
+  "checked": "2026-11-09",
+  "ph": "(859) 940-6407"
+ },
+ "seven-louisville-ky": {
+  "checked": "2026-11-09",
+  "ph": "(502) 450-8488",
+  "w": "https://sevenlouisville.com"
  },
  "shameless-grounds-st-louis-mo-ks": {
   "checked": "2026-11-09",
@@ -740,9 +889,18 @@
   "ph": "(781) 631-0149",
   "w": "https://shubies.com"
  },
+ "sidney-s-wine-cellar-new-orleans-la": {
+  "checked": "2026-11-09",
+  "ph": "(504) 524-6872"
+ },
  "small-change-mo-ks": {
   "checked": "2026-11-09",
   "w": "https://smallchangestl.com"
+ },
+ "southdowns-grille-baton-rouge-la": {
+  "checked": "2026-11-09",
+  "ph": "(225) 256-4192",
+  "w": "https://southdownsgrille.com"
  },
  "spencer-lynn-mystic-ct": {
   "checked": "2026-11-09",
@@ -804,6 +962,16 @@
   "checked": "2026-11-09",
   "w": "https://tacos203.com"
  },
+ "tell-me-bar-new-orleans-la": {
+  "checked": "2026-11-09",
+  "ph": "(408) 823-1895",
+  "w": "https://thetellmebar.com"
+ },
+ "the-baker-s-table-newport-ky": {
+  "checked": "2026-11-09",
+  "ph": "(859) 261-1941",
+  "w": "https://bakerstablenewport.com"
+ },
  "the-bar-at-firehouse-12-new-haven-ct": {
   "checked": "2026-11-09",
   "ph": "(203) 785-0468",
@@ -812,6 +980,11 @@
  "the-bemberg-indianapolis-in": {
   "checked": "2026-11-09",
   "w": "https://thebemberg.com"
+ },
+ "the-breeze-wine-bar-spirits-llc-louisville-ky": {
+  "checked": "2026-11-09",
+  "ph": "(502) 890-3040",
+  "w": "https://thebreezewine.com"
  },
  "the-cafe-at-field-day-118729-pittsburgh-pa": {
   "checked": "2026-11-09",
@@ -827,10 +1000,18 @@
   "checked": "2026-11-09",
   "ph": "(959) 716-4009"
  },
+ "the-domino-new-orleans-la": {
+  "checked": "2026-11-09",
+  "ph": "(504) 354-8737"
+ },
  "the-georgetown-owl-redding-ct": {
   "checked": "2026-11-09",
   "ph": "(203) 544-9102",
   "w": "https://georgetownowl.com"
+ },
+ "the-house-of-marigold-prospect-ky": {
+  "checked": "2026-11-09",
+  "w": "https://thehouseofmarigold.com"
  },
  "the-kitchen-bar-mo-ks": {
   "checked": "2026-11-09",
@@ -845,6 +1026,16 @@
   "checked": "2026-11-09",
   "ph": "(959) 333-4968",
   "w": "https://thelaurelrestaurantandbar.com"
+ },
+ "the-marsh-hotel-new-orleans-la": {
+  "checked": "2026-11-09",
+  "ph": "(504) 285-9660",
+  "w": "https://marshhotel.com"
+ },
+ "the-pearl-louisville-ky": {
+  "checked": "2026-11-09",
+  "ph": "(502) 996-7552",
+  "w": "https://thepearlofgermantown.com"
  },
  "the-pint-worcester-ma": {
   "checked": "2026-11-09",
@@ -913,6 +1104,24 @@
   "ph": "(651) 735-0910",
   "w": "https://totalwine.com/store-info/minnesota-woodbury/1604"
  },
+ "toulouse-theatre-new-orleans-la": {
+  "checked": "2026-11-09",
+  "ph": "(504) 571-9771",
+  "w": "https://toulousetheatre.com"
+ },
+ "trellis-brewing-company-louisville-ky": {
+  "checked": "2026-11-09",
+  "w": "https://trellisbrewing.com"
+ },
+ "twelve-mile-limit-new-orleans-la": {
+  "checked": "2026-11-09",
+  "ph": "(504) 488-8114",
+  "w": "https://twelvemilelimit.com"
+ },
+ "twist-of-lime-metairie-la": {
+  "checked": "2026-11-09",
+  "ph": "(504) 455-7775"
+ },
  "vetri-restaurant-42792-philadelphia-pa": {
   "checked": "2026-11-09",
   "ph": "(215) 732-3478",
@@ -921,6 +1130,11 @@
  "village-wines-and-spirits-niantic-ct": {
   "checked": "2026-11-09",
   "ph": "(860) 739-8870"
+ },
+ "vine-and-branch-lexington-ky": {
+  "checked": "2026-11-09",
+  "ph": "(859) 313-9742",
+  "w": "https://vineandbranchwine.com"
  },
  "vine-barley-e-boston-ma": {
   "checked": "2026-11-09",
