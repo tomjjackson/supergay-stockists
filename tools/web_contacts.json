@@ -14,6 +14,16 @@
   "ph": "(978) 254-0710",
   "w": "https://adelitaconcord.com"
  },
+ "alamo-drafthouse-st-louis-st-louis-mo-ks": {
+  "checked": "2026-11-09",
+  "ph": "(314) 669-2079",
+  "w": "https://drafthouse.com/st-louis/theater/city-foundry"
+ },
+ "all-saints-minneapolis-mn": {
+  "checked": "2026-11-09",
+  "ph": "(612) 259-7507",
+  "w": "https://allsaintsmpls.com"
+ },
  "american-provisions-dorchester-cntr-ma": {
   "checked": "2026-11-09",
   "ph": "(617) 514-4599",
@@ -61,6 +71,16 @@
   "ph": "(617) 522-9300",
   "w": "https://blanchardsliquor.com"
  },
+ "bodhi-craft-bar-thai-bistro-indianapolis-in": {
+  "checked": "2026-11-09",
+  "ph": "(317) 941-6595",
+  "w": "https://bodhi-indy.com"
+ },
+ "bootleggin-bob-s-st-louis-mo-ks": {
+  "checked": "2026-11-09",
+  "ph": "(314) 335-7924",
+  "w": "https://bootlegginbobs.com"
+ },
  "bottles-fine-wine-providence-ri": {
   "checked": "2026-11-09",
   "ph": "(401) 372-2030",
@@ -70,6 +90,16 @@
   "checked": "2026-11-09",
   "ph": "(617) 232-1330",
   "w": "https://brooklinewineandspirits.com"
+ },
+ "brookside-wine-spirits-mo-ks": {
+  "checked": "2026-11-09",
+  "ph": "(816) 266-4103",
+  "w": "https://brooksidewineandspirits.com"
+ },
+ "bubbles-parkville-mo-ks": {
+  "checked": "2026-11-09",
+  "ph": "(816) 585-7667",
+  "w": "https://bubbleswineandspirits.com"
  },
  "buckalew-s-general-store-melrose-ma": {
   "checked": "2026-11-09",
@@ -81,10 +111,30 @@
   "ph": "(412) 621-2700",
   "w": "https://butterjoint.com"
  },
+ "byerlys-dt-minneapolis-mn": {
+  "checked": "2026-11-09",
+  "ph": "(612) 379-5050",
+  "w": "https://lundsandbyerlys.com"
+ },
+ "byerlys-golden-valley-golden-valley-mn": {
+  "checked": "2026-11-09",
+  "ph": "(763) 544-8978",
+  "w": "https://lundsandbyerlys.com"
+ },
+ "cabana-club-minneapolis-mn": {
+  "checked": "2026-11-09",
+  "ph": "(612) 315-3614",
+  "w": "https://cabanaclubmpls.com"
+ },
  "caf-passerine-114526-lancaster-pa": {
   "checked": "2026-11-09",
   "ph": "(717) 283-2996",
   "w": "https://cafepasserine.com"
+ },
+ "cafe-natasha-st-louis-mo-ks": {
+  "checked": "2026-11-09",
+  "ph": "(314) 771-3411",
+  "w": "https://cafenatasha.com"
  },
  "cafe-routier-westbrook-ct": {
   "checked": "2026-11-09",
@@ -105,15 +155,34 @@
   "checked": "2026-11-09",
   "ph": "(860) 546-9200"
  },
+ "cashwisewilmar-wilmar-mn": {
+  "checked": "2026-11-09",
+  "ph": "(320) 235-8797",
+  "w": "https://cashwise.com"
+ },
  "casita-north-adams-ma": {
   "checked": "2026-11-09",
   "ph": "(413) 346-4467",
   "w": "https://casitaberkshires.com"
  },
+ "cellar-rat-wine-merchants-mo-ks": {
+  "checked": "2026-11-09",
+  "ph": "(816) 221-9463",
+  "w": "https://cellarratwine.com"
+ },
  "center-wine-spirits-glastonbury-ct": {
   "checked": "2026-11-09",
   "ph": "(860) 430-2887",
   "w": "https://www.centerwineandspirits.com/"
+ },
+ "chartreuse-saloon-kansas-city-mo-ks": {
+  "checked": "2026-11-09",
+  "w": "https://chartreusesaloon.com"
+ },
+ "cherry-picker-springfield-mo-ks": {
+  "checked": "2026-11-09",
+  "ph": "(417) 986-5800",
+  "w": "https://cherrypickerpackage.com"
  },
  "cheshire-wine-spirits-cheshire-ct": {
   "checked": "2026-11-09",
@@ -123,14 +192,41 @@
   "checked": "2026-11-09",
   "ph": "(203) 250-0962"
  },
+ "chester-creek-cafe-duluth-mn": {
+  "checked": "2026-11-09",
+  "ph": "(218) 724-6811",
+  "w": "https://astccc.net"
+ },
+ "city-wide-liquor-smoke-3-lasalle-south-bend-in": {
+  "checked": "2026-11-09",
+  "ph": "(574) 400-0175"
+ },
+ "city-wide-liquors-grape-mishawaka-in": {
+  "checked": "2026-11-09",
+  "ph": "(574) 287-8652",
+  "w": "https://citywideliquors.com"
+ },
+ "city-wide-liquors-lasalle-south-bend-in": {
+  "checked": "2026-11-09",
+  "ph": "(574) 400-0175"
+ },
  "coalhouse-pizzeria-stamford-ct": {
   "checked": "2026-11-09",
   "ph": "(203) 977-7700"
+ },
+ "coborns-st-cloud-st-cloud-mn": {
+  "checked": "2026-11-09",
+  "ph": "(320) 252-8340",
+  "w": "https://coborns.com/stores/Cobstore2035"
  },
  "commoner-at-hotel-monaco-109387-pittsburgh-pa": {
   "checked": "2026-11-09",
   "ph": "(412) 230-4800",
   "w": "https://monaco-pittsburgh.com/restaurants/commoner/"
+ },
+ "constitution-lexington-ky": {
+  "checked": "2026-11-09",
+  "w": "https://constitutionbookstore.com"
  },
  "conti-s-wines-and-spirits-fka-southington-wine-southington-ct": {
   "checked": "2026-11-09",
@@ -147,6 +243,11 @@
   "ph": "(203) 691-6949",
   "w": "https://www.corkandbarrelhamden.com/"
  },
+ "cork-n-bottle-madison-wi": {
+  "checked": "2026-11-09",
+  "ph": "(608) 256-3620",
+  "w": "https://madisoncorknbottle.com"
+ },
  "court-liquors-long-branch-nj": {
   "checked": "2026-11-09",
   "ph": "(732) 870-9859",
@@ -162,6 +263,20 @@
   "ph": "(617) 981-4577",
   "w": "https://woodshillpier4.com"
  },
+ "dana-s-fort-wayne-in": {
+  "checked": "2026-11-09",
+  "w": "https://drinkatdanas.com"
+ },
+ "dario-minneapolis-mn": {
+  "checked": "2026-11-09",
+  "ph": "(612) 614-2560",
+  "w": "https://dariorestaurant.com"
+ },
+ "dark-arts-whiskey-house-lexington-ky": {
+  "checked": "2026-11-09",
+  "ph": "(859) 222-7790",
+  "w": "https://darkartswhiskey.com"
+ },
  "dead-horse-hill-worcester-ma": {
   "checked": "2026-11-09",
   "ph": "(774) 420-7107",
@@ -176,6 +291,11 @@
   "checked": "2026-11-09",
   "ph": "(412) 390-2012",
   "w": "https://dishosteria.com"
+ },
+ "eat-no-6-south-bend-in": {
+  "checked": "2026-11-09",
+  "ph": "(574) 855-3817",
+  "w": "https://eatno6.com"
  },
  "elemental-spirits-co-atlanta-ga": {
   "checked": "2026-11-09",
@@ -216,9 +336,23 @@
   "ph": "(706) 543-6989",
   "w": "https://fivepointsbottleshop.com"
  },
+ "foster-cocktail-company-commodore-cafe-appleton-wi": {
+  "checked": "2026-11-09",
+  "w": "https://commodoreclubandcafe.com"
+ },
+ "friar-tuck-crestwood-mo-ks": {
+  "checked": "2026-11-09",
+  "ph": "(314) 918-9230",
+  "w": "https://crestwood.friartuckonline.com"
+ },
  "fujiya-92066-pittsburgh-pa": {
   "checked": "2026-11-09",
   "w": "https://fujiyaramenpgh.com"
+ },
+ "geraldine-s-supper-club-lounge-indianapolis-in": {
+  "checked": "2026-11-09",
+  "ph": "(317) 600-3336",
+  "w": "https://geraldinesindy.com"
  },
  "gg-at-home-niantic-niantic-ct": {
   "checked": "2026-11-09",
@@ -239,6 +373,16 @@
   "ph": "(617) 764-5026",
   "w": "https://icecreamgracies.com"
  },
+ "grand-marais-municipal-liquor-store-grand-marais-mn": {
+  "checked": "2026-11-09",
+  "ph": "(218) 387-1630",
+  "w": "https://gmliquor.city"
+ },
+ "green-grocer-williams-bay-wi": {
+  "checked": "2026-11-09",
+  "ph": "(262) 245-9077",
+  "w": "https://greengrocerwb.com"
+ },
  "h-f-bottle-shop-atlanta-ga": {
   "checked": "2026-11-09",
   "ph": "(404) 841-4070",
@@ -248,18 +392,52 @@
   "checked": "2026-11-09",
   "ph": "(513) 239-5400"
  },
+ "high-spirits-evansville-evansville-in": {
+  "checked": "2026-11-09",
+  "ph": "(812) 893-7999"
+ },
  "high-street-place-boston-ma": {
   "checked": "2026-11-09",
   "w": "https://highstreetplace.com"
+ },
+ "hill-valley-dairy-cheese-bar-milwaukee-wi": {
+  "checked": "2026-11-09",
+  "ph": "(414) 269-8111",
+  "w": "https://hillvalleydairy.com"
+ },
+ "holey-mackerel-greenfield-wi": {
+  "checked": "2026-11-09",
+  "ph": "(414) 497-0222",
+  "w": "https://holeymackerelmke.com"
+ },
+ "home-town-liquor-braham-mn": {
+  "checked": "2026-11-09",
+  "ph": "(320) 396-2381",
+  "w": "https://brahammn.gov/liquor"
+ },
+ "honeywood-restaurant-lexington-ky": {
+  "checked": "2026-11-09",
+  "ph": "(859) 469-8234",
+  "w": "https://honeywoodrestaurant.com"
  },
  "hotel-rambler-sidecar-bar-cincinnati-oh": {
   "checked": "2026-11-09",
   "ph": "(513) 954-4100",
   "w": "https://thehotelrambler.com"
  },
+ "il-bar-coffeehouse-bistro-green-bay-green-bay-wi": {
+  "checked": "2026-11-09",
+  "ph": "(920) 489-3211",
+  "w": "https://bayhouselanding.com"
+ },
  "j-s-bottle-shop-athens-ga": {
   "checked": "2026-11-09",
   "ph": "(706) 353-8881"
+ },
+ "jade-monkey-madison-wi": {
+  "checked": "2026-11-09",
+  "ph": "(608) 819-8503",
+  "w": "https://jademonkeybar.com"
  },
  "jillian-s-115987-new-kensington-pa": {
   "checked": "2026-11-09",
@@ -271,6 +449,15 @@
   "ph": "(508) 366-1942",
   "w": "https://juliosliquors.com"
  },
+ "juniper-s-covington-ky": {
+  "checked": "2026-11-09",
+  "ph": "(859) 291-4466",
+  "w": "https://junipersginbar.net"
+ },
+ "keyport-liquor-mn-duluth-mn": {
+  "checked": "2026-11-09",
+  "w": "https://keyportliquors.com"
+ },
  "kindred-spirits-wine-westport-westport-ct": {
   "checked": "2026-11-09",
   "ph": "(203) 259-3939",
@@ -279,6 +466,10 @@
  "lank-s-wine-liquor-inc-hyde-park-ma": {
   "checked": "2026-11-09",
   "ph": "(617) 364-1100"
+ },
+ "leestown-road-liquors-lexington-ky": {
+  "checked": "2026-11-09",
+  "ph": "(859) 254-8642"
  },
  "liars-somerville-ma": {
   "checked": "2026-11-09",
@@ -307,6 +498,11 @@
   "ph": "(412) 924-9050",
   "w": "https://localprovisionspgh.com"
  },
+ "lost-whale-milwaukee-wi": {
+  "checked": "2026-11-09",
+  "ph": "(414) 249-3188",
+  "w": "https://lostwhalemke.com"
+ },
  "lou-s-cambridge-ma": {
   "checked": "2026-11-09",
   "ph": "(857) 706-1100",
@@ -321,6 +517,16 @@
   "checked": "2026-11-09",
   "ph": "(401) 821-3020"
  },
+ "meat-people-butcher-madison-wi": {
+  "checked": "2026-11-09",
+  "ph": "(608) 298-7167",
+  "w": "https://meatpeoplebutcher.com"
+ },
+ "metcalfe-s-sentry-west-towne-madison-wi": {
+  "checked": "2026-11-09",
+  "ph": "(608) 829-3500",
+  "w": "https://shopmetcalfes.com"
+ },
  "meza-westerville-oh": {
   "checked": "2026-11-09",
   "ph": "(614) 259-3101",
@@ -330,6 +536,11 @@
   "checked": "2026-11-09",
   "ph": "(267) 858-4325",
   "w": "https://middlechildphilly.com"
+ },
+ "mint-mark-madison-wi": {
+  "checked": "2026-11-09",
+  "ph": "(608) 285-5096",
+  "w": "https://mintmarkmadison.com"
  },
  "misfit-club-mystic-ct": {
   "checked": "2026-11-09",
@@ -360,10 +571,23 @@
   "ph": "(401) 619-3966",
   "w": "https://newportwinecellar.com"
  },
+ "northeast-social-minneapolis-mn": {
+  "checked": "2026-11-09",
+  "ph": "(612) 877-8111",
+  "w": "https://northeastsocial.com"
+ },
+ "ohio-tavern-madison-wi": {
+  "checked": "2026-11-09",
+  "w": "https://theohiotavern.com"
+ },
  "old-man-joe-s-westerly-ri": {
   "checked": "2026-11-09",
   "ph": "(401) 424-9862",
   "w": "https://oldmanjoes.us"
+ },
+ "ombibulous-minneapolis-mn": {
+  "checked": "2026-11-09",
+  "w": "https://ombibulousmn.com"
  },
  "owl-and-dove-pawcatuck-ct": {
   "checked": "2026-11-09",
@@ -384,6 +608,21 @@
   "checked": "2026-11-09",
   "ph": "(860) 904-7755"
  },
+ "party-town-florence-ky": {
+  "checked": "2026-11-09",
+  "ph": "(859) 371-4466",
+  "w": "https://partytownky.com"
+ },
+ "patsy-hartigan-s-irish-pub-evansville-in": {
+  "checked": "2026-11-09",
+  "ph": "(812) 773-3570",
+  "w": "https://phirishpub.com"
+ },
+ "pearl-s-lexington-ky": {
+  "checked": "2026-11-09",
+  "ph": "(859) 309-0321",
+  "w": "https://pearlspizzapie.com"
+ },
  "people-s-liquor-warehouse-warwick-ri": {
   "checked": "2026-11-09",
   "ph": "(401) 737-0900",
@@ -399,6 +638,15 @@
   "ph": "(508) 487-0140",
   "w": "https://ptownperrys.com"
  },
+ "pierpont-s-at-union-station-kansas-city-mo-ks": {
+  "checked": "2026-11-09",
+  "ph": "(816) 221-5111",
+  "w": "https://pierponts.com"
+ },
+ "plume-wine-bar-green-bay-wi": {
+  "checked": "2026-11-09",
+  "w": "https://downtowngreenbay.com/go/plume"
+ },
  "portuguese-american-club-inc-attleboro-ma": {
   "checked": "2026-11-09",
   "ph": "(508) 222-9748"
@@ -407,20 +655,45 @@
   "checked": "2026-11-09",
   "w": "https://posthastephilly.com"
  },
+ "princeton-liquors-maple-grove-mn": {
+  "checked": "2026-11-09",
+  "ph": "(763) 559-3257",
+  "w": "https://princetonsliquors.com"
+ },
  "proof-106270-lancaster-pa": {
   "checked": "2026-11-09",
   "ph": "(717) 925-7770",
   "w": "https://prooflancaster.com"
+ },
+ "public-parking-bar-madison-wi": {
+  "checked": "2026-11-09",
+  "ph": "(608) 283-9017",
+  "w": "https://publicparkingbar.com"
+ },
+ "red-wagon-minneapolis-mn": {
+  "checked": "2026-11-09",
+  "ph": "(612) 259-7147",
+  "w": "https://redwagon-mpls.com"
  },
  "rhined-cincinnati-oh": {
   "checked": "2026-11-09",
   "ph": "(513) 655-5938",
   "w": "https://therhined.com"
  },
+ "riley-s-wine-of-the-world-madison-wi": {
+  "checked": "2026-11-09",
+  "ph": "(608) 257-0400",
+  "w": "https://rileyswines.com"
+ },
  "river-twice-101150-philadelphia-pa": {
   "checked": "2026-11-09",
   "ph": "(267) 457-3698",
   "w": "https://rivertwicerestaurant.com"
+ },
+ "robin-room-madison-wi": {
+  "checked": "2026-11-09",
+  "ph": "(608) 284-7638",
+  "w": "https://robinroombar.com"
  },
  "rosemary-110744-ridley-park-pa": {
   "checked": "2026-11-09",
@@ -432,10 +705,25 @@
   "ph": "(732) 842-0552",
   "w": "https://rumsonwineandspirits.com"
  },
+ "rune-fort-wayne-in": {
+  "checked": "2026-11-09",
+  "ph": "(260) 278-0674",
+  "w": "https://runerestaurant.com"
+ },
  "saint-laurent-asbury-park-nj": {
   "checked": "2026-11-09",
   "ph": "(732) 795-2582",
   "w": "https://thestlaurent.com"
+ },
+ "sardine-madison-wi": {
+  "checked": "2026-11-09",
+  "ph": "(608) 441-1600",
+  "w": "https://sardinemadison.com"
+ },
+ "shameless-grounds-st-louis-mo-ks": {
+  "checked": "2026-11-09",
+  "ph": "(314) 449-1240",
+  "w": "https://shamelessgrounds.com"
  },
  "shipwreck-lounge-provincetown-ma": {
   "checked": "2026-11-09",
@@ -452,6 +740,10 @@
   "ph": "(781) 631-0149",
   "w": "https://shubies.com"
  },
+ "small-change-mo-ks": {
+  "checked": "2026-11-09",
+  "w": "https://smallchangestl.com"
+ },
  "spencer-lynn-mystic-ct": {
   "checked": "2026-11-09",
   "ph": "(860) 415-8626",
@@ -466,10 +758,19 @@
   "ph": "(617) 848-4355",
   "w": "https://stateparkbar.com"
  },
+ "steve-s-junction-rd-madison-wi": {
+  "checked": "2026-11-09",
+  "ph": "(608) 833-5995",
+  "w": "https://stevesknows.com/junction"
+ },
  "stevie-s-a-package-store-fairhaven-ma": {
   "checked": "2026-11-09",
   "ph": "(774) 510-7881",
   "w": "https://stevieswineandspirit.com"
+ },
+ "stinson-wine-beer-spirits-minneapolis-mn": {
+  "checked": "2026-11-09",
+  "ph": "(612) 789-0678"
  },
  "stockton-fine-wines-stockton-nj": {
   "checked": "2026-11-09",
@@ -486,6 +787,19 @@
   "ph": "(860) 241-0811",
   "w": "https://sunberrycafe.com/"
  },
+ "surdyks-minneapolis-mn": {
+  "checked": "2026-11-09",
+  "ph": "(612) 379-3232",
+  "w": "https://surdyks.com"
+ },
+ "swordfish-toms-kansas-city-mo-ks": {
+  "checked": "2026-11-09",
+  "w": "https://swordfishtoms.com"
+ },
+ "table-wine-madison-wi": {
+  "checked": "2026-11-09",
+  "w": "https://tablewinemadison.com"
+ },
  "tacos-203-norwalk-ct": {
   "checked": "2026-11-09",
   "w": "https://tacos203.com"
@@ -494,6 +808,10 @@
   "checked": "2026-11-09",
   "ph": "(203) 785-0468",
   "w": "https://firehouse12.com/bar"
+ },
+ "the-bemberg-indianapolis-in": {
+  "checked": "2026-11-09",
+  "w": "https://thebemberg.com"
  },
  "the-cafe-at-field-day-118729-pittsburgh-pa": {
   "checked": "2026-11-09",
@@ -514,6 +832,10 @@
   "ph": "(203) 544-9102",
   "w": "https://georgetownowl.com"
  },
+ "the-kitchen-bar-mo-ks": {
+  "checked": "2026-11-09",
+  "w": "https://cityfoundrystl.com/directory/the-kitchen-bar"
+ },
  "the-knickerbocker-tavern-47035-altoona-pa": {
   "checked": "2026-11-09",
   "ph": "(814) 942-0770",
@@ -532,6 +854,15 @@
   "checked": "2026-11-09",
   "ph": "(860) 980-3648",
   "w": "https://theportofcallct.com"
+ },
+ "the-red-door-lounge-la-porte-in": {
+  "checked": "2026-11-09",
+  "ph": "(219) 575-7040"
+ },
+ "the-royale-food-and-spirits-stl-st-louis-mo-ks": {
+  "checked": "2026-11-09",
+  "ph": "(314) 772-3600",
+  "w": "https://theroyale.com"
  },
  "the-spigot-cafe-hartford-ct": {
   "checked": "2026-11-09",
@@ -572,6 +903,16 @@
   "ph": "(860) 644-0184",
   "w": "https://www.totalwine.com/store-info/connecticut-manchester/1502"
  },
+ "total-wine-roseville-roseville-mn": {
+  "checked": "2026-11-09",
+  "ph": "(651) 636-4157",
+  "w": "https://totalwine.com/store-info/minnesota-roseville-rosedale/1602"
+ },
+ "total-wine-woodbury-woodbury-mn": {
+  "checked": "2026-11-09",
+  "ph": "(651) 735-0910",
+  "w": "https://totalwine.com/store-info/minnesota-woodbury/1604"
+ },
  "vetri-restaurant-42792-philadelphia-pa": {
   "checked": "2026-11-09",
   "ph": "(215) 732-3478",
@@ -585,10 +926,20 @@
   "checked": "2026-11-09",
   "ph": "(617) 569-1695"
  },
+ "vine-shop-hopkins-mn": {
+  "checked": "2026-11-09",
+  "ph": "(952) 300-3534",
+  "w": "https://vineshop.co"
+ },
  "weiland-s-market-columbus-oh": {
   "checked": "2026-11-09",
   "ph": "(614) 267-9878",
   "w": "https://weilandsmarket.com"
+ },
+ "westside-wilmar-wilmar-mn": {
+  "checked": "2026-11-09",
+  "ph": "(320) 222-2337",
+  "w": "https://westsideliquor.org"
  },
  "wheeler-wine-merchants-sharon-ct": {
   "checked": "2026-11-09",
@@ -603,6 +954,11 @@
   "checked": "2026-11-09",
   "ph": "(617) 360-7777",
   "w": "https://whiskeyandwinebrighton.com"
+ },
+ "whole-earth-co-op-river-falls-wi": {
+  "checked": "2026-11-09",
+  "ph": "(715) 425-7971",
+  "w": "https://wholeearthgrocery.coop"
  },
  "wilder-95957-philadelphia-pa": {
   "checked": "2026-11-09",
@@ -638,6 +994,15 @@
   "ph": "(617) 277-7020",
   "w": "https://winepressbrookline.com"
  },
+ "wine-shop-new-albany-in": {
+  "checked": "2026-11-09",
+  "w": "https://wineshopnewalbany.com"
+ },
+ "wine-thief-ale-jail-crystal-crystal-mn": {
+  "checked": "2026-11-09",
+  "ph": "(763) 208-0070",
+  "w": "https://winethief.net"
+ },
  "wine-thief-crown-st-new-haven-ct": {
   "checked": "2026-11-09",
   "ph": "(203) 772-1944",
@@ -663,10 +1028,18 @@
   "ph": "(978) 254-1435",
   "w": "https://woodshilltable.com"
  },
+ "world-famous-hot-boys-fountain-square-indianapolis-in": {
+  "checked": "2026-11-09",
+  "w": "https://worldfamoushotboys.com/locations/indianapolis"
+ },
  "world-of-quercus-gay-ga": {
   "checked": "2026-11-09",
   "ph": "(770) 884-4434",
   "w": "https://worldofquercus.com"
+ },
+ "world-of-spirits-mo-ks": {
+  "checked": "2026-11-09",
+  "ph": "(816) 931-7579"
  },
  "worldwide-wine-spirits-southington-ct": {
   "checked": "2026-11-09",
