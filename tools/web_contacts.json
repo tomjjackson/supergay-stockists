@@ -76,6 +76,11 @@
   "checked": "2026-11-09",
   "ph": "(504) 324-6045"
  },
+ "baron-s-quality-meats-san-francisco-ca": {
+  "checked": "2026-11-09",
+  "ph": "(415) 654-5449",
+  "w": "https://baronsmeats.com"
+ },
  "barrel-house-dayton-oh": {
   "checked": "2026-11-09",
   "ph": "(937) 222-4795",
@@ -214,6 +219,11 @@
   "ph": "(413) 346-4467",
   "w": "https://casitaberkshires.com"
  },
+ "castro-village-wine-co-san-francisco-ca": {
+  "checked": "2026-11-09",
+  "ph": "(415) 864-4411",
+  "w": "https://castrowine.com"
+ },
  "cellar-rat-wine-merchants-mo-ks": {
   "checked": "2026-11-09",
   "ph": "(816) 221-9463",
@@ -227,6 +237,11 @@
  "chartreuse-saloon-kansas-city-mo-ks": {
   "checked": "2026-11-09",
   "w": "https://chartreusesaloon.com"
+ },
+ "che-fico-pizzeria-san-francisco-ca": {
+  "checked": "2026-11-09",
+  "ph": "(415) 655-9675",
+  "w": "https://cheficopizzeria.com"
  },
  "cherry-picker-springfield-mo-ks": {
   "checked": "2026-11-09",
@@ -245,6 +260,15 @@
   "checked": "2026-11-09",
   "ph": "(218) 724-6811",
   "w": "https://astccc.net"
+ },
+ "chief-sf-san-francisco-ca": {
+  "checked": "2026-11-09",
+  "w": "https://chief.com"
+ },
+ "chips-liquor-san-diego-ca": {
+  "checked": "2026-11-09",
+  "ph": "(858) 273-1536",
+  "w": "https://chipsliquor.com"
  },
  "city-wide-liquor-smoke-3-lasalle-south-bend-in": {
   "checked": "2026-11-09",
@@ -317,6 +341,11 @@
   "ph": "(617) 981-4577",
   "w": "https://woodshillpier4.com"
  },
+ "cultivar-sf-san-francisco-ca": {
+  "checked": "2026-11-09",
+  "ph": "(415) 962-4200",
+  "w": "https://cultivarwine.com/cultivar-san-francisco"
+ },
  "cultura-carmel-ca": {
   "checked": "2026-11-09",
   "ph": "(831) 250-7005",
@@ -377,6 +406,10 @@
   "ph": "(412) 390-2012",
   "w": "https://dishosteria.com"
  },
+ "dolores-out-post-san-francisco-ca": {
+  "checked": "2026-11-09",
+  "w": "https://doloresoutpost.com"
+ },
  "dovetail-bar-new-orleans-la": {
   "checked": "2026-11-09",
   "ph": "(504) 345-2949",
@@ -412,10 +445,19 @@
   "ph": "(937) 767-7077",
   "w": "https://emporiumwines.com"
  },
+ "epicurean-trader-the-san-francisco-ca": {
+  "checked": "2026-11-09",
+  "w": "https://theepicureantrader.com"
+ },
  "erewhon-palisades-pacific-palisades-ca": {
   "checked": "2026-11-09",
   "ph": "(310) 561-8898",
   "w": "https://erewhon.com"
+ },
+ "eureka-market-san-francisco-ca": {
+  "checked": "2026-11-09",
+  "ph": "(415) 655-9294",
+  "w": "https://eurekamarketdeli.com"
  },
  "everly-hotel-kimpton-los-angeles-ca": {
   "checked": "2026-11-09",
@@ -437,6 +479,11 @@
   "ph": "(617) 928-6000",
   "w": "https://farmsteadtable.com"
  },
+ "fernside-san-diego-ca": {
+  "checked": "2026-11-09",
+  "ph": "(619) 255-9591",
+  "w": "https://fernsidebar.com"
+ },
  "fet-fisk-117755-pittsburgh-pa": {
   "checked": "2026-11-09",
   "w": "https://fetfisk.net"
@@ -450,6 +497,10 @@
   "checked": "2026-11-09",
   "ph": "(908) 465-0021",
   "w": "https://finnbarjersey.com"
+ },
+ "fireside-san-francisco-ca": {
+  "checked": "2026-11-09",
+  "ph": "(415) 731-6433"
  },
  "five-points-bottle-shop-athens-ga": {
   "checked": "2026-11-09",
@@ -492,6 +543,10 @@
  "fujiya-92066-pittsburgh-pa": {
   "checked": "2026-11-09",
   "w": "https://fujiyaramenpgh.com"
+ },
+ "full-proof-san-francisco-ca": {
+  "checked": "2026-11-09",
+  "w": "https://fullproofsf.com"
  },
  "galaxie-louisville-ky": {
   "checked": "2026-11-09",
@@ -545,9 +600,19 @@
   "ph": "(404) 841-4070",
   "w": "https://hfbottleshop.com"
  },
+ "haight-street-market-san-francisco-ca": {
+  "checked": "2026-11-09",
+  "ph": "(415) 255-0643",
+  "w": "https://gussmarket.com/locations/haight-street-market"
+ },
  "harvest-market-milford-milford-oh": {
   "checked": "2026-11-09",
   "ph": "(513) 239-5400"
+ },
+ "healthy-spirits-cortland-san-francisco-ca": {
+  "checked": "2026-11-09",
+  "ph": "(415) 374-7838",
+  "w": "https://healthyspirits.com"
  },
  "hi-lo-liquor-long-beach-ca": {
   "checked": "2026-11-09",
@@ -649,6 +714,10 @@
   "ph": "(859) 291-4466",
   "w": "https://junipersginbar.net"
  },
+ "k-b-wine-cellars-san-diego-ca": {
+  "checked": "2026-11-09",
+  "w": "https://knbbistro.com"
+ },
  "k-l-wine-merchants-culver-city-culver-city-ca": {
   "checked": "2026-11-09",
   "w": "https://klwines.com"
@@ -675,6 +744,11 @@
  "lank-s-wine-liquor-inc-hyde-park-ma": {
   "checked": "2026-11-09",
   "ph": "(617) 364-1100"
+ },
+ "last-rites-san-francisco-ca": {
+  "checked": "2026-11-09",
+  "ph": "(415) 295-2965",
+  "w": "https://lastritesbar.com"
  },
  "lawler-s-liquors-napa-ca": {
   "checked": "2026-11-09",
@@ -717,10 +791,23 @@
   "ph": "(707) 756-5021",
   "w": "https://loandbeholdca.com"
  },
+ "lobby-bar-san-francisco-ca": {
+  "checked": "2026-11-09",
+  "w": "https://lobbybarsf.com"
+ },
+ "lobby-bar-sf-san-francisco-ca": {
+  "checked": "2026-11-09",
+  "w": "https://lobbybarsf.com"
+ },
  "local-provisions-112717-pittsburgh-pa": {
   "checked": "2026-11-09",
   "ph": "(412) 924-9050",
   "w": "https://localprovisionspgh.com"
+ },
+ "london-market-san-francisco-ca": {
+  "checked": "2026-11-09",
+  "ph": "(415) 346-6340",
+  "w": "https://londonmarketsf.com"
  },
  "lost-whale-milwaukee-wi": {
   "checked": "2026-11-09",
@@ -731,6 +818,16 @@
   "checked": "2026-11-09",
   "ph": "(857) 706-1100",
   "w": "https://wearelous.com"
+ },
+ "luke-s-local-cole-st-san-francisco-ca": {
+  "checked": "2026-11-09",
+  "ph": "(415) 742-4207",
+  "w": "https://lukeslocal.com"
+ },
+ "luke-s-local-green-san-francisco-ca": {
+  "checked": "2026-11-09",
+  "ph": "(415) 287-2082",
+  "w": "https://lukeslocal.com"
  },
  "machines-with-magnets-pawtucket-ri": {
   "checked": "2026-11-09",
@@ -771,6 +868,11 @@
   "ph": "(608) 285-5096",
   "w": "https://mintmarkmadison.com"
  },
+ "miramar-wine-and-liquor-san-diego-ca": {
+  "checked": "2026-11-09",
+  "ph": "(858) 369-1211",
+  "w": "https://mmwineliquor.com"
+ },
  "misfit-club-mystic-ct": {
   "checked": "2026-11-09",
   "ph": "(860) 815-1805",
@@ -790,6 +892,11 @@
   "checked": "2026-11-09",
   "ph": "(225) 256-4438",
   "w": "https://mothersloungebr.com"
+ },
+ "mother-san-francisco-ca": {
+  "checked": "2026-11-09",
+  "ph": "(415) 815-7387",
+  "w": "https://mothersf.com"
  },
  "murrays-bev-store-nantucket-ma": {
   "checked": "2026-11-09",
@@ -879,6 +986,10 @@
   "checked": "2026-11-09",
   "ph": "(860) 388-9957",
   "w": "https://paradisewinesandspirits.com"
+ },
+ "parasol-at-cafe-flore-san-francisco-ca": {
+  "checked": "2026-11-09",
+  "w": "https://parasolsf.com"
  },
  "parkview-wine-spirits-w-hartford-ct": {
   "checked": "2026-11-09",
@@ -1049,6 +1160,10 @@
  "serendipity-midway-ky": {
   "checked": "2026-11-09",
   "ph": "(859) 940-6407"
+ },
+ "servall-liquor-san-diego-ca": {
+  "checked": "2026-11-09",
+  "ph": "(619) 692-3225"
  },
  "seven-louisville-ky": {
   "checked": "2026-11-09",
