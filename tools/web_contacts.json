@@ -178,6 +178,15 @@
   "ph": "(617) 232-1330",
   "w": "https://brooklinewineandspirits.com"
  },
+ "brooklyn-botanic-garden-brooklyn-ny": {
+  "checked": "2026-11-09",
+  "ph": "(718) 623-7200",
+  "w": "https://bbg.org"
+ },
+ "brooklyn-grange-brooklyn-ny": {
+  "checked": "2026-11-09",
+  "w": "https://brooklyngrangefarm.com"
+ },
  "brooklyn-kura-brooklyn-ny": {
   "checked": "2026-11-09",
   "w": "https://brooklynkura.com"
@@ -480,6 +489,23 @@
   "ph": "(760) 820-1063",
   "w": "https://desiertoalto.com"
  },
+ "diamond-lil-brooklyn-ny": {
+  "checked": "2026-11-09",
+  "w": "https://diamondlilbar.com"
+ },
+ "dilly-dally-brooklyn-ny": {
+  "checked": "2026-11-09",
+  "ph": "(646) 688-0001"
+ },
+ "dinner-party-restaurant-brooklyn-ny": {
+  "checked": "2026-11-09",
+  "ph": "(347) 463-9173",
+  "w": "https://dinnerpartybk.com"
+ },
+ "disco-bottles-brooklyn-ny": {
+  "checked": "2026-11-09",
+  "w": "https://discobottlesbk.com"
+ },
  "dish-osteria-and-bar-45426-pittsburgh-pa": {
   "checked": "2026-11-09",
   "ph": "(412) 390-2012",
@@ -509,6 +535,10 @@
   "ph": "(213) 335-6166",
   "w": "https://erbla.com"
  },
+ "easy-lover-brooklyn-ny": {
+  "checked": "2026-11-09",
+  "w": "https://easyloverbk.com"
+ },
  "eat-no-6-south-bend-in": {
   "checked": "2026-11-09",
   "ph": "(574) 855-3817",
@@ -519,15 +549,29 @@
   "ph": "(213) 310-8000",
   "w": "https://eataly.com/us_en/stores/los-angeles"
  },
+ "eavesdrop-brooklyn-ny": {
+  "checked": "2026-11-09",
+  "w": "https://eavesdrop.nyc"
+ },
  "elemental-spirits-co-atlanta-ga": {
   "checked": "2026-11-09",
   "ph": "(404) 990-4310",
   "w": "https://elementalspirits.co"
  },
+ "elsa-brooklyn-ny": {
+  "checked": "2026-11-09",
+  "ph": "(917) 882-7395",
+  "w": "https://elsabarnyc.com"
+ },
  "empire-wine-and-liquor-albany-ny": {
   "checked": "2026-11-09",
   "ph": "(518) 694-8503",
   "w": "https://empirewine.com"
+ },
+ "empirical-brooklyn-ny": {
+  "checked": "2026-11-09",
+  "ph": "(718) 564-9767",
+  "w": "https://us.empirical.co"
  },
  "emporium-yellow-springs-oh": {
   "checked": "2026-11-09",
@@ -562,10 +606,19 @@
   "ph": "(857) 991-1080",
   "w": "https://facciaafacciaboston.com"
  },
+ "famous-last-words-aka-hanson-dry-brooklyn-ny": {
+  "checked": "2026-11-09",
+  "w": "https://famouslastwordsbk.com"
+ },
  "fancy-free-liquor-burbank-ca": {
   "checked": "2026-11-09",
   "ph": "(818) 748-3113",
   "w": "https://fancyfreeliquor.com"
+ },
+ "farm-to-people-brooklyn-ny": {
+  "checked": "2026-11-09",
+  "ph": "(347) 455-0387",
+  "w": "https://farmtopeople.com"
  },
  "farmstead-table-restaurant-newton-centre-ma": {
   "checked": "2026-11-09",
@@ -633,6 +686,11 @@
   "ph": "(442) 266-2270",
   "w": "https://frankiesoceanside.com"
  },
+ "franklin-ave-wine-and-spirits-brooklyn-ny": {
+  "checked": "2026-11-09",
+  "ph": "(718) 857-7778",
+  "w": "https://608franklinwines.com"
+ },
  "friar-tuck-crestwood-mo-ks": {
   "checked": "2026-11-09",
   "ph": "(314) 918-9230",
@@ -649,6 +707,11 @@
  "full-proof-san-francisco-ca": {
   "checked": "2026-11-09",
   "w": "https://fullproofsf.com"
+ },
+ "gair-brooklyn-ny": {
+  "checked": "2026-11-09",
+  "ph": "(718) 541-0774",
+  "w": "https://gair-dumbo.com"
  },
  "galaxie-louisville-ky": {
   "checked": "2026-11-09",
@@ -677,20 +740,49 @@
   "checked": "2026-11-09",
   "ph": "(502) 333-0832"
  },
+ "good-days-brooklyn-ny": {
+  "checked": "2026-11-09",
+  "w": "https://gooddaysbk.com"
+ },
  "gourmet-galley-catering-north-stonington-north-stonington-ct": {
   "checked": "2026-11-09",
   "ph": "(860) 415-9589",
   "w": "https://gourmet-galley.com"
+ },
+ "gowanus-wine-merchants-brooklyn-ny": {
+  "checked": "2026-11-09",
+  "ph": "(718) 499-9700",
+  "w": "https://gowanuswines.com"
  },
  "gracie-s-ice-cream-cambridge-ma": {
   "checked": "2026-11-09",
   "ph": "(617) 764-5026",
   "w": "https://icecreamgracies.com"
  },
+ "graham-fine-wines-spirits-brooklyn-ny": {
+  "checked": "2026-11-09",
+  "ph": "(347) 725-3103",
+  "w": "https://grahamwine.co"
+ },
+ "grain-and-vine-wine-and-spirits-brooklyn-ny": {
+  "checked": "2026-11-09",
+  "ph": "(718) 782-9463",
+  "w": "https://grainvine.com"
+ },
+ "grain-the-vine-brooklyn-ny": {
+  "checked": "2026-11-09",
+  "ph": "(718) 782-9463",
+  "w": "https://grainvine.com"
+ },
  "grand-marais-municipal-liquor-store-grand-marais-mn": {
   "checked": "2026-11-09",
   "ph": "(218) 387-1630",
   "w": "https://gmliquor.city"
+ },
+ "grand-wine-spirits-brooklyn-brooklyn-ny": {
+  "checked": "2026-11-09",
+  "ph": "(917) 909-1224",
+  "w": "https://38grandwine.com"
  },
  "green-grocer-williams-bay-wi": {
   "checked": "2026-11-09",
