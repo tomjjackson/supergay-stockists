@@ -1328,6 +1328,11 @@
   "ph": "(617) 718-0231",
   "w": "https://restaurantliars.com"
  },
+ "liberty-street-liquors-newburgh-ny": {
+  "checked": "2026-11-09",
+  "ph": "(917) 742-8747",
+  "w": "https://libertystliquors.com"
+ },
  "lincoln-fine-wines-culver-city-ca": {
   "checked": "2026-11-09",
   "ph": "(310) 392-7816",
@@ -2434,6 +2439,10 @@
   "ph": "(508) 435-9463",
   "w": "https://thevinbin.com"
  },
+ "the-weather-room-new-york-ny": {
+  "checked": "2026-11-09",
+  "w": "https://rockefellercenter.com/dine/the-weather-room"
+ },
  "the-west-hollywood-edition-west-hollywood-ca": {
   "checked": "2026-11-09",
   "ph": "(310) 953-9899",
@@ -2452,6 +2461,11 @@
  "threshold-restaurant-livingston-manor-ny": {
   "checked": "2026-11-09",
   "w": "https://thresholdcatskills.com"
+ },
+ "thyme-bar-new-york-ny": {
+  "checked": "2026-11-09",
+  "ph": "(646) 600-9257",
+  "w": "https://thymebarnyc.com"
  },
  "tonique-bottle-co-athens-ga": {
   "checked": "2026-11-09",
@@ -2537,6 +2551,11 @@
   "ph": "(845) 439-1328",
   "w": "https://upstreamwine.com"
  },
+ "urban-wines-and-spirits-new-york-ny": {
+  "checked": "2026-11-09",
+  "ph": "(212) 477-1003",
+  "w": "https://urbanwinesnyc.com"
+ },
  "verve-wine-san-francisco-ca": {
   "checked": "2026-11-09",
   "ph": "(415) 896-4935",
@@ -2565,10 +2584,19 @@
   "ph": "(952) 300-3534",
   "w": "https://vineshop.co"
  },
+ "virgo-new-york-ny": {
+  "checked": "2026-11-09",
+  "w": "https://virgonewyork.com"
+ },
  "vista-wine-and-spirits-santee-ca": {
   "checked": "2026-11-09",
   "ph": "(619) 663-4134",
   "w": "https://vistawinespirits.com"
+ },
+ "viv-thai-restaurant-new-york-ny": {
+  "checked": "2026-11-09",
+  "ph": "(212) 581-5999",
+  "w": "https://vivthainyc.com"
  },
  "wabi-sabi-japan-living-palm-springs-ca": {
   "checked": "2026-11-09",
