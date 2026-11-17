@@ -50,7 +50,7 @@
     var reduce=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
     if(!('IntersectionObserver' in window))return;
     var io=new IntersectionObserver(function(es){es.forEach(function(x){var el=x.target;el.__sgon=x.isIntersecting&&!reduce;if(el.__sgon){var p=el.play();if(p&&p.catch)p.catch(function(){})}else el.pause()})},{rootMargin:'200px 0px'});
-    for(var i=0;i<v.length;i++){if(v[i].__sgv)continue;v[i].__sgv=1;if(!v[i].autoplay&&!v[i].hasAttribute('autoplay'))continue;v[i].__sgon=false;v[i].addEventListener('play',function(){if(!this.__sgon)this.pause()});io.observe(v[i])}
+    for(var i=0;i<v.length;i++){if(v[i].__sgv)continue;v[i].__sgv=1;if(!v[i].autoplay&&!v[i].hasAttribute('autoplay'))continue;v[i].__sgon=false;['play','playing','timeupdate'].forEach(function(ev){v[i].addEventListener(ev,function(){if(!this.__sgon&&!this.paused)this.pause()})});io.observe(v[i])}
   }
   function skip(){
     if(document.querySelector('.sg-skip'))return;
