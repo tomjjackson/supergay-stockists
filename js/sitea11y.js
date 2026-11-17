@@ -48,9 +48,9 @@
   function videos(){
     var v=document.querySelectorAll('video');
     var reduce=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
-    if(!('IntersectionObserver' in window))return;
+    if(!('IntersectionObserver' in window))return;function near(el){var r=el.getBoundingClientRect();return r.width>0&&r.bottom>-200&&r.top<innerHeight+200}
     var io=new IntersectionObserver(function(es){es.forEach(function(x){var el=x.target;el.__sgon=x.isIntersecting&&!reduce;if(el.__sgon){var p=el.play();if(p&&p.catch)p.catch(function(){})}else el.pause()})},{rootMargin:'200px 0px'});
-    for(var i=0;i<v.length;i++){if(v[i].__sgv)continue;v[i].__sgv=1;if(!v[i].autoplay&&!v[i].hasAttribute('autoplay'))continue;v[i].__sgon=false;['play','playing','timeupdate'].forEach(function(ev){v[i].addEventListener(ev,function(){if(!this.__sgon&&!this.paused)this.pause()})});io.observe(v[i])}
+    for(var i=0;i<v.length;i++){if(v[i].__sgv)continue;v[i].__sgv=1;if(!v[i].autoplay&&!v[i].hasAttribute('autoplay'))continue;v[i].__sgon=false;['play','playing','timeupdate'].forEach(function(ev){v[i].addEventListener(ev,function(){if(!this.paused&&(reduce||!near(this)))this.pause()})});if(!reduce&&near(v[i])){var q=v[i].play();if(q&&q.catch)q.catch(function(){})}io.observe(v[i])}
   }
   function skip(){
     if(document.querySelector('.sg-skip'))return;
