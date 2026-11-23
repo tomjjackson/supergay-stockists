@@ -1,5 +1,7 @@
 /*SG gin page: captioned Fire Island martini video as slide 2 (after the bottle) in the top gallery, desktop and phone sliders (desktop cut has captions higher so they show above the fold). Muted, plays when its slide is showing. Remove this script to undo.*/
 (function(){
+/* ingredients slide: anchor right so the ingredient list never crops at any desktop size */
+var st=document.createElement('style');st.textContent='.slider-8 .sg-product-page-gin3{background-position:100% 50%!important}';document.head.appendChild(st);
 var B='https://cdn.jsdelivr.net/gh/tomjjackson/supergay-stockists@127d2fbb1cc5/img/home/gin-martini-',FILES=['desktop','vertical'];
 function run(){
  var sliders=[].slice.call(document.querySelectorAll('.slider-8.w-slider'),0,2),added=0;
