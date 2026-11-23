@@ -3,7 +3,7 @@
 /* ingredients slide: anchor right so the ingredient list never crops at any desktop size */
 var st=document.createElement('style');st.textContent='.slider-8 .sg-product-page-gin3{background-position:100% 50%!important}.desktop-product-section1 .product-right-sides{align-self:start!important;padding-top:var(--sg-pt,110px)!important}';document.head.appendChild(st);
 /* product info column: top-aligned under the fixed header instead of sitting at the bottom of the tall gallery */
-function pad(){var n=document.querySelector('.w-nav'),c=document.querySelector('.desktop-product-section1 .product-right-sides');if(!n||!c)return;var b=n.getBoundingClientRect().bottom,t=c.parentNode.getBoundingClientRect().top;document.documentElement.style.setProperty('--sg-pt',Math.max(40,Math.round(b-t+48))+'px')}
+function pad(){var n=[].find.call(document.querySelectorAll('.w-nav'),function(x){return x.offsetHeight>0}),c=document.querySelector('.desktop-product-section1 .product-right-sides');if(!n||!c)return;var b=n.getBoundingClientRect().bottom,t=c.parentNode.getBoundingClientRect().top;document.documentElement.style.setProperty('--sg-pt',Math.max(40,Math.round(b-t+48))+'px')}
 addEventListener('resize',pad);document.addEventListener('DOMContentLoaded',pad);
 var B='https://cdn.jsdelivr.net/gh/tomjjackson/supergay-stockists@127d2fbb1cc5/img/home/gin-martini-',FILES=['desktop','vertical'];
 function run(){
