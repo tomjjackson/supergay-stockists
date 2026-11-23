@@ -1,5 +1,5 @@
 /*SG home (replaces inline homesliderheight 1.4.4, same code) + highlight slideshow rebuilt with a desktop-only holiday slide.
-  Brand face: the vodka face illustration fades to the gin face and back on a 10s loop.
+  Brand face: the vodka face illustration fades to the gin face and back holding each face 5s with a 1.5s fade.
   Holiday slide (desktop, 992px+): first slide, its photo and button scroll down to the "Holiday gifts" section (.sgg).
   The old slideshow built in the page head code is removed and rebuilt here with the same markup and classes. Remove this script to undo.*/
 (function(){
@@ -42,8 +42,8 @@ function build(){
  go(0,true);
 }
 /* brand face: vodka face fades to the gin face and back */
-var GF='https://cdn.jsdelivr.net/gh/tomjjackson/supergay-stockists@9418595d83f8/img/home/gin-face.png';
-var fs=document.createElement('style');fs.textContent='img.sg-face-gin{position:absolute;margin:0!important;object-fit:contain;opacity:0;animation:sgFace 10s ease-in-out infinite;pointer-events:none;z-index:1}img.sg-face-v{animation:sgFaceV 10s ease-in-out infinite}@keyframes sgFace{0%,35%{opacity:0}50%,85%{opacity:1}100%{opacity:0}}@keyframes sgFaceV{0%,35%{opacity:1}50%,85%{opacity:0}100%{opacity:1}}@media(prefers-reduced-motion:reduce){img.sg-face-gin,img.sg-face-v{animation:none}}';document.head.appendChild(fs);
+var GF='https://cdn.jsdelivr.net/gh/tomjjackson/supergay-stockists@ebc4f913b7c6/img/home/gin-face.png';
+var fs=document.createElement('style');fs.textContent='img.sg-face-gin{position:absolute;margin:0!important;object-fit:contain;opacity:0;animation:sgFace 13s ease-in-out infinite;pointer-events:none;z-index:1}img.sg-face-v{animation:sgFaceV 13s ease-in-out infinite}@keyframes sgFace{0%,38.5%{opacity:0}50%,88.5%{opacity:1}100%{opacity:0}}@keyframes sgFaceV{0%,38.5%{opacity:1}50%,88.5%{opacity:0}100%{opacity:1}}@media(prefers-reduced-motion:reduce){img.sg-face-gin,img.sg-face-v{animation:none}}';document.head.appendChild(fs);
 function face(){[].forEach.call(document.querySelectorAll('img.image-77,img.image-78'),function(im){if(!/LIPS_Small/.test(im.src)||im.__sgf)return;im.__sgf=1;im.classList.add('sg-face-v');var p=im.parentNode;if(getComputedStyle(p).position==='static')p.style.position='relative';var g=document.createElement('img');g.className='sg-face-gin';g.src=GF;g.alt='';g.setAttribute('aria-hidden','true');p.appendChild(g);function pos(){var a=im.getBoundingClientRect(),b=p.getBoundingClientRect();if(!a.width){g.style.display='none';return}g.style.display='';g.style.left=(a.left-b.left-p.clientLeft)+'px';g.style.top=(a.top-b.top-p.clientTop)+'px';g.style.width=a.width+'px';g.style.height=a.height+'px'}pos();addEventListener('resize',pos);addEventListener('load',pos);im.addEventListener('load',pos)})}
 function run(){hero();build();face()}
 document.addEventListener('DOMContentLoaded',function(){setTimeout(run,0)});
