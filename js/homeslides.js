@@ -18,7 +18,7 @@ var SLIDES=[
  {eyebrow:'Meet the Whole Family',title:'The Family Set, A Taste of Everything.',btn:'Shop the Set',href:'/product-page-the-family-set',img:CDN+'6ad61fd0ed230bbb1921849e_Supergay_New_Family-p-1080.png',pos:'50% 60%'},
  {eyebrow:'Fashion Forward',title:'Supergay Merch: Wear it with pride.',btn:'Shop Merch',href:'/shop-all-merch',img:CDN+'68eff4ecf0f9371047fd634a_Logo_Tee.jpg'}
 ];
-if(window.matchMedia&&matchMedia('(min-width: 992px)').matches)SLIDES.unshift({eyebrow:'Holiday gifts',title:'Happy Holidays. Shop Supergay gifts.',btn:'Shop gifts',href:'#holiday-gifts',img:'https://cdn.jsdelivr.net/gh/tomjjackson/supergay-stockists@8c8eef320515/img/home/holiday-duo.jpg',gifts:1});
+if(window.matchMedia&&matchMedia('(min-width: 992px)').matches)SLIDES.unshift({eyebrow:'Holiday gifts',title:'Happy Holigays. Shop Supergay gifts.',btn:'Shop gifts',href:'#holiday-gifts',img:'https://cdn.jsdelivr.net/gh/tomjjackson/supergay-stockists@8c8eef320515/img/home/holiday-duo.jpg',gifts:1});
 function esc(t){return String(t).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;')}
 function build(){
  var anchor=document.querySelector('.div-block-40-copy');if(!anchor)return;
