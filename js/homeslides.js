@@ -22,10 +22,10 @@ if(window.matchMedia&&matchMedia('(min-width: 992px)').matches)SLIDES.unshift({e
 function esc(t){return String(t).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;')}
 function build(){
  var anchor=document.querySelector('.div-block-40-copy');if(!anchor)return;
- var old=document.querySelector('.sg-slides');if(old&&old.__sg2)return;if(old)old.parentNode.removeChild(old);
+ var old=document.querySelector('.sg-slides');if(old&&old.__sg2)return;
  var el=document.createElement('section');el.className='sg-slides';el.__sg2=1;el.setAttribute('aria-label','Highlights');
  el.innerHTML='<div class="sg-slides-left"><div class="sg-slides-eyebrow"></div><h2 class="sg-slides-title"></h2><a class="sg-slides-btn" href="#"></a><div class="sg-slides-nav"><button type="button" class="sg-prev" aria-label="Previous">←</button><button type="button" class="sg-next" aria-label="Next">→</button></div><div class="sg-slides-dots">'+SLIDES.map(function(){return '<i></i>'}).join('')+'</div></div><div class="sg-slides-card"><div class="sg-slides-track">'+SLIDES.map(function(x,i){return '<a class="sg-slide" href="'+x.href+'"'+(x.gifts?' data-gifts="1"':'')+' aria-label="'+esc(x.title)+'"><img src="'+x.img+'" alt="'+esc(x.title)+'"'+(x.pos?' style="object-position:'+x.pos+'"':'')+' loading="'+(i?'lazy':'eager')+'" draggable="false"></a>'}).join('')+'</div></div>';
- anchor.parentNode.insertBefore(el,anchor);
+ if(old){old.parentNode.insertBefore(el,old);old.parentNode.removeChild(old)}else anchor.parentNode.insertBefore(el,anchor);
  var track=el.querySelector('.sg-slides-track'),eb=el.querySelector('.sg-slides-eyebrow'),ti=el.querySelector('.sg-slides-title'),btn=el.querySelector('.sg-slides-btn'),dots=el.querySelectorAll('.sg-slides-dots i'),i=0,ft=null;
  function setText(n){eb.textContent='✻ '+SLIDES[n].eyebrow+' ✻';ti.textContent=SLIDES[n].title;btn.textContent=SLIDES[n].btn;btn.setAttribute('href',SLIDES[n].href);for(var k=0;k<dots.length;k++)dots[k].className=k===n?'on':''}
  function go(n,inst){n=(n+SLIDES.length)%SLIDES.length;i=n;track.style.transform='translate3d('+(-100*n)+'%,0,0)';if(inst){setText(n);return}el.classList.add('is-fading');clearTimeout(ft);ft=setTimeout(function(){setText(n);el.classList.remove('is-fading')},180)}
