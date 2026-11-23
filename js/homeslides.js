@@ -1,4 +1,5 @@
-/*SG home (replaces inline homesliderheight 1.4.4, same code) + highlight slideshow rebuilt with a desktop-only holiday slide.
+/*SG home (replaces inline homesliderheight 1.4.4, same code) + highlight slideshow rebuilt with a desktop-only holiday slide and a Fire Island gin video slide.
+  Video slide (all sizes): muted captioned martini video. Auto-advance waits on it and moves on when the video ends.
   Holiday slide (desktop, 992px+): first slide, its photo and button scroll down to the "Holiday gifts" section (.sgg).
   The old slideshow built in the page head code is removed and rebuilt here with the same markup and classes. Remove this script to undo.*/
 (function(){
@@ -13,6 +14,7 @@ var B='https://cdn.jsdelivr.net/gh/tomjjackson/supergay-stockists@c19c8f7d72b1/i
 /* highlight slideshow */
 var CDN='https://cdn.prod.website-files.com/673cc17624930ee75a6e01c1/';
 var SLIDES=[
+ {eyebrow:'Fire Island Dry Gin',title:'Make a Fire Island Martini. Sugar kelp gin from the waters of Fire Island.',btn:'Shop Fire Island Gin',href:'/product-page-supergay-fire-island-gin',video:'https://cdn.jsdelivr.net/gh/tomjjackson/supergay-stockists@be4c5e3bc1a5/img/home/gin-martini.mp4',img:'https://cdn.jsdelivr.net/gh/tomjjackson/supergay-stockists@be4c5e3bc1a5/img/home/gin-martini-poster.jpg'},
  {eyebrow:'Try them both',title:'Get the Duo. Try both vodka and gin.',btn:'Shop The Supergay Duo',href:'/product-page-the-supergay-duo',img:CDN+'68efebf65fd2b842c1a58419_The_Duo_Square-p-1080.jpeg'},
  {eyebrow:'Two Fruits Walk into a bar',title:'New! Chili Mango Spritz and Black Sesame Espresso Martini',btn:'Shop Two Fruits',href:'/shop-all-cans',img:CDN+'6ac3e6e58a34108b85d3602b_Two%20Fruits%20Cans%20%26%20Packaging_3317_715%20copy-p-1080.jpg'},
  {eyebrow:'Meet the Whole Family',title:'The Family Set, A Taste of Everything.',btn:'Shop the Set',href:'/product-page-the-family-set',img:CDN+'6ad61fd0ed230bbb1921849e_Supergay_New_Family-p-1080.png',pos:'50% 60%'},
@@ -24,13 +26,15 @@ function build(){
  var anchor=document.querySelector('.div-block-40-copy');if(!anchor)return;
  var old=document.querySelector('.sg-slides');if(old&&old.__sg2)return;
  var el=document.createElement('section');el.className='sg-slides';el.__sg2=1;el.setAttribute('aria-label','Highlights');
- el.innerHTML='<div class="sg-slides-left"><div class="sg-slides-eyebrow"></div><h2 class="sg-slides-title"></h2><a class="sg-slides-btn" href="#"></a><div class="sg-slides-nav"><button type="button" class="sg-prev" aria-label="Previous">←</button><button type="button" class="sg-next" aria-label="Next">→</button></div><div class="sg-slides-dots">'+SLIDES.map(function(){return '<i></i>'}).join('')+'</div></div><div class="sg-slides-card"><div class="sg-slides-track">'+SLIDES.map(function(x,i){return '<a class="sg-slide" href="'+x.href+'"'+(x.gifts?' data-gifts="1"':'')+' aria-label="'+esc(x.title)+'"><img src="'+x.img+'" alt="'+esc(x.title)+'"'+(x.pos?' style="object-position:'+x.pos+'"':'')+' loading="'+(i?'lazy':'eager')+'" draggable="false"></a>'}).join('')+'</div></div>';
+ el.innerHTML='<div class="sg-slides-left"><div class="sg-slides-eyebrow"></div><h2 class="sg-slides-title"></h2><a class="sg-slides-btn" href="#"></a><div class="sg-slides-nav"><button type="button" class="sg-prev" aria-label="Previous">←</button><button type="button" class="sg-next" aria-label="Next">→</button></div><div class="sg-slides-dots">'+SLIDES.map(function(){return '<i></i>'}).join('')+'</div></div><div class="sg-slides-card"><div class="sg-slides-track">'+SLIDES.map(function(x,i){return '<a class="sg-slide" href="'+x.href+'"'+(x.gifts?' data-gifts="1"':'')+' aria-label="'+esc(x.title)+'">'+(x.video?'<video muted playsinline preload="none" poster="'+x.img+'" src="'+x.video+'" style="width:100%;height:100%;object-fit:cover;display:block"></video>':'<img src="'+x.img+'" alt="'+esc(x.title)+'"'+(x.pos?' style="object-position:'+x.pos+'"':'')+' loading="'+(i?'lazy':'eager')+'" draggable="false">')+'</a>'}).join('')+'</div></div>';
  if(old){old.parentNode.insertBefore(el,old);old.parentNode.removeChild(old)}else anchor.parentNode.insertBefore(el,anchor);
  var track=el.querySelector('.sg-slides-track'),eb=el.querySelector('.sg-slides-eyebrow'),ti=el.querySelector('.sg-slides-title'),btn=el.querySelector('.sg-slides-btn'),dots=el.querySelectorAll('.sg-slides-dots i'),i=0,ft=null;
  function setText(n){eb.textContent='✻ '+SLIDES[n].eyebrow+' ✻';ti.textContent=SLIDES[n].title;btn.textContent=SLIDES[n].btn;btn.setAttribute('href',SLIDES[n].href);for(var k=0;k<dots.length;k++)dots[k].className=k===n?'on':''}
- function go(n,inst){n=(n+SLIDES.length)%SLIDES.length;i=n;track.style.transform='translate3d('+(-100*n)+'%,0,0)';if(inst){setText(n);return}el.classList.add('is-fading');clearTimeout(ft);ft=setTimeout(function(){setText(n);el.classList.remove('is-fading')},180)}
+ function vids(){[].forEach.call(track.querySelectorAll('video'),function(v){var on=v.parentNode===track.children[i];if(on){v.preload='auto';try{v.currentTime=0}catch(e){}var p=v.play();p&&p.catch&&p.catch(function(){})}else v.pause()})}
+ function go(n,inst){n=(n+SLIDES.length)%SLIDES.length;i=n;setTimeout(vids,0);track.style.transform='translate3d('+(-100*n)+'%,0,0)';if(inst){setText(n);return}el.classList.add('is-fading');clearTimeout(ft);ft=setTimeout(function(){setText(n);el.classList.remove('is-fading')},180)}
  el.querySelector('.sg-prev').addEventListener('click',function(){go(i-1)});
- el.querySelector('.sg-next').addEventListener('click',function(){go(i+1)});
+ el.querySelector('.sg-next').addEventListener('click',function(e){if(!e.isTrusted&&SLIDES[i].video)return;go(i+1)});
+ [].forEach.call(track.querySelectorAll('video'),function(v){v.addEventListener('ended',function(){go(i+1)})});
  btn.addEventListener('click',function(e){if(SLIDES[i].gifts)toGifts(e)});
  [].forEach.call(el.querySelectorAll('.sg-slide[data-gifts]'),function(a){a.addEventListener('click',toGifts)});
  var card=el.querySelector('.sg-slides-card'),sx=0,sy=0,dx=0,dr=false,w=1;
