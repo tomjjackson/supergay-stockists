@@ -4238,7 +4238,9 @@
    "src": "site",
    "ph_src": "site"
   },
-  "mohonk-wine-liquor-modena-ny": {},
+  "mohonk-wine-liquor-modena-ny": {
+   "checked": "2026-11-23"
+  },
   "craft-nyc-new-york-ny": {
    "checked": "2026-11-09",
    "ph": "(212) 780-0577",
@@ -4279,7 +4281,8 @@
    "ph_src": "site"
   },
   "in-good-taste-new-paltz-ny": {
-   "phone_checked": "2026-11-09"
+   "phone_checked": "2026-11-09",
+   "checked": "2026-11-23"
   },
   "15th-floor-test-kitchen-new-york-ny": {
    "checked": "2026-11-09"
@@ -4938,33 +4941,59 @@
    "ph_src": "site"
   },
   "sing-sing-kill-brewery-ossining-ny": {
-   "checked": "2026-11-09"
+   "checked": "2026-11-09",
+   "phone_checked": "2026-11-23",
+   "ph": "(914) 502-0577",
+   "src": "site",
+   "ph_src": "site"
   },
   "six-eighty-cellars-and-buttonwood-grove-winery-ovid-ny": {
    "phone_checked": "2026-11-09",
    "checked": "2026-11-09"
   },
   "rip-wolf-wine-spirits-palenville-ny": {
-   "checked": "2026-11-09"
+   "checked": "2026-11-09",
+   "phone_checked": "2026-11-23"
   },
   "outlet-111-penn-yan-ny": {
-   "checked": "2026-11-09"
+   "checked": "2026-11-09",
+   "phone_checked": "2026-11-23",
+   "ph": "(315) 694-7028",
+   "src": "site",
+   "ph_src": "site"
   },
   "water-street-wines-spirits-penn-yan-ny": {
-   "checked": "2026-11-09"
+   "checked": "2026-11-09",
+   "phone_checked": "2026-11-23",
+   "ph": "(315) 536-9131",
+   "src": "site",
+   "ph_src": "site"
   },
-  "goodnight-kenny-poughkeepsie-ny": {},
+  "goodnight-kenny-poughkeepsie-ny": {
+   "checked": "2026-11-23",
+   "phone_checked": "2026-11-23"
+  },
   "sipperley-s-grog-shoppe-red-hook-ny": {
-   "checked": "2026-11-09"
+   "checked": "2026-11-09",
+   "phone_checked": "2026-11-23",
+   "ph": "(845) 758-9421",
+   "src": "site",
+   "ph_src": "site"
   },
   "current-cassis-rhinebeck-ny": {
-   "checked": "2026-11-09"
+   "checked": "2026-11-09",
+   "phone_checked": "2026-11-23"
   },
   "dada-ridgewood-ny": {
-   "checked": "2026-11-09"
+   "checked": "2026-11-09",
+   "phone_checked": "2026-11-23"
   },
   "decades-pizza-ridgewood-ny": {
-   "checked": "2026-11-09"
+   "checked": "2026-11-09",
+   "phone_checked": "2026-11-23",
+   "ph": "(347) 763-0018",
+   "src": "site",
+   "ph_src": "site"
   },
   "ellen-s-wines-spirits-ridgewood-ny": {
    "checked": "2026-11-09",
@@ -4973,7 +5002,8 @@
    "phone_checked": "2026-11-10"
   },
   "mr-nancy-s-ridgewood-ny": {
-   "checked": "2026-11-09"
+   "checked": "2026-11-09",
+   "phone_checked": "2026-11-23"
   },
   "angelina-s-rochester-ny": {
    "checked": "2026-11-16",
@@ -4988,16 +5018,25 @@
    "src": "osm"
   },
   "euphoria-liquor-store-rochester-ny": {
-   "checked": "2026-11-16"
+   "checked": "2026-11-16",
+   "phone_checked": "2026-11-23",
+   "ph": "(585) 482-6024",
+   "src": "site",
+   "ph_src": "site"
   },
   "fort-hill-liquor-rochester-ny": {
    "checked": "2026-11-16"
   },
   "marges-lakeside-inn-rochester-ny": {
-   "checked": "2026-11-16"
+   "checked": "2026-11-16",
+   "phone_checked": "2026-11-23",
+   "ph": "(585) 323-1020",
+   "src": "site",
+   "ph_src": "site"
   },
   "pinnacle-liquor-rochester-ny": {
-   "checked": "2026-11-16"
+   "checked": "2026-11-16",
+   "phone_checked": "2026-11-23"
   },
   "radio-social-rochester-ny": {
    "checked": "2026-11-16",
@@ -5012,9 +5051,18 @@
    "src": "osm"
   },
   "whitehouse-liquor-wine-rochester-ny": {
-   "checked": "2026-11-16"
+   "checked": "2026-11-16",
+   "phone_checked": "2026-11-23",
+   "ph": "(585) 473-4049",
+   "src": "site",
+   "ph_src": "site"
   },
-  "the-six-bells-inn-rosendale-ny": {},
+  "the-six-bells-inn-rosendale-ny": {
+   "checked": "2026-11-23",
+   "ph": "(845) 658-2047",
+   "w": "https://thesixbellshotel.com",
+   "src": "osm"
+  },
   "roxbury-bottle-shop-roxbury-ny": {
    "checked": "2026-11-16"
   },
@@ -5022,10 +5070,15 @@
    "checked": "2026-11-16"
   },
   "bocage-champagne-bar-saratoga-springs-ny": {
-   "checked": "2026-11-09"
+   "checked": "2026-11-09",
+   "phone_checked": "2026-11-23"
   },
   "familiar-creatures-saratoga-springs-ny": {
-   "checked": "2026-11-09"
+   "checked": "2026-11-09",
+   "phone_checked": "2026-11-23",
+   "ph": "(518) 886-1086",
+   "src": "site",
+   "ph_src": "site"
   },
   "hamlet-ghost-saratoga-springs-ny": {
    "checked": "2026-11-09",
@@ -5037,7 +5090,11 @@
    "checked": "2026-11-09"
   },
   "standard-fare-saratoga-springs-ny": {
-   "checked": "2026-11-09"
+   "checked": "2026-11-09",
+   "phone_checked": "2026-11-23",
+   "ph": "(518) 430-2005",
+   "src": "site",
+   "ph_src": "site"
   },
   "margaux-bar-saugerties-ny": {
    "checked": "2026-11-09",
@@ -5052,16 +5109,29 @@
    "src": "osm"
   },
   "pines-liquor-shop-fire-island-sayville-ny": {
-   "checked": "2026-11-09"
+   "checked": "2026-11-09",
+   "phone_checked": "2026-11-23",
+   "ph": "(631) 597-6442",
+   "src": "site",
+   "ph_src": "site"
   },
   "south-cairo-liquor-store-south-cairo-ny": {
-   "checked": "2026-11-09"
+   "checked": "2026-11-09",
+   "phone_checked": "2026-11-23",
+   "ph": "(518) 622-0635",
+   "src": "site",
+   "ph_src": "site"
   },
   "the-liquor-mall-south-richmond-hill-ny": {
-   "checked": "2026-11-09"
+   "checked": "2026-11-09",
+   "phone_checked": "2026-11-23"
   },
   "salem-liquors-south-salem-ny": {
-   "checked": "2026-11-09"
+   "checked": "2026-11-09",
+   "phone_checked": "2026-11-23",
+   "ph": "(555) 555-5555",
+   "src": "site",
+   "ph_src": "site"
   },
   "violettes-cellar-staten-island-ny": {
    "checked": "2026-11-09",
@@ -5085,7 +5155,11 @@
    "checked": "2026-11-16"
   },
   "the-wedge-syracuse-ny": {
-   "checked": "2026-11-16"
+   "checked": "2026-11-16",
+   "phone_checked": "2026-11-23",
+   "ph": "(315) 630-8169",
+   "src": "site",
+   "ph_src": "site"
   },
   "hotel-tivoli-tivoli-ny": {
    "phone_checked": "2026-11-09",
@@ -5095,16 +5169,29 @@
    "src": "osm"
   },
   "lucas-confectionery-troy-ny": {
-   "checked": "2026-11-09"
+   "checked": "2026-11-09",
+   "phone_checked": "2026-11-23",
+   "ph": "(518) 326-3450",
+   "src": "site",
+   "ph_src": "site"
   },
   "nighthawks-troy-ny": {
-   "checked": "2026-11-09"
+   "checked": "2026-11-09",
+   "phone_checked": "2026-11-23",
+   "ph": "(518) 272-1000",
+   "src": "site",
+   "ph_src": "site"
   },
   "troy-wine-company-troy-ny": {
-   "checked": "2026-11-09"
+   "checked": "2026-11-09",
+   "phone_checked": "2026-11-23"
   },
   "tuckahoe-wine-spirits-tuckahoe-ny": {
-   "checked": "2026-11-09"
+   "checked": "2026-11-09",
+   "phone_checked": "2026-11-23",
+   "ph": "(646) 357-6331",
+   "src": "site",
+   "ph_src": "site"
   },
   "ray-s-discount-liquors-tupper-lake-ny": {
    "checked": "2026-11-16"
@@ -5115,19 +5202,26 @@
    "src": "osm"
   },
   "silk-utica-utica-ny": {
-   "checked": "2026-11-16"
+   "checked": "2026-11-16",
+   "phone_checked": "2026-11-23",
+   "ph": "(315) 731-7921",
+   "src": "site",
+   "ph_src": "site"
   },
   "bonesteel-wines-victor-ny": {
    "checked": "2026-11-09"
   },
   "la-plage-wading-river-ny": {
-   "checked": "2026-11-16"
+   "checked": "2026-11-16",
+   "phone_checked": "2026-11-23"
   },
   "viscount-liquors-wappingers-falls-ny": {
-   "checked": "2026-11-09"
+   "checked": "2026-11-09",
+   "phone_checked": "2026-11-23"
   },
   "ten-mile-table-wassaic-ny": {
-   "checked": "2026-11-09"
+   "checked": "2026-11-09",
+   "phone_checked": "2026-11-23"
   },
   "spruceton-inn-west-kill-ny": {
    "checked": "2026-11-16",
@@ -5138,13 +5232,25 @@
    "ph_src": "site"
   },
   "total-wine-spirits-more-westbury-westbury-ny": {
-   "checked": "2026-11-09"
+   "checked": "2026-11-09",
+   "phone_checked": "2026-11-23",
+   "ph": "(516) 357-0090",
+   "src": "site",
+   "ph_src": "site"
   },
   "margarita-grille-westhampton-beach-ny": {
-   "checked": "2026-11-16"
+   "checked": "2026-11-16",
+   "phone_checked": "2026-11-23",
+   "ph": "(631) 288-5252",
+   "src": "site",
+   "ph_src": "site"
   },
   "patio-the-westhampton-beach-ny": {
-   "checked": "2026-11-16"
+   "checked": "2026-11-16",
+   "phone_checked": "2026-11-23",
+   "ph": "(631) 288-0100",
+   "src": "site",
+   "ph_src": "site"
   },
   "goodnight-woodstock-ny": {
    "checked": "2026-11-09",
@@ -5206,7 +5312,8 @@
    "phone_checked": "2026-11-16",
    "ph": "(216) 228-2285",
    "src": "site",
-   "ph_src": "site"
+   "ph_src": "site",
+   "checked": "2026-11-23"
   },
   "harvest-market-milford-milford-oh": {
    "checked": "2026-11-16",
@@ -5227,10 +5334,12 @@
    "phone_checked": "2026-11-16",
    "ph": "(937) 767-7077",
    "src": "site",
-   "ph_src": "site"
+   "ph_src": "site",
+   "checked": "2026-11-23"
   },
   "winds-wine-cellar-yellow-springs-oh": {
-   "phone_checked": "2026-11-16"
+   "phone_checked": "2026-11-16",
+   "checked": "2026-11-23"
   },
   "the-knickerbocker-tavern-47035-altoona-pa": {
    "checked": "2026-11-16",
@@ -5239,7 +5348,9 @@
    "src": "site",
    "ph_src": "site"
   },
-  "kabinett-113083-easton-pa": {},
+  "kabinett-113083-easton-pa": {
+   "checked": "2026-11-23"
+  },
   "caf-passerine-114526-lancaster-pa": {
    "checked": "2026-11-16",
    "ph": "(717) 283-2996",
@@ -5251,7 +5362,8 @@
    "phone_checked": "2026-11-16"
   },
   "jillian-s-115987-new-kensington-pa": {
-   "phone_checked": "2026-11-16"
+   "phone_checked": "2026-11-16",
+   "checked": "2026-11-23"
   },
   "middle-child-clubhouse-104509-philadelphia-pa": {
    "checked": "2026-11-16",
@@ -5543,6 +5655,30 @@
   "the-hideaway-new-york-ny": {
    "checked": "2026-11-16",
    "phone_checked": "2026-11-16"
-  }
+  },
+  "sorella-aka-1760-san-francisco-ca": {
+   "checked": "2026-11-23"
+  },
+  "michael-towne-wine-spirits-brooklyn-ny": {
+   "checked": "2026-11-23"
+  },
+  "hearth-restaurant-new-york-ny": {
+   "checked": "2026-11-23",
+   "phone_checked": "2026-11-23",
+   "ph": "(646) 602-1300",
+   "src": "site",
+   "ph_src": "site"
+  },
+  "mes-que-buffalo-ny": {
+   "checked": "2026-11-23",
+   "phone_checked": "2026-11-23"
+  },
+  "siena-buffalo-ny": {
+   "checked": "2026-11-23"
+  },
+  "grape-dvine-sparkill-ny": {
+   "checked": "2026-11-23"
+  },
+  "conti-s-wine-spirits-southington-ct": {}
  }
 }
