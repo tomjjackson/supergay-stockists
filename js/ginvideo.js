@@ -1,9 +1,9 @@
-/*SG gin page: captioned Fire Island martini video as slide 2 (after the bottle) in the top gallery, desktop and phone sliders. Muted, plays when its slide is showing. Remove this script to undo.*/
+/*SG gin page: captioned Fire Island martini video as slide 2 (after the bottle) in the top gallery, desktop and phone sliders (desktop cut has captions higher so they show above the fold). Muted, plays when its slide is showing. Remove this script to undo.*/
 (function(){
-var V='https://cdn.jsdelivr.net/gh/tomjjackson/supergay-stockists@ccab6cc253cd/img/home/gin-martini-vertical';
+var B='https://cdn.jsdelivr.net/gh/tomjjackson/supergay-stockists@127d2fbb1cc5/img/home/gin-martini-',FILES=['desktop','vertical'];
 function run(){
  var sliders=[].slice.call(document.querySelectorAll('.slider-8.w-slider'),0,2),added=0;
- sliders.forEach(function(sl){
+ sliders.forEach(function(sl,k){var V=B+FILES[k];
   var mask=sl.querySelector('.w-slider-mask');if(!mask||mask.querySelector('.sg-gin-vid'))return;
   var first=mask.querySelector('.w-slide');if(!first)return;
   var s=document.createElement('div');s.className='w-slide sg-gin-vid';s.style.cssText='background:#000;overflow:hidden';
