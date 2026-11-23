@@ -10,8 +10,8 @@ function run(){
   s.innerHTML='<video muted playsinline loop preload="none" poster="'+V+'-poster.jpg" src="'+V+'.mp4" style="width:100%;height:100%;object-fit:cover;display:block" aria-label="How to make a Fire Island Martini with Supergay Fire Island Dry Gin. Captioned."></video>';
   first.parentNode.insertBefore(s,first.nextSibling);added++;
   var v=s.querySelector('video');
-  function sync(){var r=s.getBoundingClientRect(),m=mask.getBoundingClientRect(),on=s.getAttribute('aria-hidden')!=='true'&&r.width>0&&Math.abs(r.left-m.left)<5;if(on){if(v.paused){v.preload='auto';var p=v.play();p&&p.catch&&p.catch(function(){})}}else if(!v.paused)v.pause()}
-  new MutationObserver(function(){setTimeout(sync,600)}).observe(s,{attributes:true,attributeFilter:['aria-hidden','style']});
+  function sync(){var on=s.getAttribute('aria-hidden')!=='true'&&s.offsetWidth>0&&sl.querySelectorAll('.w-slider-dot').length>0;if(on){if(v.paused){v.preload='auto';var p=v.play();p&&p.catch&&p.catch(function(){})}}else if(!v.paused)v.pause()}
+  new MutationObserver(function(){setTimeout(sync,50);setTimeout(sync,700)}).observe(s,{attributes:true,attributeFilter:['aria-hidden','style']});
   addEventListener('resize',sync);
  });
  if(added&&window.Webflow&&Webflow.require){try{var S=Webflow.require('slider');S.ready();S.redraw()}catch(e){}[100,700].forEach(function(d){setTimeout(function(){dispatchEvent(new Event('resize'))},d)})}
