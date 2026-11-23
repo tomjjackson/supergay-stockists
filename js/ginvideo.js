@@ -14,7 +14,7 @@ function run(){
   new MutationObserver(function(){setTimeout(sync,600)}).observe(s,{attributes:true,attributeFilter:['aria-hidden','style']});
   addEventListener('resize',sync);
  });
- if(added&&window.Webflow&&Webflow.require){try{Webflow.require('slider').ready()}catch(e){}setTimeout(function(){dispatchEvent(new Event('resize'))},60)}
+ if(added&&window.Webflow&&Webflow.require){try{var S=Webflow.require('slider');S.ready();S.redraw()}catch(e){}[100,700].forEach(function(d){setTimeout(function(){dispatchEvent(new Event('resize'))},d)})}
 }
 if(document.readyState==='complete')run();else addEventListener('load',run);
 })();
